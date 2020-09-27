@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Cantaloupe)(type Legacy)(uri ${KIPRJMOD}/Cantaloupe.lib)(options "")(descr ""))
+)

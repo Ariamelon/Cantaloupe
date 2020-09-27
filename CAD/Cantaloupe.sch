@@ -1,0 +1,2546 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1150 800  1    50   Input ~ 0
+COL1
+Text GLabel 1600 800  1    50   Input ~ 0
+COL2
+Text GLabel 850  1400 0    50   Input ~ 0
+ROW1
+Text GLabel 850  2600 0    50   Input ~ 0
+ROW3
+Text GLabel 850  3200 0    50   Input ~ 0
+ROW4
+Text GLabel 850  3800 0    50   Input ~ 0
+ROW5
+Text GLabel 850  2000 0    50   Input ~ 0
+ROW2
+$Comp
+L Cantaloupe:MX-NoLED SW1
+U 1 1 5E7F9F5F
+P 1350 1050
+F 0 "SW1" H 1350 1200 50  0000 C CNN
+F 1 "MX" H 1350 750 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1350 1050 60  0001 C CNN
+F 3 "" H 1350 1050 60  0001 C CNN
+	1    1350 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5DAD8119
+P 1400 1300
+F 0 "D1" V 1400 1200 50  0000 R CNN
+F 1 "D" V 1355 1221 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1400 1300 50  0001 C CNN
+F 3 "~" H 1400 1300 50  0001 C CNN
+	1    1400 1300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1150 800  1150 1000
+Wire Wire Line
+	1200 1000 1150 1000
+$Comp
+L Cantaloupe:MX-NoLED SW2
+U 1 1 5F608752
+P 1350 1650
+F 0 "SW2" H 1350 1800 50  0000 C CNN
+F 1 "MX" H 1350 1350 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1350 1650 60  0001 C CNN
+F 3 "" H 1350 1650 60  0001 C CNN
+	1    1350 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5F608758
+P 1400 1900
+F 0 "D2" V 1400 1800 50  0000 R CNN
+F 1 "D" V 1355 1821 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1400 1900 50  0001 C CNN
+F 3 "~" H 1400 1900 50  0001 C CNN
+	1    1400 1900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1200 1600 1150 1600
+$Comp
+L Cantaloupe:MX-NoLED SW3
+U 1 1 5F613E79
+P 1350 2250
+F 0 "SW3" H 1350 2400 50  0000 C CNN
+F 1 "MX" H 1350 1950 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1350 2250 60  0001 C CNN
+F 3 "" H 1350 2250 60  0001 C CNN
+	1    1350 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5F613E7F
+P 1400 2500
+F 0 "D3" V 1400 2400 50  0000 R CNN
+F 1 "D" V 1355 2421 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1400 2500 50  0001 C CNN
+F 3 "~" H 1400 2500 50  0001 C CNN
+	1    1400 2500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1200 2200 1150 2200
+$Comp
+L Cantaloupe:MX-NoLED SW4
+U 1 1 5F61EF2C
+P 1350 2850
+F 0 "SW4" H 1350 3000 50  0000 C CNN
+F 1 "MX" H 1350 2550 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1350 2850 60  0001 C CNN
+F 3 "" H 1350 2850 60  0001 C CNN
+	1    1350 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5F61EF32
+P 1400 3100
+F 0 "D4" V 1400 3000 50  0000 R CNN
+F 1 "D" V 1355 3021 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1400 3100 50  0001 C CNN
+F 3 "~" H 1400 3100 50  0001 C CNN
+	1    1400 3100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1200 2800 1150 2800
+Connection ~ 1150 1000
+Connection ~ 1150 1600
+Wire Wire Line
+	1150 1600 1150 1000
+Connection ~ 1150 2200
+Wire Wire Line
+	1150 2200 1150 1600
+Wire Wire Line
+	1150 2800 1150 2200
+$Comp
+L Cantaloupe:MX-NoLED SW6
+U 1 1 5F6D863A
+P 1800 1050
+F 0 "SW6" H 1800 1200 50  0000 C CNN
+F 1 "MX" H 1800 750 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1800 1050 60  0001 C CNN
+F 3 "" H 1800 1050 60  0001 C CNN
+	1    1800 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 5F6D8641
+P 1850 1300
+F 0 "D6" V 1850 1200 50  0000 R CNN
+F 1 "D" V 1805 1221 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1850 1300 50  0001 C CNN
+F 3 "~" H 1850 1300 50  0001 C CNN
+	1    1850 1300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1600 800  1600 1000
+Wire Wire Line
+	1650 1000 1600 1000
+$Comp
+L Cantaloupe:MX-NoLED SW7
+U 1 1 5F6D8649
+P 1800 1650
+F 0 "SW7" H 1800 1800 50  0000 C CNN
+F 1 "MX" H 1800 1350 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1800 1650 60  0001 C CNN
+F 3 "" H 1800 1650 60  0001 C CNN
+	1    1800 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 5F6D864F
+P 1850 1900
+F 0 "D7" V 1850 1800 50  0000 R CNN
+F 1 "D" V 1805 1821 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1850 1900 50  0001 C CNN
+F 3 "~" H 1850 1900 50  0001 C CNN
+	1    1850 1900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1650 1600 1600 1600
+$Comp
+L Cantaloupe:MX-NoLED SW8
+U 1 1 5F6D8656
+P 1800 2250
+F 0 "SW8" H 1800 2400 50  0000 C CNN
+F 1 "MX" H 1800 1950 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1800 2250 60  0001 C CNN
+F 3 "" H 1800 2250 60  0001 C CNN
+	1    1800 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 5F6D865C
+P 1850 2500
+F 0 "D8" V 1850 2400 50  0000 R CNN
+F 1 "D" V 1805 2421 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1850 2500 50  0001 C CNN
+F 3 "~" H 1850 2500 50  0001 C CNN
+	1    1850 2500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1650 2200 1600 2200
+$Comp
+L Cantaloupe:MX-NoLED SW9
+U 1 1 5F6D8663
+P 1800 2850
+F 0 "SW9" H 1800 3000 50  0000 C CNN
+F 1 "MX" H 1800 2550 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1800 2850 60  0001 C CNN
+F 3 "" H 1800 2850 60  0001 C CNN
+	1    1800 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 5F6D8669
+P 1850 3100
+F 0 "D9" V 1850 3000 50  0000 R CNN
+F 1 "D" V 1805 3021 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1850 3100 50  0001 C CNN
+F 3 "~" H 1850 3100 50  0001 C CNN
+	1    1850 3100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1650 2800 1600 2800
+Connection ~ 1600 1000
+Connection ~ 1600 1600
+Wire Wire Line
+	1600 1600 1600 1000
+Connection ~ 1600 2200
+Wire Wire Line
+	1600 2200 1600 1600
+Wire Wire Line
+	1600 2800 1600 2200
+Wire Wire Line
+	1850 2600 1400 2600
+Wire Wire Line
+	1850 3200 1400 3200
+Connection ~ 1400 1400
+Wire Wire Line
+	1400 1400 1850 1400
+Connection ~ 1400 2000
+Wire Wire Line
+	1400 2000 1850 2000
+Connection ~ 1400 2600
+Connection ~ 1400 3200
+Wire Wire Line
+	850  1400 1400 1400
+Wire Wire Line
+	850  2000 1400 2000
+Wire Wire Line
+	850  2600 1400 2600
+Wire Wire Line
+	850  3200 1400 3200
+$Comp
+L Cantaloupe:MX-NoLED SW11
+U 1 1 5F708705
+P 2250 1050
+F 0 "SW11" H 2250 1200 50  0000 C CNN
+F 1 "MX" H 2250 750 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2250 1050 60  0001 C CNN
+F 3 "" H 2250 1050 60  0001 C CNN
+	1    2250 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 5F70870B
+P 2300 1300
+F 0 "D11" V 2300 1200 50  0000 R CNN
+F 1 "D" V 2255 1221 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2300 1300 50  0001 C CNN
+F 3 "~" H 2300 1300 50  0001 C CNN
+	1    2300 1300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2050 800  2050 1000
+Wire Wire Line
+	2100 1000 2050 1000
+$Comp
+L Cantaloupe:MX-NoLED SW12
+U 1 1 5F708713
+P 2250 1650
+F 0 "SW12" H 2250 1800 50  0000 C CNN
+F 1 "MX" H 2250 1350 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2250 1650 60  0001 C CNN
+F 3 "" H 2250 1650 60  0001 C CNN
+	1    2250 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 5F708719
+P 2300 1900
+F 0 "D12" V 2300 1800 50  0000 R CNN
+F 1 "D" V 2255 1821 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2300 1900 50  0001 C CNN
+F 3 "~" H 2300 1900 50  0001 C CNN
+	1    2300 1900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2100 1600 2050 1600
+$Comp
+L Cantaloupe:MX-NoLED SW13
+U 1 1 5F708720
+P 2250 2250
+F 0 "SW13" H 2250 2400 50  0000 C CNN
+F 1 "MX" H 2250 1950 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2250 2250 60  0001 C CNN
+F 3 "" H 2250 2250 60  0001 C CNN
+	1    2250 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 5F708726
+P 2300 2500
+F 0 "D13" V 2300 2400 50  0000 R CNN
+F 1 "D" V 2255 2421 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2300 2500 50  0001 C CNN
+F 3 "~" H 2300 2500 50  0001 C CNN
+	1    2300 2500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2100 2200 2050 2200
+$Comp
+L Cantaloupe:MX-NoLED SW14
+U 1 1 5F70872D
+P 2250 2850
+F 0 "SW14" H 2250 3000 50  0000 C CNN
+F 1 "MX" H 2250 2550 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2250 2850 60  0001 C CNN
+F 3 "" H 2250 2850 60  0001 C CNN
+	1    2250 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 5F708733
+P 2300 3100
+F 0 "D14" V 2300 3000 50  0000 R CNN
+F 1 "D" V 2255 3021 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2300 3100 50  0001 C CNN
+F 3 "~" H 2300 3100 50  0001 C CNN
+	1    2300 3100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2100 2800 2050 2800
+Connection ~ 2050 1000
+Connection ~ 2050 1600
+Wire Wire Line
+	2050 1600 2050 1000
+Connection ~ 2050 2200
+Wire Wire Line
+	2050 2200 2050 1600
+Wire Wire Line
+	2050 2800 2050 2200
+Wire Wire Line
+	2300 2600 1850 2600
+Wire Wire Line
+	2300 3200 1850 3200
+Wire Wire Line
+	1850 1400 2300 1400
+Wire Wire Line
+	1850 2000 2300 2000
+Text GLabel 3400 800  1    50   Input ~ 0
+COL6
+Text GLabel 2950 800  1    50   Input ~ 0
+COL5
+Text GLabel 2500 800  1    50   Input ~ 0
+COL4
+Text GLabel 2050 800  1    50   Input ~ 0
+COL3
+$Comp
+L Cantaloupe:MX-NoLED SW16
+U 1 1 5F740BB9
+P 2700 1050
+F 0 "SW16" H 2700 1200 50  0000 C CNN
+F 1 "MX" H 2700 750 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2700 1050 60  0001 C CNN
+F 3 "" H 2700 1050 60  0001 C CNN
+	1    2700 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 5F740BBF
+P 2750 1300
+F 0 "D16" V 2750 1200 50  0000 R CNN
+F 1 "D" V 2705 1221 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2750 1300 50  0001 C CNN
+F 3 "~" H 2750 1300 50  0001 C CNN
+	1    2750 1300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2500 800  2500 1000
+Wire Wire Line
+	2550 1000 2500 1000
+$Comp
+L Cantaloupe:MX-NoLED SW17
+U 1 1 5F740BC7
+P 2700 1650
+F 0 "SW17" H 2700 1800 50  0000 C CNN
+F 1 "MX" H 2700 1350 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2700 1650 60  0001 C CNN
+F 3 "" H 2700 1650 60  0001 C CNN
+	1    2700 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 5F740BCD
+P 2750 1900
+F 0 "D17" V 2750 1800 50  0000 R CNN
+F 1 "D" V 2705 1821 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2750 1900 50  0001 C CNN
+F 3 "~" H 2750 1900 50  0001 C CNN
+	1    2750 1900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2550 1600 2500 1600
+$Comp
+L Cantaloupe:MX-NoLED SW18
+U 1 1 5F740BD4
+P 2700 2250
+F 0 "SW18" H 2700 2400 50  0000 C CNN
+F 1 "MX" H 2700 1950 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2700 2250 60  0001 C CNN
+F 3 "" H 2700 2250 60  0001 C CNN
+	1    2700 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 5F740BDA
+P 2750 2500
+F 0 "D18" V 2750 2400 50  0000 R CNN
+F 1 "D" V 2705 2421 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2750 2500 50  0001 C CNN
+F 3 "~" H 2750 2500 50  0001 C CNN
+	1    2750 2500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2550 2200 2500 2200
+$Comp
+L Cantaloupe:MX-NoLED SW19
+U 1 1 5F740BE1
+P 2700 2850
+F 0 "SW19" H 2700 3000 50  0000 C CNN
+F 1 "MX" H 2700 2550 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2700 2850 60  0001 C CNN
+F 3 "" H 2700 2850 60  0001 C CNN
+	1    2700 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 5F740BE7
+P 2750 3100
+F 0 "D19" V 2750 3000 50  0000 R CNN
+F 1 "D" V 2705 3021 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2750 3100 50  0001 C CNN
+F 3 "~" H 2750 3100 50  0001 C CNN
+	1    2750 3100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2550 2800 2500 2800
+Connection ~ 2500 1000
+Connection ~ 2500 1600
+Wire Wire Line
+	2500 1600 2500 1000
+Connection ~ 2500 2200
+Wire Wire Line
+	2500 2200 2500 1600
+Wire Wire Line
+	2500 2800 2500 2200
+Wire Wire Line
+	2750 2600 2300 2600
+Wire Wire Line
+	2750 3200 2300 3200
+Wire Wire Line
+	2300 1400 2750 1400
+Wire Wire Line
+	2300 2000 2750 2000
+$Comp
+L Cantaloupe:MX-NoLED SW20
+U 1 1 5F76C33D
+P 3150 1050
+F 0 "SW20" H 3150 1200 50  0000 C CNN
+F 1 "MX" H 3150 750 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 3150 1050 60  0001 C CNN
+F 3 "" H 3150 1050 60  0001 C CNN
+	1    3150 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 5F76C343
+P 3200 1300
+F 0 "D20" V 3200 1200 50  0000 R CNN
+F 1 "D" V 3155 1221 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3200 1300 50  0001 C CNN
+F 3 "~" H 3200 1300 50  0001 C CNN
+	1    3200 1300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2950 800  2950 1000
+Wire Wire Line
+	3000 1000 2950 1000
+$Comp
+L Cantaloupe:MX-NoLED SW21
+U 1 1 5F76C34B
+P 3150 1650
+F 0 "SW21" H 3150 1800 50  0000 C CNN
+F 1 "MX" H 3150 1350 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 3150 1650 60  0001 C CNN
+F 3 "" H 3150 1650 60  0001 C CNN
+	1    3150 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 5F76C351
+P 3200 1900
+F 0 "D21" V 3200 1800 50  0000 R CNN
+F 1 "D" V 3155 1821 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3200 1900 50  0001 C CNN
+F 3 "~" H 3200 1900 50  0001 C CNN
+	1    3200 1900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3000 1600 2950 1600
+$Comp
+L Cantaloupe:MX-NoLED SW22
+U 1 1 5F76C358
+P 3150 2250
+F 0 "SW22" H 3150 2400 50  0000 C CNN
+F 1 "MX" H 3150 1950 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 3150 2250 60  0001 C CNN
+F 3 "" H 3150 2250 60  0001 C CNN
+	1    3150 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D22
+U 1 1 5F76C35E
+P 3200 2500
+F 0 "D22" V 3200 2400 50  0000 R CNN
+F 1 "D" V 3155 2421 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3200 2500 50  0001 C CNN
+F 3 "~" H 3200 2500 50  0001 C CNN
+	1    3200 2500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3000 2200 2950 2200
+$Comp
+L Cantaloupe:MX-NoLED SW23
+U 1 1 5F76C365
+P 3150 2850
+F 0 "SW23" H 3150 3000 50  0000 C CNN
+F 1 "MX" H 3150 2550 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 3150 2850 60  0001 C CNN
+F 3 "" H 3150 2850 60  0001 C CNN
+	1    3150 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D23
+U 1 1 5F76C36B
+P 3200 3100
+F 0 "D23" V 3200 3000 50  0000 R CNN
+F 1 "D" V 3155 3021 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3200 3100 50  0001 C CNN
+F 3 "~" H 3200 3100 50  0001 C CNN
+	1    3200 3100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3000 2800 2950 2800
+Wire Wire Line
+	3000 3400 2950 3400
+Wire Wire Line
+	2950 3400 2950 2800
+Connection ~ 2950 1000
+Connection ~ 2950 1600
+Wire Wire Line
+	2950 1600 2950 1000
+Connection ~ 2950 2200
+Wire Wire Line
+	2950 2200 2950 1600
+Connection ~ 2950 2800
+Wire Wire Line
+	2950 2800 2950 2200
+Wire Wire Line
+	3200 2600 2750 2600
+Wire Wire Line
+	3200 3200 2750 3200
+Wire Wire Line
+	2750 1400 3200 1400
+Wire Wire Line
+	2750 2000 3200 2000
+$Comp
+L Cantaloupe:MX-NoLED SW25
+U 1 1 5F790C6B
+P 3600 1050
+F 0 "SW25" H 3600 1200 50  0000 C CNN
+F 1 "MX" H 3600 750 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 3600 1050 60  0001 C CNN
+F 3 "" H 3600 1050 60  0001 C CNN
+	1    3600 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D25
+U 1 1 5F790C71
+P 3650 1300
+F 0 "D25" V 3650 1200 50  0000 R CNN
+F 1 "D" V 3605 1221 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3650 1300 50  0001 C CNN
+F 3 "~" H 3650 1300 50  0001 C CNN
+	1    3650 1300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3400 800  3400 1000
+Wire Wire Line
+	3450 1000 3400 1000
+$Comp
+L Cantaloupe:MX-NoLED SW26
+U 1 1 5F790C79
+P 3600 1650
+F 0 "SW26" H 3600 1800 50  0000 C CNN
+F 1 "MX" H 3600 1350 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 3600 1650 60  0001 C CNN
+F 3 "" H 3600 1650 60  0001 C CNN
+	1    3600 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D26
+U 1 1 5F790C7F
+P 3650 1900
+F 0 "D26" V 3650 1800 50  0000 R CNN
+F 1 "D" V 3605 1821 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3650 1900 50  0001 C CNN
+F 3 "~" H 3650 1900 50  0001 C CNN
+	1    3650 1900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3450 1600 3400 1600
+$Comp
+L Cantaloupe:MX-NoLED SW27
+U 1 1 5F790C86
+P 3600 2250
+F 0 "SW27" H 3600 2400 50  0000 C CNN
+F 1 "MX" H 3600 1950 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 3600 2250 60  0001 C CNN
+F 3 "" H 3600 2250 60  0001 C CNN
+	1    3600 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D27
+U 1 1 5F790C8C
+P 3650 2500
+F 0 "D27" V 3650 2400 50  0000 R CNN
+F 1 "D" V 3605 2421 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3650 2500 50  0001 C CNN
+F 3 "~" H 3650 2500 50  0001 C CNN
+	1    3650 2500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3450 2200 3400 2200
+$Comp
+L Cantaloupe:MX-NoLED SW28
+U 1 1 5F790C93
+P 3600 2850
+F 0 "SW28" H 3600 3000 50  0000 C CNN
+F 1 "MX" H 3600 2550 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 3600 2850 60  0001 C CNN
+F 3 "" H 3600 2850 60  0001 C CNN
+	1    3600 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D28
+U 1 1 5F790C99
+P 3650 3100
+F 0 "D28" V 3650 3000 50  0000 R CNN
+F 1 "D" V 3605 3021 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3650 3100 50  0001 C CNN
+F 3 "~" H 3650 3100 50  0001 C CNN
+	1    3650 3100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3450 2800 3400 2800
+Wire Wire Line
+	3450 3400 3400 3400
+Wire Wire Line
+	3400 3400 3400 2800
+Connection ~ 3400 1000
+Connection ~ 3400 1600
+Wire Wire Line
+	3400 1600 3400 1000
+Connection ~ 3400 2200
+Wire Wire Line
+	3400 2200 3400 1600
+Connection ~ 3400 2800
+Wire Wire Line
+	3400 2800 3400 2200
+Wire Wire Line
+	3650 2600 3200 2600
+Wire Wire Line
+	3650 3200 3200 3200
+Wire Wire Line
+	3200 1400 3650 1400
+Wire Wire Line
+	3200 2000 3650 2000
+Connection ~ 1850 1400
+Connection ~ 1850 2000
+Connection ~ 1850 2600
+Connection ~ 1850 3200
+Connection ~ 2300 1400
+Connection ~ 2300 2000
+Connection ~ 2300 2600
+Connection ~ 2300 3200
+Connection ~ 2750 1400
+Connection ~ 2750 2000
+Connection ~ 2750 2600
+Connection ~ 2750 3200
+Connection ~ 3200 1400
+Connection ~ 3200 2000
+Connection ~ 3200 2600
+Connection ~ 3200 3200
+$Comp
+L Switch:SW_Push SW67
+U 1 1 609DB9B8
+P 8150 5800
+F 0 "SW67" H 8150 6085 50  0000 C CNN
+F 1 "Reset" H 8150 5994 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 8150 6000 50  0001 C CNN
+F 3 "~" H 8150 6000 50  0001 C CNN
+	1    8150 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 609DB9BE
+P 7950 5700
+F 0 "R4" H 7800 5750 50  0000 L CNN
+F 1 "4.7k" H 7750 5650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7950 5700 50  0001 C CNN
+F 3 "~" H 7950 5700 50  0001 C CNN
+	1    7950 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0119
+U 1 1 5F6F229E
+P 7950 5600
+F 0 "#PWR0119" H 7950 5450 50  0001 C CNN
+F 1 "VDD" H 7965 5773 50  0000 C CNN
+F 2 "" H 7950 5600 50  0001 C CNN
+F 3 "" H 7950 5600 50  0001 C CNN
+	1    7950 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 5800 3    50   Input ~ 0
+RESET_R
+Connection ~ 3200 3800
+Wire Wire Line
+	3650 3800 3200 3800
+$Comp
+L power:VCC #PWR0112
+U 1 1 5F6DFFEA
+P 7850 2750
+F 0 "#PWR0112" H 7850 2600 50  0001 C CNN
+F 1 "VCC" H 7865 2923 50  0000 C CNN
+F 2 "" H 7850 2750 50  0001 C CNN
+F 3 "" H 7850 2750 50  0001 C CNN
+	1    7850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW34
+U 1 1 5E7DD54D
+P 8050 2950
+F 0 "SW34" H 8050 3235 50  0000 C CNN
+F 1 "Reset" H 8050 3144 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 8050 3150 50  0001 C CNN
+F 3 "~" H 8050 3150 50  0001 C CNN
+	1    8050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5F8F448C
+P 7850 2850
+F 0 "R1" H 7700 2900 50  0000 L CNN
+F 1 "4.7k" H 7650 2800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7850 2850 50  0001 C CNN
+F 3 "~" H 7850 2850 50  0001 C CNN
+	1    7850 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 2950 3    50   Input ~ 0
+RESET
+$Comp
+L Cantaloupe:MX-NoLED SW24
+U 1 1 5F76C372
+P 2700 3450
+F 0 "SW24" H 2700 3600 50  0000 C CNN
+F 1 "MX" H 2700 3150 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2700 3450 60  0001 C CNN
+F 3 "" H 2700 3450 60  0001 C CNN
+	1    2700 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D24
+U 1 1 5F76C378
+P 2750 3700
+F 0 "D24" V 2750 3600 50  0000 R CNN
+F 1 "D" V 2705 3621 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2750 3700 50  0001 C CNN
+F 3 "~" H 2750 3700 50  0001 C CNN
+	1    2750 3700
+	0    1    -1   0   
+$EndComp
+$Comp
+L Cantaloupe:MX-NoLED SW29
+U 1 1 5F790CA0
+P 3150 3450
+F 0 "SW29" H 3150 3600 50  0000 C CNN
+F 1 "MX" H 3150 3150 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 3150 3450 60  0001 C CNN
+F 3 "" H 3150 3450 60  0001 C CNN
+	1    3150 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D29
+U 1 1 5F790CA6
+P 3200 3700
+F 0 "D29" V 3200 3600 50  0000 R CNN
+F 1 "D" V 3155 3621 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3200 3700 50  0001 C CNN
+F 3 "~" H 3200 3700 50  0001 C CNN
+	1    3200 3700
+	0    1    -1   0   
+$EndComp
+$Comp
+L Cantaloupe:MX-NoLED SW30
+U 1 1 5F7B2771
+P 3600 3450
+F 0 "SW30" H 3600 3600 50  0000 C CNN
+F 1 "MX" H 3600 3150 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 3600 3450 60  0001 C CNN
+F 3 "" H 3600 3450 60  0001 C CNN
+	1    3600 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D31
+U 1 1 5F7B2777
+P 3650 3700
+F 0 "D31" V 3650 3600 50  0000 R CNN
+F 1 "D" V 3605 3621 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3650 3700 50  0001 C CNN
+F 3 "~" H 3650 3700 50  0001 C CNN
+	1    3650 3700
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2750 3800 3200 3800
+Connection ~ 2750 3800
+Wire Wire Line
+	2550 3400 2500 3400
+Wire Wire Line
+	2500 3400 2500 2800
+Connection ~ 2500 2800
+Text GLabel 4550 1550 0    50   Input ~ 0
+COL1
+$Comp
+L Cantaloupe:ProMicro U1
+U 1 1 5D85EAF7
+P 5250 1500
+F 0 "U1" H 5250 2337 60  0000 C CNN
+F 1 "ProMicro" H 5250 2231 60  0000 C CNN
+F 2 "Cantaloupe:ArduinoProMicro_Blank" V 6300 -1000 60  0001 C CNN
+F 3 "" V 6300 -1000 60  0001 C CNN
+	1    5250 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 4550 1850 0    50   Input ~ 0
+DATA
+Text GLabel 5950 1150 2    50   Input ~ 0
+RESET
+Wire Wire Line
+	6250 1000 6250 1250
+Wire Wire Line
+	5950 1250 6250 1250
+Text GLabel 4550 1450 0    50   Input ~ 0
+SCL
+Text GLabel 4550 1350 0    50   Input ~ 0
+SDA
+$Comp
+L power:GND1 #PWR0102
+U 1 1 6043C4A9
+P 6450 1050
+F 0 "#PWR0102" H 6450 800 50  0001 C CNN
+F 1 "GND1" H 6455 877 50  0000 C CNN
+F 2 "" H 6450 1050 50  0001 C CNN
+F 3 "" H 6450 1050 50  0001 C CNN
+	1    6450 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0115
+U 1 1 6052A13A
+P 6250 1000
+F 0 "#PWR0115" H 6250 850 50  0001 C CNN
+F 1 "VCC" H 6265 1173 50  0000 C CNN
+F 2 "" H 6250 1000 50  0001 C CNN
+F 3 "" H 6250 1000 50  0001 C CNN
+	1    6250 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5F53949C
+P 6650 1050
+F 0 "J2" H 6700 1050 50  0000 L CNN
+F 1 "Bat" H 6700 950 50  0000 L CNN
+F 2 "Cantaloupe:Battery_Solder_Points" H 6650 1050 50  0001 C CNN
+F 3 "~" H 6650 1050 50  0001 C CNN
+	1    6650 1050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6450 2850 6350 2850
+Wire Wire Line
+	5250 2700 5150 2700
+Text GLabel 4450 2550 1    50   Input ~ 0
+COL7
+Text GLabel 6450 2850 2    50   Input ~ 0
+ROW2
+$Comp
+L Device:D_Small D65
+U 1 1 5F843DA0
+P 6250 2850
+F 0 "D65" H 6200 2900 50  0000 R CNN
+F 1 "D" V 6205 2771 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6250 2850 50  0001 C CNN
+F 3 "~" H 6250 2850 50  0001 C CNN
+	1    6250 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6450 2550 6350 2550
+$Comp
+L Device:D_Small D30
+U 1 1 5F83599D
+P 6250 2550
+F 0 "D30" H 6200 2600 50  0000 R CNN
+F 1 "D" V 6205 2471 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6250 2550 50  0001 C CNN
+F 3 "~" H 6250 2550 50  0001 C CNN
+	1    6250 2550
+	-1   0    0    1   
+$EndComp
+Text GLabel 6450 2550 2    50   Input ~ 0
+ROW1
+Wire Wire Line
+	5250 2850 5150 2850
+Text GLabel 5150 2850 0    50   Input ~ 0
+ROW3
+$Comp
+L Device:D_Small D63
+U 1 1 5F836566
+P 5350 2850
+F 0 "D63" H 5300 2800 50  0000 R CNN
+F 1 "D" V 5305 2771 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5350 2850 50  0001 C CNN
+F 3 "~" H 5350 2850 50  0001 C CNN
+	1    5350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D64
+U 1 1 5F8444E6
+P 5350 2700
+F 0 "D64" H 5300 2750 50  0000 R CNN
+F 1 "D" V 5305 2621 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5350 2700 50  0001 C CNN
+F 3 "~" H 5350 2700 50  0001 C CNN
+	1    5350 2700
+	1    0    0    1   
+$EndComp
+Text GLabel 5150 2700 0    50   Input ~ 0
+ROW5
+Text GLabel 6150 2700 2    50   Input ~ 0
+COL7
+$Comp
+L Cantaloupe:5_Way_Tactile_Switch SW31
+U 1 1 5F625B45
+P 5800 2700
+F 0 "SW31" H 5800 3115 50  0000 C CNN
+F 1 "5_Way_Tactile_Switch" H 5800 3024 50  0000 C CNN
+F 2 "Cantaloupe:5-way_Tactile_Switch" H 5800 3150 50  0001 C CNN
+F 3 "" H 5800 3150 50  0001 C CNN
+	1    5800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D61
+U 1 1 5F63E4B3
+P 5400 6400
+F 0 "D61" H 5350 6350 50  0000 R CNN
+F 1 "D" V 5355 6321 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5400 6400 50  0001 C CNN
+F 3 "~" H 5400 6400 50  0001 C CNN
+	1    5400 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cantaloupe:5_Way_Tactile_Switch SW33
+U 1 1 5F6C5471
+P 5850 6250
+F 0 "SW33" H 5850 6665 50  0000 C CNN
+F 1 "5_Way_Tactile_Switch_R" H 5850 6574 50  0000 C CNN
+F 2 "Cantaloupe:5-way_Tactile_Switch" H 5850 6700 50  0001 C CNN
+F 3 "" H 5850 6700 50  0001 C CNN
+	1    5850 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 6250 2    50   Input ~ 0
+COL7_R
+$Comp
+L Device:D_Small D68
+U 1 1 5F6D3929
+P 5400 6250
+F 0 "D68" H 5350 6200 50  0000 R CNN
+F 1 "D" V 5355 6171 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5400 6250 50  0001 C CNN
+F 3 "~" H 5400 6250 50  0001 C CNN
+	1    5400 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D70
+U 1 1 5F6D4A6F
+P 6300 6400
+F 0 "D70" H 6250 6450 50  0000 R CNN
+F 1 "D" V 6255 6321 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6300 6400 50  0001 C CNN
+F 3 "~" H 6300 6400 50  0001 C CNN
+	1    6300 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D69
+U 1 1 5F6D5191
+P 6300 6100
+F 0 "D69" H 6250 6050 50  0000 R CNN
+F 1 "D" V 6255 6021 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6300 6100 50  0001 C CNN
+F 3 "~" H 6300 6100 50  0001 C CNN
+	1    6300 6100
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5200 6250 0    50   Input ~ 0
+ROW4_R
+Wire Wire Line
+	5200 6250 5300 6250
+Text GLabel 6500 6100 2    50   Input ~ 0
+ROW3_R
+Wire Wire Line
+	6500 6100 6400 6100
+Text GLabel 6500 6400 2    50   Input ~ 0
+ROW2_R
+Wire Wire Line
+	6500 6400 6400 6400
+Text GLabel 5200 6400 0    50   Input ~ 0
+ROW1_R
+Wire Wire Line
+	5200 6400 5300 6400
+Text GLabel 4450 3200 3    50   Input ~ 0
+ROTA
+Text GLabel 4650 3200 3    50   Input ~ 0
+ROTB
+Wire Wire Line
+	4650 3200 4650 3150
+Wire Wire Line
+	4450 3150 4450 3200
+$Comp
+L Device:Rotary_Encoder_Switch SW32
+U 1 1 5FD36B2E
+P 4550 2850
+F 0 "SW32" V 4550 3200 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" V 3850 2850 50  0001 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 4400 3010 50  0001 C CNN
+F 3 "~" H 4550 3110 50  0001 C CNN
+	1    4550 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 3450 4550 3150
+Connection ~ 2050 2800
+Wire Wire Line
+	2050 3400 2050 2800
+Wire Wire Line
+	2100 3400 2050 3400
+$Comp
+L Cantaloupe:MX-NoLED SW15
+U 1 1 5F70873A
+P 2250 3450
+F 0 "SW15" H 2250 3600 50  0000 C CNN
+F 1 "MX" H 2250 3150 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2250 3450 60  0001 C CNN
+F 3 "" H 2250 3450 60  0001 C CNN
+	1    2250 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3800 2750 3800
+Connection ~ 2300 3800
+$Comp
+L Device:D_Small D15
+U 1 1 5F708740
+P 2300 3700
+F 0 "D15" V 2300 3600 50  0000 R CNN
+F 1 "D" V 2255 3621 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2300 3700 50  0001 C CNN
+F 3 "~" H 2300 3700 50  0001 C CNN
+	1    2300 3700
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4650 2350 4650 2550
+Connection ~ 4650 2550
+Wire Wire Line
+	5450 2550 4650 2550
+Text GLabel 4950 2350 2    50   Input ~ 0
+ROW4
+$Comp
+L Device:D_Small D66
+U 1 1 5F8441ED
+P 4750 2350
+F 0 "D66" H 4700 2400 50  0000 R CNN
+F 1 "D" V 4705 2271 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4750 2350 50  0001 C CNN
+F 3 "~" H 4750 2350 50  0001 C CNN
+	1    4750 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 2350 4950 2350
+Wire Wire Line
+	4950 5900 4850 5900
+$Comp
+L Device:D_Small D67
+U 1 1 5F6D43D4
+P 4750 5900
+F 0 "D67" H 4700 5950 50  0000 R CNN
+F 1 "D" V 4705 5821 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4750 5900 50  0001 C CNN
+F 3 "~" H 4750 5900 50  0001 C CNN
+	1    4750 5900
+	-1   0    0    1   
+$EndComp
+Text GLabel 4950 5900 2    50   Input ~ 0
+ROW5_R
+Wire Wire Line
+	4650 5900 4650 6100
+Wire Wire Line
+	4650 6100 5500 6100
+Text GLabel 4450 6100 1    50   Input ~ 0
+COL7_R
+Connection ~ 4650 6100
+Wire Wire Line
+	4550 7000 4550 6700
+$Comp
+L Device:Rotary_Encoder_Switch SW66
+U 1 1 5F63E2D4
+P 4550 6400
+F 0 "SW66" V 4550 6750 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" V 3850 6400 50  0001 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 4400 6560 50  0001 C CNN
+F 3 "~" H 4550 6660 50  0001 C CNN
+	1    4550 6400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4450 6700 3    50   Input ~ 0
+ROTA_R
+Text GLabel 4650 6700 3    50   Input ~ 0
+ROTB_R
+NoConn ~ 4600 5200
+Text GLabel 4600 5000 0    50   Input ~ 0
+ROW1_R
+Text GLabel 4600 4300 0    50   Input ~ 0
+ROW4_R
+Text GLabel 4600 4800 0    50   Input ~ 0
+ROW3_R
+Text GLabel 4600 4600 0    50   Input ~ 0
+SDA_R
+Text GLabel 4600 4700 0    50   Input ~ 0
+SCL_R
+Text GLabel 6000 4600 2    50   Input ~ 0
+COL1_R
+Text GLabel 6000 4700 2    50   Input ~ 0
+COL2_R
+Text GLabel 6000 4800 2    50   Input ~ 0
+COL3_R
+Text GLabel 6000 4900 2    50   Input ~ 0
+COL4_R
+Text GLabel 6000 5000 2    50   Input ~ 0
+COL5_R
+Text GLabel 6000 5100 2    50   Input ~ 0
+COL6_R
+Text GLabel 4600 5300 0    50   Input ~ 0
+COL7_R
+$Comp
+L Cantaloupe:ProMicro U2
+U 1 1 5F63E285
+P 5300 4750
+F 0 "U2" H 5300 5587 60  0000 C CNN
+F 1 "ProMicro" H 5300 5481 60  0000 C CNN
+F 2 "Cantaloupe:ArduinoProMicro_Blank" V 6350 2250 60  0001 C CNN
+F 3 "" V 6350 2250 60  0001 C CNN
+	1    5300 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4600 5100 0    50   Input ~ 0
+DATA_R
+Text GLabel 6000 4400 2    50   Input ~ 0
+RESET_R
+Text GLabel 4600 4900 0    50   Input ~ 0
+ROW2_R
+Text GLabel 4600 4200 0    50   Input ~ 0
+ROW5_R
+Wire Wire Line
+	6000 4500 6400 4500
+$Comp
+L power:VDD #PWR0120
+U 1 1 6052EB66
+P 6400 4150
+F 0 "#PWR0120" H 6400 4000 50  0001 C CNN
+F 1 "VDD" H 6415 4323 50  0000 C CNN
+F 2 "" H 6400 4150 50  0001 C CNN
+F 3 "" H 6400 4150 50  0001 C CNN
+	1    6400 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4150 6400 4500
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5F63E50D
+P 6700 4300
+F 0 "J5" H 6750 4300 50  0000 L CNN
+F 1 "Bat" H 6750 4200 50  0000 L CNN
+F 2 "Cantaloupe:Battery_Solder_Points" H 6700 4300 50  0001 C CNN
+F 3 "~" H 6700 4300 50  0001 C CNN
+	1    6700 4300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6500 4200 6000 4200
+Wire Wire Line
+	6000 4300 6500 4300
+Wire Wire Line
+	2300 3800 1850 3800
+Connection ~ 1850 3800
+$Comp
+L Device:D_Small D10
+U 1 1 5F6D8676
+P 1850 3700
+F 0 "D10" V 1850 3600 50  0000 R CNN
+F 1 "D" V 1805 3621 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1850 3700 50  0001 C CNN
+F 3 "~" H 1850 3700 50  0001 C CNN
+	1    1850 3700
+	0    1    -1   0   
+$EndComp
+$Comp
+L Cantaloupe:MX-NoLED SW10
+U 1 1 5F6D8670
+P 1800 3450
+F 0 "SW10" H 1800 3600 50  0000 C CNN
+F 1 "MX" H 1800 3150 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1800 3450 60  0001 C CNN
+F 3 "" H 1800 3450 60  0001 C CNN
+	1    1800 3450
+	-1   0    0    -1  
+$EndComp
+Connection ~ 1600 2800
+Wire Wire Line
+	1600 3400 1600 2800
+Wire Wire Line
+	1650 3400 1600 3400
+$Comp
+L Cantaloupe:MX-NoLED SW5
+U 1 1 5F62A165
+P 1350 3450
+F 0 "SW5" H 1350 3600 50  0000 C CNN
+F 1 "MX" H 1350 3150 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1350 3450 60  0001 C CNN
+F 3 "" H 1350 3450 60  0001 C CNN
+	1    1350 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3800 1400 3800
+Wire Wire Line
+	1400 3800 850  3800
+Connection ~ 1400 3800
+$Comp
+L Device:D_Small D5
+U 1 1 5F62A16B
+P 1400 3700
+F 0 "D5" V 1400 3600 50  0000 R CNN
+F 1 "D" V 1355 3621 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1400 3700 50  0001 C CNN
+F 3 "~" H 1400 3700 50  0001 C CNN
+	1    1400 3700
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1200 3400 1150 3400
+Connection ~ 1150 2800
+Wire Wire Line
+	1150 3400 1150 2800
+Text GLabel 1000 4400 1    50   Input ~ 0
+COL6_R
+Text GLabel 1450 4400 1    50   Input ~ 0
+COL5_R
+Text GLabel 1900 4400 1    50   Input ~ 0
+COL4_R
+Text GLabel 2350 4400 1    50   Input ~ 0
+COL3_R
+Text GLabel 2800 4400 1    50   Input ~ 0
+COL2_R
+Text GLabel 3250 4400 1    50   Input ~ 0
+COL1_R
+Text GLabel 3550 6800 2    50   Input ~ 0
+ROW4_R
+Text GLabel 3550 7400 2    50   Input ~ 0
+ROW5_R
+Text GLabel 3550 5600 2    50   Input ~ 0
+ROW2_R
+Text GLabel 3550 6200 2    50   Input ~ 0
+ROW3_R
+Text GLabel 3550 5000 2    50   Input ~ 0
+ROW1_R
+Connection ~ 1200 6800
+Connection ~ 1200 6200
+Connection ~ 1200 5600
+Connection ~ 1200 5000
+Connection ~ 1650 6800
+Connection ~ 1650 6200
+Connection ~ 1650 5600
+Connection ~ 1650 5000
+Connection ~ 2100 7400
+Connection ~ 2100 6800
+Connection ~ 2100 6200
+Connection ~ 2100 5600
+Connection ~ 2100 5000
+Connection ~ 2550 7400
+Connection ~ 2550 6800
+Connection ~ 2550 6200
+Connection ~ 2550 5600
+Connection ~ 2550 5000
+$Comp
+L Cantaloupe:MX-NoLED SW35
+U 1 1 5F63E2B0
+P 3050 4650
+F 0 "SW35" H 3050 4800 50  0000 C CNN
+F 1 "MX" H 3050 4350 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 3050 4650 60  0001 C CNN
+F 3 "" H 3050 4650 60  0001 C CNN
+	1    3050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 5F63E2CE
+P 3000 4900
+F 0 "D32" V 3000 4800 50  0000 R CNN
+F 1 "D" V 2955 4821 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3000 4900 50  0001 C CNN
+F 3 "~" H 3000 4900 50  0001 C CNN
+	1    3000 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 4400 3250 4600
+Wire Wire Line
+	3200 4600 3250 4600
+$Comp
+L Cantaloupe:MX-NoLED SW36
+U 1 1 5F63E2E7
+P 3050 5250
+F 0 "SW36" H 3050 5400 50  0000 C CNN
+F 1 "MX" H 3050 4950 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 3050 5250 60  0001 C CNN
+F 3 "" H 3050 5250 60  0001 C CNN
+	1    3050 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D33
+U 1 1 5F63E2ED
+P 3000 5500
+F 0 "D33" V 3000 5400 50  0000 R CNN
+F 1 "D" V 2955 5421 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3000 5500 50  0001 C CNN
+F 3 "~" H 3000 5500 50  0001 C CNN
+	1    3000 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 5200 3250 5200
+$Comp
+L Cantaloupe:MX-NoLED SW37
+U 1 1 5F63E2F4
+P 3050 5850
+F 0 "SW37" H 3050 6000 50  0000 C CNN
+F 1 "MX" H 3050 5550 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 3050 5850 60  0001 C CNN
+F 3 "" H 3050 5850 60  0001 C CNN
+	1    3050 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D34
+U 1 1 5F63E2FA
+P 3000 6100
+F 0 "D34" V 3000 6000 50  0000 R CNN
+F 1 "D" V 2955 6021 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3000 6100 50  0001 C CNN
+F 3 "~" H 3000 6100 50  0001 C CNN
+	1    3000 6100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 5800 3250 5800
+$Comp
+L Cantaloupe:MX-NoLED SW38
+U 1 1 5F63E301
+P 3050 6450
+F 0 "SW38" H 3050 6600 50  0000 C CNN
+F 1 "MX" H 3050 6150 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 3050 6450 60  0001 C CNN
+F 3 "" H 3050 6450 60  0001 C CNN
+	1    3050 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D35
+U 1 1 5F63E307
+P 3000 6700
+F 0 "D35" V 3000 6600 50  0000 R CNN
+F 1 "D" V 2955 6621 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3000 6700 50  0001 C CNN
+F 3 "~" H 3000 6700 50  0001 C CNN
+	1    3000 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 6400 3250 6400
+$Comp
+L Cantaloupe:MX-NoLED SW39
+U 1 1 5F63E30E
+P 3050 7050
+F 0 "SW39" H 3050 7200 50  0000 C CNN
+F 1 "MX" H 3050 6750 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 3050 7050 60  0001 C CNN
+F 3 "" H 3050 7050 60  0001 C CNN
+	1    3050 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D36
+U 1 1 5F63E314
+P 3000 7300
+F 0 "D36" V 3000 7200 50  0000 R CNN
+F 1 "D" V 2955 7221 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3000 7300 50  0001 C CNN
+F 3 "~" H 3000 7300 50  0001 C CNN
+	1    3000 7300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 7000 3250 7000
+Wire Wire Line
+	3250 7000 3250 6400
+Connection ~ 3250 4600
+Connection ~ 3250 5200
+Wire Wire Line
+	3250 5200 3250 4600
+Connection ~ 3250 5800
+Wire Wire Line
+	3250 5800 3250 5200
+Connection ~ 3250 6400
+Wire Wire Line
+	3250 6400 3250 5800
+Wire Wire Line
+	3000 7400 3550 7400
+$Comp
+L Cantaloupe:MX-NoLED SW40
+U 1 1 5F63E324
+P 2600 4650
+F 0 "SW40" H 2600 4800 50  0000 C CNN
+F 1 "MX" H 2600 4350 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2600 4650 60  0001 C CNN
+F 3 "" H 2600 4650 60  0001 C CNN
+	1    2600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D37
+U 1 1 5F63E32A
+P 2550 4900
+F 0 "D37" V 2550 4800 50  0000 R CNN
+F 1 "D" V 2505 4821 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2550 4900 50  0001 C CNN
+F 3 "~" H 2550 4900 50  0001 C CNN
+	1    2550 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 4400 2800 4600
+Wire Wire Line
+	2750 4600 2800 4600
+$Comp
+L Cantaloupe:MX-NoLED SW41
+U 1 1 5F63E332
+P 2600 5250
+F 0 "SW41" H 2600 5400 50  0000 C CNN
+F 1 "MX" H 2600 4950 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2600 5250 60  0001 C CNN
+F 3 "" H 2600 5250 60  0001 C CNN
+	1    2600 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D38
+U 1 1 5F63E338
+P 2550 5500
+F 0 "D38" V 2550 5400 50  0000 R CNN
+F 1 "D" V 2505 5421 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2550 5500 50  0001 C CNN
+F 3 "~" H 2550 5500 50  0001 C CNN
+	1    2550 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 5200 2800 5200
+$Comp
+L Cantaloupe:MX-NoLED SW42
+U 1 1 5F63E33F
+P 2600 5850
+F 0 "SW42" H 2600 6000 50  0000 C CNN
+F 1 "MX" H 2600 5550 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2600 5850 60  0001 C CNN
+F 3 "" H 2600 5850 60  0001 C CNN
+	1    2600 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D39
+U 1 1 5F63E345
+P 2550 6100
+F 0 "D39" V 2550 6000 50  0000 R CNN
+F 1 "D" V 2505 6021 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2550 6100 50  0001 C CNN
+F 3 "~" H 2550 6100 50  0001 C CNN
+	1    2550 6100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 5800 2800 5800
+$Comp
+L Cantaloupe:MX-NoLED SW43
+U 1 1 5F63E34C
+P 2600 6450
+F 0 "SW43" H 2600 6600 50  0000 C CNN
+F 1 "MX" H 2600 6150 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2600 6450 60  0001 C CNN
+F 3 "" H 2600 6450 60  0001 C CNN
+	1    2600 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D40
+U 1 1 5F63E352
+P 2550 6700
+F 0 "D40" V 2550 6600 50  0000 R CNN
+F 1 "D" V 2505 6621 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2550 6700 50  0001 C CNN
+F 3 "~" H 2550 6700 50  0001 C CNN
+	1    2550 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 6400 2800 6400
+$Comp
+L Cantaloupe:MX-NoLED SW44
+U 1 1 5F63E359
+P 2600 7050
+F 0 "SW44" H 2600 7200 50  0000 C CNN
+F 1 "MX" H 2600 6750 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2600 7050 60  0001 C CNN
+F 3 "" H 2600 7050 60  0001 C CNN
+	1    2600 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D41
+U 1 1 5F63E35F
+P 2550 7300
+F 0 "D41" V 2550 7200 50  0000 R CNN
+F 1 "D" V 2505 7221 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2550 7300 50  0001 C CNN
+F 3 "~" H 2550 7300 50  0001 C CNN
+	1    2550 7300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 7000 2800 7000
+Wire Wire Line
+	2800 7000 2800 6400
+Connection ~ 2800 4600
+Connection ~ 2800 5200
+Wire Wire Line
+	2800 5200 2800 4600
+Connection ~ 2800 5800
+Wire Wire Line
+	2800 5800 2800 5200
+Connection ~ 2800 6400
+Wire Wire Line
+	2800 6400 2800 5800
+Wire Wire Line
+	2550 6200 3000 6200
+Wire Wire Line
+	2550 6800 3000 6800
+Connection ~ 3000 5000
+Wire Wire Line
+	3000 5000 2550 5000
+Connection ~ 3000 5600
+Wire Wire Line
+	3000 5600 2550 5600
+Connection ~ 3000 6200
+Connection ~ 3000 6800
+Wire Wire Line
+	3550 5000 3000 5000
+Wire Wire Line
+	3550 5600 3000 5600
+Wire Wire Line
+	3550 6200 3000 6200
+Wire Wire Line
+	3550 6800 3000 6800
+Wire Wire Line
+	2550 7400 3000 7400
+Connection ~ 3000 7400
+$Comp
+L Cantaloupe:MX-NoLED SW45
+U 1 1 5F63E37C
+P 2150 4650
+F 0 "SW45" H 2150 4800 50  0000 C CNN
+F 1 "MX" H 2150 4350 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2150 4650 60  0001 C CNN
+F 3 "" H 2150 4650 60  0001 C CNN
+	1    2150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D42
+U 1 1 5F63E382
+P 2100 4900
+F 0 "D42" V 2100 4800 50  0000 R CNN
+F 1 "D" V 2055 4821 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2100 4900 50  0001 C CNN
+F 3 "~" H 2100 4900 50  0001 C CNN
+	1    2100 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 4400 2350 4600
+Wire Wire Line
+	2300 4600 2350 4600
+$Comp
+L Cantaloupe:MX-NoLED SW46
+U 1 1 5F63E38A
+P 2150 5250
+F 0 "SW46" H 2150 5400 50  0000 C CNN
+F 1 "MX" H 2150 4950 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2150 5250 60  0001 C CNN
+F 3 "" H 2150 5250 60  0001 C CNN
+	1    2150 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D43
+U 1 1 5F63E390
+P 2100 5500
+F 0 "D43" V 2100 5400 50  0000 R CNN
+F 1 "D" V 2055 5421 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2100 5500 50  0001 C CNN
+F 3 "~" H 2100 5500 50  0001 C CNN
+	1    2100 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 5200 2350 5200
+$Comp
+L Cantaloupe:MX-NoLED SW47
+U 1 1 5F63E397
+P 2150 5850
+F 0 "SW47" H 2150 6000 50  0000 C CNN
+F 1 "MX" H 2150 5550 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2150 5850 60  0001 C CNN
+F 3 "" H 2150 5850 60  0001 C CNN
+	1    2150 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D44
+U 1 1 5F63E39D
+P 2100 6100
+F 0 "D44" V 2100 6000 50  0000 R CNN
+F 1 "D" V 2055 6021 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2100 6100 50  0001 C CNN
+F 3 "~" H 2100 6100 50  0001 C CNN
+	1    2100 6100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 5800 2350 5800
+$Comp
+L Cantaloupe:MX-NoLED SW48
+U 1 1 5F63E3A4
+P 2150 6450
+F 0 "SW48" H 2150 6600 50  0000 C CNN
+F 1 "MX" H 2150 6150 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2150 6450 60  0001 C CNN
+F 3 "" H 2150 6450 60  0001 C CNN
+	1    2150 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D45
+U 1 1 5F63E3AA
+P 2100 6700
+F 0 "D45" V 2100 6600 50  0000 R CNN
+F 1 "D" V 2055 6621 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2100 6700 50  0001 C CNN
+F 3 "~" H 2100 6700 50  0001 C CNN
+	1    2100 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 6400 2350 6400
+$Comp
+L Cantaloupe:MX-NoLED SW49
+U 1 1 5F63E3B1
+P 2150 7050
+F 0 "SW49" H 2150 7200 50  0000 C CNN
+F 1 "MX" H 2150 6750 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 2150 7050 60  0001 C CNN
+F 3 "" H 2150 7050 60  0001 C CNN
+	1    2150 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D46
+U 1 1 5F63E3B7
+P 2100 7300
+F 0 "D46" V 2100 7200 50  0000 R CNN
+F 1 "D" V 2055 7221 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2100 7300 50  0001 C CNN
+F 3 "~" H 2100 7300 50  0001 C CNN
+	1    2100 7300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 7000 2350 7000
+Wire Wire Line
+	2350 7000 2350 6400
+Connection ~ 2350 4600
+Connection ~ 2350 5200
+Wire Wire Line
+	2350 5200 2350 4600
+Connection ~ 2350 5800
+Wire Wire Line
+	2350 5800 2350 5200
+Connection ~ 2350 6400
+Wire Wire Line
+	2350 6400 2350 5800
+Wire Wire Line
+	2100 6200 2550 6200
+Wire Wire Line
+	2100 6800 2550 6800
+Wire Wire Line
+	2550 5000 2100 5000
+Wire Wire Line
+	2550 5600 2100 5600
+Wire Wire Line
+	2100 7400 2550 7400
+$Comp
+L Cantaloupe:MX-NoLED SW50
+U 1 1 5F63E3D0
+P 1700 4650
+F 0 "SW50" H 1700 4800 50  0000 C CNN
+F 1 "MX" H 1700 4350 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1700 4650 60  0001 C CNN
+F 3 "" H 1700 4650 60  0001 C CNN
+	1    1700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D47
+U 1 1 5F63E3D6
+P 1650 4900
+F 0 "D47" V 1650 4800 50  0000 R CNN
+F 1 "D" V 1605 4821 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1650 4900 50  0001 C CNN
+F 3 "~" H 1650 4900 50  0001 C CNN
+	1    1650 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1900 4400 1900 4600
+Wire Wire Line
+	1850 4600 1900 4600
+$Comp
+L Cantaloupe:MX-NoLED SW51
+U 1 1 5F63E3DE
+P 1700 5250
+F 0 "SW51" H 1700 5400 50  0000 C CNN
+F 1 "MX" H 1700 4950 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1700 5250 60  0001 C CNN
+F 3 "" H 1700 5250 60  0001 C CNN
+	1    1700 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D48
+U 1 1 5F63E3E4
+P 1650 5500
+F 0 "D48" V 1650 5400 50  0000 R CNN
+F 1 "D" V 1605 5421 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1650 5500 50  0001 C CNN
+F 3 "~" H 1650 5500 50  0001 C CNN
+	1    1650 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 5200 1900 5200
+$Comp
+L Cantaloupe:MX-NoLED SW52
+U 1 1 5F63E3EB
+P 1700 5850
+F 0 "SW52" H 1700 6000 50  0000 C CNN
+F 1 "MX" H 1700 5550 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1700 5850 60  0001 C CNN
+F 3 "" H 1700 5850 60  0001 C CNN
+	1    1700 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D49
+U 1 1 5F63E3F1
+P 1650 6100
+F 0 "D49" V 1650 6000 50  0000 R CNN
+F 1 "D" V 1605 6021 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1650 6100 50  0001 C CNN
+F 3 "~" H 1650 6100 50  0001 C CNN
+	1    1650 6100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 5800 1900 5800
+$Comp
+L Cantaloupe:MX-NoLED SW53
+U 1 1 5F63E3F8
+P 1700 6450
+F 0 "SW53" H 1700 6600 50  0000 C CNN
+F 1 "MX" H 1700 6150 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1700 6450 60  0001 C CNN
+F 3 "" H 1700 6450 60  0001 C CNN
+	1    1700 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D50
+U 1 1 5F63E3FE
+P 1650 6700
+F 0 "D50" V 1650 6600 50  0000 R CNN
+F 1 "D" V 1605 6621 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1650 6700 50  0001 C CNN
+F 3 "~" H 1650 6700 50  0001 C CNN
+	1    1650 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 6400 1900 6400
+Connection ~ 1900 4600
+Connection ~ 1900 5200
+Wire Wire Line
+	1900 5200 1900 4600
+Connection ~ 1900 5800
+Wire Wire Line
+	1900 5800 1900 5200
+Wire Wire Line
+	1900 6400 1900 5800
+Wire Wire Line
+	1650 6200 2100 6200
+Wire Wire Line
+	1650 6800 2100 6800
+Wire Wire Line
+	2100 5000 1650 5000
+Wire Wire Line
+	2100 5600 1650 5600
+$Comp
+L Cantaloupe:MX-NoLED SW54
+U 1 1 5F63E40F
+P 1250 4650
+F 0 "SW54" H 1250 4800 50  0000 C CNN
+F 1 "MX" H 1250 4350 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1250 4650 60  0001 C CNN
+F 3 "" H 1250 4650 60  0001 C CNN
+	1    1250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D51
+U 1 1 5F63E415
+P 1200 4900
+F 0 "D51" V 1200 4800 50  0000 R CNN
+F 1 "D" V 1155 4821 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1200 4900 50  0001 C CNN
+F 3 "~" H 1200 4900 50  0001 C CNN
+	1    1200 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 4400 1450 4600
+Wire Wire Line
+	1400 4600 1450 4600
+$Comp
+L Cantaloupe:MX-NoLED SW55
+U 1 1 5F63E41D
+P 1250 5250
+F 0 "SW55" H 1250 5400 50  0000 C CNN
+F 1 "MX" H 1250 4950 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1250 5250 60  0001 C CNN
+F 3 "" H 1250 5250 60  0001 C CNN
+	1    1250 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D52
+U 1 1 5F63E423
+P 1200 5500
+F 0 "D52" V 1200 5400 50  0000 R CNN
+F 1 "D" V 1155 5421 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1200 5500 50  0001 C CNN
+F 3 "~" H 1200 5500 50  0001 C CNN
+	1    1200 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 5200 1450 5200
+$Comp
+L Cantaloupe:MX-NoLED SW56
+U 1 1 5F63E42A
+P 1250 5850
+F 0 "SW56" H 1250 6000 50  0000 C CNN
+F 1 "MX" H 1250 5550 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1250 5850 60  0001 C CNN
+F 3 "" H 1250 5850 60  0001 C CNN
+	1    1250 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D53
+U 1 1 5F63E430
+P 1200 6100
+F 0 "D53" V 1200 6000 50  0000 R CNN
+F 1 "D" V 1155 6021 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1200 6100 50  0001 C CNN
+F 3 "~" H 1200 6100 50  0001 C CNN
+	1    1200 6100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 5800 1450 5800
+$Comp
+L Cantaloupe:MX-NoLED SW57
+U 1 1 5F63E437
+P 1250 6450
+F 0 "SW57" H 1250 6600 50  0000 C CNN
+F 1 "MX" H 1250 6150 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1250 6450 60  0001 C CNN
+F 3 "" H 1250 6450 60  0001 C CNN
+	1    1250 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D54
+U 1 1 5F63E43D
+P 1200 6700
+F 0 "D54" V 1200 6600 50  0000 R CNN
+F 1 "D" V 1155 6621 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1200 6700 50  0001 C CNN
+F 3 "~" H 1200 6700 50  0001 C CNN
+	1    1200 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 6400 1450 6400
+Connection ~ 1450 4600
+Connection ~ 1450 5200
+Wire Wire Line
+	1450 5200 1450 4600
+Connection ~ 1450 5800
+Wire Wire Line
+	1450 5800 1450 5200
+Wire Wire Line
+	1450 6400 1450 5800
+Wire Wire Line
+	1200 6200 1650 6200
+Wire Wire Line
+	1200 6800 1650 6800
+Wire Wire Line
+	1650 5000 1200 5000
+Wire Wire Line
+	1650 5600 1200 5600
+$Comp
+L Cantaloupe:MX-NoLED SW59
+U 1 1 5F63E45E
+P 800 4650
+F 0 "SW59" H 800 4800 50  0000 C CNN
+F 1 "MX" H 800 4350 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 800 4650 60  0001 C CNN
+F 3 "" H 800 4650 60  0001 C CNN
+	1    800  4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D56
+U 1 1 5F63E464
+P 750 4900
+F 0 "D56" V 750 4800 50  0000 R CNN
+F 1 "D" V 705 4821 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 750 4900 50  0001 C CNN
+F 3 "~" H 750 4900 50  0001 C CNN
+	1    750  4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 4400 1000 4600
+Wire Wire Line
+	950  4600 1000 4600
+$Comp
+L Cantaloupe:MX-NoLED SW60
+U 1 1 5F63E46C
+P 800 5250
+F 0 "SW60" H 800 5400 50  0000 C CNN
+F 1 "MX" H 800 4950 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 800 5250 60  0001 C CNN
+F 3 "" H 800 5250 60  0001 C CNN
+	1    800  5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D57
+U 1 1 5F63E472
+P 750 5500
+F 0 "D57" V 750 5400 50  0000 R CNN
+F 1 "D" V 705 5421 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 750 5500 50  0001 C CNN
+F 3 "~" H 750 5500 50  0001 C CNN
+	1    750  5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	950  5200 1000 5200
+$Comp
+L Cantaloupe:MX-NoLED SW61
+U 1 1 5F63E479
+P 800 5850
+F 0 "SW61" H 800 6000 50  0000 C CNN
+F 1 "MX" H 800 5550 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 800 5850 60  0001 C CNN
+F 3 "" H 800 5850 60  0001 C CNN
+	1    800  5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D58
+U 1 1 5F63E47F
+P 750 6100
+F 0 "D58" V 750 6000 50  0000 R CNN
+F 1 "D" V 705 6021 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 750 6100 50  0001 C CNN
+F 3 "~" H 750 6100 50  0001 C CNN
+	1    750  6100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	950  5800 1000 5800
+$Comp
+L Cantaloupe:MX-NoLED SW62
+U 1 1 5F63E486
+P 800 6450
+F 0 "SW62" H 800 6600 50  0000 C CNN
+F 1 "MX" H 800 6150 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 800 6450 60  0001 C CNN
+F 3 "" H 800 6450 60  0001 C CNN
+	1    800  6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D59
+U 1 1 5F63E48C
+P 750 6700
+F 0 "D59" V 750 6600 50  0000 R CNN
+F 1 "D" V 705 6621 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 750 6700 50  0001 C CNN
+F 3 "~" H 750 6700 50  0001 C CNN
+	1    750  6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	950  6400 1000 6400
+Connection ~ 1000 4600
+Connection ~ 1000 5200
+Wire Wire Line
+	1000 5200 1000 4600
+Connection ~ 1000 5800
+Wire Wire Line
+	1000 5800 1000 5200
+Wire Wire Line
+	1000 6400 1000 5800
+Wire Wire Line
+	750  6200 1200 6200
+Wire Wire Line
+	750  6800 1200 6800
+Wire Wire Line
+	1200 5000 750  5000
+Wire Wire Line
+	1200 5600 750  5600
+Wire Wire Line
+	950  7000 1000 7000
+Connection ~ 1000 6400
+Wire Wire Line
+	1000 7000 1000 6400
+Connection ~ 1450 6400
+Wire Wire Line
+	1450 7000 1450 6400
+Wire Wire Line
+	1400 7000 1450 7000
+Connection ~ 1200 7400
+Wire Wire Line
+	750  7400 1200 7400
+$Comp
+L Device:D_Small D62
+U 1 1 5F63E4C0
+P 750 7300
+F 0 "D62" V 750 7200 50  0000 R CNN
+F 1 "D" V 705 7221 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 750 7300 50  0001 C CNN
+F 3 "~" H 750 7300 50  0001 C CNN
+	1    750  7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Cantaloupe:MX-NoLED SW65
+U 1 1 5F63E4BA
+P 800 7050
+F 0 "SW65" H 800 7200 50  0000 C CNN
+F 1 "MX" H 800 6750 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 800 7050 60  0001 C CNN
+F 3 "" H 800 7050 60  0001 C CNN
+	1    800  7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D60
+U 1 1 5F63E499
+P 1200 7300
+F 0 "D60" V 1200 7200 50  0000 R CNN
+F 1 "D" V 1155 7221 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1200 7300 50  0001 C CNN
+F 3 "~" H 1200 7300 50  0001 C CNN
+	1    1200 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Cantaloupe:MX-NoLED SW63
+U 1 1 5F63E493
+P 1250 7050
+F 0 "SW63" H 1250 7200 50  0000 C CNN
+F 1 "MX" H 1250 6750 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1250 7050 60  0001 C CNN
+F 3 "" H 1250 7050 60  0001 C CNN
+	1    1250 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D55
+U 1 1 5F63E44A
+P 1650 7300
+F 0 "D55" V 1650 7200 50  0000 R CNN
+F 1 "D" V 1605 7221 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1650 7300 50  0001 C CNN
+F 3 "~" H 1650 7300 50  0001 C CNN
+	1    1650 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Cantaloupe:MX-NoLED SW58
+U 1 1 5F63E444
+P 1700 7050
+F 0 "SW58" H 1700 7200 50  0000 C CNN
+F 1 "MX" H 1700 6750 60  0001 C CNN
+F 2 "Cantaloupe:CherryMX_Hotswap_SMK" H 1700 7050 60  0001 C CNN
+F 3 "" H 1700 7050 60  0001 C CNN
+	1    1700 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 7400 1650 7400
+Wire Wire Line
+	1650 7400 1200 7400
+Connection ~ 1650 7400
+Wire Wire Line
+	1900 6400 1900 7000
+Wire Wire Line
+	1900 7000 1850 7000
+Connection ~ 1900 6400
+Text GLabel 4550 1650 0    50   Input ~ 0
+COL2
+Text GLabel 4550 2050 0    50   Input ~ 0
+COL5
+Text GLabel 4550 1950 0    50   Input ~ 0
+COL4
+Text GLabel 4550 1750 0    50   Input ~ 0
+COL3
+Wire Wire Line
+	8400 4000 8400 3900
+Wire Wire Line
+	7500 5200 7800 5200
+$Comp
+L Cantaloupe:USB_C_Receptacle_PD J4
+U 1 1 5F70E226
+P 7800 4300
+F 0 "J4" H 7907 5167 50  0000 C CNN
+F 1 "USB_C_Receptacle_PD" H 7907 5076 50  0000 C CNN
+F 2 "Cantaloupe:USB-C-PowerOnly" H 7950 4300 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7950 4300 50  0001 C CNN
+	1    7800 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 6000 5200 2    50   Input ~ 0
+ROTB_R
+Text GLabel 6000 5300 2    50   Input ~ 0
+ROTA_R
+Wire Wire Line
+	8350 1100 8350 1000
+Wire Wire Line
+	7450 2300 7750 2300
+$Comp
+L Cantaloupe:USB_C_Receptacle_PD J1
+U 1 1 5F6DB677
+P 7750 1400
+F 0 "J1" H 7857 2267 50  0000 C CNN
+F 1 "USB_C_Receptacle_PD" H 7857 2176 50  0000 C CNN
+F 2 "Cantaloupe:USB-C-PowerOnly" H 7900 1400 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7900 1400 50  0001 C CNN
+	1    7750 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5F61BAC8
+P 9600 3200
+F 0 "J3" H 9680 3192 50  0000 L CNN
+F 1 "OLED" H 9680 3101 50  0000 L CNN
+F 2 "Cantaloupe:PinHeader_1x04_P2.54mm_Vertical_No_Silk" H 9600 3200 50  0001 C CNN
+F 3 "~" H 9600 3200 50  0001 C CNN
+	1    9600 3200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9100 3200 9400 3200
+Wire Wire Line
+	9100 2850 9100 3200
+$Comp
+L power:VCC #PWR0101
+U 1 1 5F6DF736
+P 9100 2850
+F 0 "#PWR0101" H 9100 2700 50  0001 C CNN
+F 1 "VCC" H 9115 3023 50  0000 C CNN
+F 2 "" H 9100 2850 50  0001 C CNN
+F 3 "" H 9100 2850 50  0001 C CNN
+	1    9100 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 9400 3000 0    50   Input ~ 0
+SDA
+Text GLabel 9400 3100 0    50   Input ~ 0
+SCL
+$Comp
+L power:GND1 #PWR0118
+U 1 1 5F653DBC
+P 9400 3300
+F 0 "#PWR0118" H 9400 3050 50  0001 C CNN
+F 1 "GND1" H 9405 3127 50  0000 C CNN
+F 2 "" H 9400 3300 50  0001 C CNN
+F 3 "" H 9400 3300 50  0001 C CNN
+	1    9400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J6
+U 1 1 5F6FCE71
+P 9650 6050
+F 0 "J6" H 9730 6042 50  0000 L CNN
+F 1 "OLED" H 9730 5951 50  0000 L CNN
+F 2 "Cantaloupe:PinHeader_1x04_P2.54mm_Vertical_No_Silk" H 9650 6050 50  0001 C CNN
+F 3 "~" H 9650 6050 50  0001 C CNN
+	1    9650 6050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9100 6050 9450 6050
+Wire Wire Line
+	9100 5700 9100 6050
+$Comp
+L power:VDD #PWR0121
+U 1 1 5F6E0B53
+P 9100 5700
+F 0 "#PWR0121" H 9100 5550 50  0001 C CNN
+F 1 "VDD" H 9115 5873 50  0000 C CNN
+F 2 "" H 9100 5700 50  0001 C CNN
+F 3 "" H 9100 5700 50  0001 C CNN
+	1    9100 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 9450 5950 0    50   Input ~ 0
+SCL_R
+Text GLabel 9450 5850 0    50   Input ~ 0
+SDA_R
+Connection ~ 7450 2300
+$Comp
+L power:GND1 #PWR0107
+U 1 1 5F6FB6DF
+P 7450 2300
+F 0 "#PWR0107" H 7450 2050 50  0001 C CNN
+F 1 "GND1" H 7455 2127 50  0000 C CNN
+F 2 "" H 7450 2300 50  0001 C CNN
+F 3 "" H 7450 2300 50  0001 C CNN
+	1    7450 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 8400 3900
+Wire Wire Line
+	8500 3900 8400 3900
+$Comp
+L power:VDD #PWR0110
+U 1 1 5F72E8AB
+P 8400 3700
+F 0 "#PWR0110" H 8400 3550 50  0001 C CNN
+F 1 "VDD" H 8415 3873 50  0000 C CNN
+F 2 "" H 8400 3700 50  0001 C CNN
+F 3 "" H 8400 3700 50  0001 C CNN
+	1    8400 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 3900 2    50   Input ~ 0
+DATA_R
+$Comp
+L power:VCC #PWR0106
+U 1 1 5F6DCEBE
+P 8350 800
+F 0 "#PWR0106" H 8350 650 50  0001 C CNN
+F 1 "VCC" H 8365 973 50  0000 C CNN
+F 2 "" H 8350 800 50  0001 C CNN
+F 3 "" H 8350 800 50  0001 C CNN
+	1    8350 800 
+	1    0    0    -1  
+$EndComp
+Connection ~ 8350 1000
+Wire Wire Line
+	8450 1000 8350 1000
+Text GLabel 5950 1450 2    50   Input ~ 0
+COL7
+Text GLabel 5950 1750 2    50   Input ~ 0
+ROW3
+Text GLabel 5950 1550 2    50   Input ~ 0
+ROW5
+Text GLabel 5950 1650 2    50   Input ~ 0
+ROW4
+NoConn ~ 5950 1350
+Text GLabel 4550 950  0    50   Input ~ 0
+ROTA
+Text GLabel 4550 1050 0    50   Input ~ 0
+ROTB
+Text GLabel 5950 1850 2    50   Input ~ 0
+COL6
+Text GLabel 5950 2050 2    50   Input ~ 0
+ROW1
+Text GLabel 5950 1950 2    50   Input ~ 0
+ROW2
+Text GLabel 8450 1000 2    50   Input ~ 0
+DATA
+NoConn ~ 4600 4400
+NoConn ~ 4600 4500
+Wire Wire Line
+	6450 1050 5950 1050
+Connection ~ 6450 1050
+Wire Wire Line
+	5950 950  6450 950 
+$Comp
+L power:GND3 #PWR0104
+U 1 1 5F77703F
+P 6500 4300
+F 0 "#PWR0104" H 6500 4050 50  0001 C CNN
+F 1 "GND3" H 6505 4127 50  0000 C CNN
+F 2 "" H 6500 4300 50  0001 C CNN
+F 3 "" H 6500 4300 50  0001 C CNN
+	1    6500 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 4300
+Connection ~ 7500 5200
+$Comp
+L power:GND3 #PWR0105
+U 1 1 5F78646E
+P 7500 5200
+F 0 "#PWR0105" H 7500 4950 50  0001 C CNN
+F 1 "GND3" H 7505 5027 50  0000 C CNN
+F 2 "" H 7500 5200 50  0001 C CNN
+F 3 "" H 7500 5200 50  0001 C CNN
+	1    7500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND3 #PWR0108
+U 1 1 5F795E0A
+P 8350 5800
+F 0 "#PWR0108" H 8350 5550 50  0001 C CNN
+F 1 "GND3" H 8355 5627 50  0000 C CNN
+F 2 "" H 8350 5800 50  0001 C CNN
+F 3 "" H 8350 5800 50  0001 C CNN
+	1    8350 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND3 #PWR0109
+U 1 1 5F7A47C4
+P 9450 6150
+F 0 "#PWR0109" H 9450 5900 50  0001 C CNN
+F 1 "GND3" H 9455 5977 50  0000 C CNN
+F 2 "" H 9450 6150 50  0001 C CNN
+F 3 "" H 9450 6150 50  0001 C CNN
+	1    9450 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND3 #PWR0111
+U 1 1 5F7B3068
+P 4550 7000
+F 0 "#PWR0111" H 4550 6750 50  0001 C CNN
+F 1 "GND3" H 4555 6827 50  0000 C CNN
+F 2 "" H 4550 7000 50  0001 C CNN
+F 3 "" H 4550 7000 50  0001 C CNN
+	1    4550 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0113
+U 1 1 5F7B4E00
+P 8250 2950
+F 0 "#PWR0113" H 8250 2700 50  0001 C CNN
+F 1 "GND2" H 8255 2777 50  0000 C CNN
+F 2 "" H 8250 2950 50  0001 C CNN
+F 3 "" H 8250 2950 50  0001 C CNN
+	1    8250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0114
+U 1 1 5F7D1BAE
+P 4250 1250
+F 0 "#PWR0114" H 4250 1000 50  0001 C CNN
+F 1 "GND2" H 4255 1077 50  0000 C CNN
+F 2 "" H 4250 1250 50  0001 C CNN
+F 3 "" H 4250 1250 50  0001 C CNN
+	1    4250 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1250 4550 1250
+Wire Wire Line
+	4550 1150 4550 1250
+Connection ~ 4550 1250
+$Comp
+L power:GND2 #PWR0103
+U 1 1 5F7FFDB8
+P 4550 3450
+F 0 "#PWR0103" H 4550 3200 50  0001 C CNN
+F 1 "GND2" H 4555 3277 50  0000 C CNN
+F 2 "" H 4550 3450 50  0001 C CNN
+F 3 "" H 4550 3450 50  0001 C CNN
+	1    4550 3450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
