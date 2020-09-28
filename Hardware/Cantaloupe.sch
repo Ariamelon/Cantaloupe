@@ -2283,7 +2283,7 @@ U 1 1 5F70E226
 P 7800 4300
 F 0 "J4" H 7907 5167 50  0000 C CNN
 F 1 "USB_C_Receptacle_PD" H 7907 5076 50  0000 C CNN
-F 2 "Cantaloupe:USB-C-PowerOnly" H 7950 4300 50  0001 C CNN
+F 2 "Cantaloupe:USB-C-C168688" H 7950 4300 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7950 4300 50  0001 C CNN
 	1    7800 4300
 	1    0    0    -1  
@@ -2302,7 +2302,7 @@ U 1 1 5F6DB677
 P 7750 1400
 F 0 "J1" H 7857 2267 50  0000 C CNN
 F 1 "USB_C_Receptacle_PD" H 7857 2176 50  0000 C CNN
-F 2 "Cantaloupe:USB-C-PowerOnly" H 7900 1400 50  0001 C CNN
+F 2 "Cantaloupe:USB-C-C168688" H 7900 1400 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7900 1400 50  0001 C CNN
 	1    7750 1400
 	1    0    0    -1  
