@@ -1,6 +1,8 @@
 # Cantaloupe
 60-Key Hot-Swappable Split Ergo Keyboard
 
+[Cantaloupe Render](Hardware/Images/render.png)
+
 ## Disclaimer
 The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout with the inner-most keys removed and an improved thumb cluster. The Pro Micro position was also moved inwards to allow for a thinner board. The layout was only used as a reference, nothing was copied and the board is a completely new design.
 
