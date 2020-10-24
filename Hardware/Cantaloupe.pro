@@ -1,4 +1,4 @@
-update=09/29/20 01:20:57
+update=10/10/20 16:48:32
 version=1
 last_client=kicad
 [general]
@@ -39,7 +39,7 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
-TrackWidth2=0.5
+TrackWidth2=1
 TrackWidth3=1.7526
 ViaDiameter1=0.7
 ViaDrill1=0.35
@@ -58,7 +58,7 @@ CopperTextSizeH=1.5
 CopperTextThickness=0.3
 CopperTextItalic=0
 CopperTextUpright=1
-EdgeCutLineWidth=0.01
+EdgeCutLineWidth=0.09999999999999999
 CourtyardLineWidth=0.05
 OthersLineWidth=0.05
 OthersTextSizeV=1
@@ -249,6 +249,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=Battery
+Clearance=0.2
+TrackWidth=1
+ViaDiameter=0.7
+ViaDrill=0.35
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=Power
 Clearance=0.2
 TrackWidth=0.5

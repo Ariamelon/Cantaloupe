@@ -1,0 +1,12 @@
+(module LiPo_501235 (layer F.Cu) (tedit 5F5E352A)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value LiPo_501235 (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 6.125 -17.625) (end -6.125 -17.625) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start -6.125 -17.625) (end -6.125 17.625) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start 6.125 17.625) (end 6.125 -17.625) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start -6.125 17.625) (end 6.125 17.625) (layer Edge.Cuts) (width 0.12))
+)
