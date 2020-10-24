@@ -11,8 +11,10 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 * Up to two rotary encoders or 5-way switches supported in the thumb cluster, one on each side.
 * 601230 LiPo support and on-board hard switch.
 
+![Cantaloupe Photo1](Images/Photo1.jpg)
 ![Cantaloupe Front Render](Images/Render_Front.png)
 ![Cantaloupe Back Render](Images/Render_Back.png)
 
 ## Changelog
 * 24/10/2020: Updated to V1.1. Slightly increased stagger and different PCB shape based on the [Galia](https://github.com/Ariamelon/Galia), removed snap-away interconnect section of PCB, added ICSP header. Moved location of images folder. Finally added this changelog too.
+* 24/10/2020: Added better render, added proper photo.
