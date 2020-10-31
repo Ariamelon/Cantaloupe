@@ -16,7 +16,8 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 ![Cantaloupe Back Render](Images/Render_Back.png)
 
 ## Changelog
-* 24/10/2020: Updated to V1.1. Slightly increased stagger and different PCB shape based on the [Galia](https://github.com/Ariamelon/Galia), removed snap-away interconnect section of PCB, added ICSP header. Moved location of images folder. Finally added this changelog too.
-* 24/10/2020: Added better render, added proper photo.
+* 27/09/2020: Initial commit.
+* 28/09/2020: Added case files.
+* 24/10/2020: Updated to V1.1. Slightly increased stagger and different PCB shape based on the [Galia](https://github.com/Ariamelon/Galia), removed snap-away interconnect section of PCB, added ICSP header. Moved location of images folder.
 * 25/10/2020: Added back 5-way switch. Removed SMK support. New renders.
-* 28/10/2020: Better photo, reorganized footprints, minor fixes to circuit
+* 28/10/2020: Better photo, reorganized footprints, minor fixes to circuit.
