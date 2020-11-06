@@ -21,3 +21,4 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 * 24/10/2020: Updated to V1.1. Slightly increased stagger and different PCB shape based on the [Galia](https://github.com/Ariamelon/Galia), removed snap-away interconnect section of PCB, added ICSP header. Moved location of images folder.
 * 25/10/2020: Added back 5-way switch. Removed SMK support. New renders.
 * 28/10/2020: Better photo, reorganized footprints, minor fixes to circuit.
+* 7/11/2020: Fixed position of RHS screw hole and wiring of rotary encoder switch, added QMK firmware.

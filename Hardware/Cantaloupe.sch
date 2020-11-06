@@ -473,23 +473,8 @@ Text GLabel 5300 4900 0    50   Input ~ 0
 ROT_A_R
 Text GLabel 5300 5000 0    50   Input ~ 0
 ROT_B_R
-Text GLabel 4300 6750 0    50   Input ~ 0
-ROT_A_R
 Wire Wire Line
 	4300 6850 4000 6850
-$Comp
-L Device:Rotary_Encoder_Switch SW67
-U 1 1 5FC9B861
-P 4600 6850
-F 0 "SW67" H 4500 6500 50  0000 L CNN
-F 1 "Encoder_R" H 4400 6600 50  0000 L CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 4450 7010 50  0001 C CNN
-F 3 "~" H 4600 7110 50  0001 C CNN
-	1    4600 6850
-	1    0    0    -1  
-$EndComp
-Text GLabel 4300 6950 0    50   Input ~ 0
-ROT_B_R
 Text GLabel 3300 4650 1    50   Input ~ 0
 COL0_R
 Wire Wire Line
@@ -2254,21 +2239,8 @@ F 3 "" H 2850 1150 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	3150 3100 3100 3100
-Text GLabel 4450 3400 0    50   Input ~ 0
-ROT_A
 Wire Wire Line
 	4450 3500 4150 3500
-$Comp
-L Device:Rotary_Encoder_Switch SW34
-U 1 1 5F7FDE64
-P 4750 3500
-F 0 "SW34" H 4650 3150 50  0000 L CNN
-F 1 "Encoder" H 4600 3250 50  0000 L CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 4600 3660 50  0001 C CNN
-F 3 "~" H 4750 3760 50  0001 C CNN
-	1    4750 3500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Cantaloupe:MX-NoLED SW30
 U 1 1 60697F9C
@@ -2291,8 +2263,6 @@ F 3 "~" H 3350 3400 50  0001 C CNN
 	1    3350 3400
 	0    1    -1   0   
 $EndComp
-Text GLabel 4450 3600 0    50   Input ~ 0
-ROT_B
 Text GLabel 3350 5600 2    50   Input ~ 0
 ROW1_R
 Text GLabel 3350 6600 2    50   Input ~ 0
@@ -2479,36 +2449,8 @@ Wire Wire Line
 	1700 7100 1250 7100
 Text GLabel 5400 1650 0    50   Input ~ 0
 COL0
-$Comp
-L Device:D_Small D31
-U 1 1 5FC9F973
-P 5150 2950
-F 0 "D31" H 5200 2850 50  0000 R CNN
-F 1 "D" V 5105 2871 50  0001 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 5150 2950 50  0001 C CNN
-F 3 "~" H 5150 2950 50  0001 C CNN
-	1    5150 2950
-	1    0    0    -1  
-$EndComp
-Text GLabel 5350 2950 2    50   Input ~ 0
-PERIPH
 Text GLabel 6800 1550 2    50   Input ~ 0
 PERIPH
-Text GLabel 5050 2800 2    50   Input ~ 0
-ROW0
-Text GLabel 5050 2650 2    50   Input ~ 0
-ROW1
-Text GLabel 4350 2800 0    50   Input ~ 0
-ROW3
-Text GLabel 4350 2950 0    50   Input ~ 0
-ROW2
-Text GLabel 4350 2650 0    50   Input ~ 0
-ROW4
-Wire Wire Line
-	5250 3600 5050 3600
-Wire Wire Line
-	5350 2950 5250 2950
-Connection ~ 5250 2950
 $Comp
 L Device:D_Small D62
 U 1 1 5FDF0FB7
@@ -2526,13 +2468,6 @@ Wire Wire Line
 	5200 6300 5100 6300
 Text GLabel 5300 4300 0    50   Input ~ 0
 PERIPH_R
-Wire Wire Line
-	4900 6300 4900 6750
-Wire Wire Line
-	5100 6300 5100 6950
-Wire Wire Line
-	5100 6950 4900 6950
-Connection ~ 5100 6300
 $Comp
 L Cantaloupe:Switch_5-Way-Tactile SW66
 U 1 1 5FE8146E
@@ -2544,23 +2479,6 @@ F 3 "" H 4550 6600 50  0001 C CNN
 	1    4550 6150
 	1    0    0    -1  
 $EndComp
-Connection ~ 4900 6300
-Wire Wire Line
-	5050 2950 5050 3400
-Wire Wire Line
-	5250 2950 5250 3600
-$Comp
-L Cantaloupe:Switch_5-Way-Tactile SW32
-U 1 1 5FEC203F
-P 4700 2800
-F 0 "SW32" H 4700 3215 50  0000 C CNN
-F 1 "5_Way" H 4700 3124 50  0000 C CNN
-F 2 "Cantaloupe:Switch_5-way-tactile" H 4700 3250 50  0001 C CNN
-F 3 "" H 4700 3250 50  0001 C CNN
-	1    4700 2800
-	1    0    0    -1  
-$EndComp
-Connection ~ 5050 2950
 Text GLabel 10700 2750 2    50   Input ~ 0
 ROW2
 Wire Wire Line
@@ -2577,5 +2495,81 @@ ROW0_R
 Text GLabel 4900 6150 2    50   Input ~ 0
 ROW4_R
 Text GLabel 4900 6000 2    50   Input ~ 0
+ROW3_R
+$Comp
+L Cantaloupe:Switch_5-Way-Tactile SW32
+U 1 1 5FEC203F
+P 4700 2800
+F 0 "SW32" H 4700 3215 50  0000 C CNN
+F 1 "5_Way" H 4700 3124 50  0000 C CNN
+F 2 "Cantaloupe:Switch_5-way-tactile" H 4700 3250 50  0001 C CNN
+F 3 "" H 4700 3250 50  0001 C CNN
+	1    4700 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2950 5250 2950
+Text GLabel 4350 2650 0    50   Input ~ 0
+ROW4
+Text GLabel 4350 2950 0    50   Input ~ 0
+ROW2
+Text GLabel 4350 2800 0    50   Input ~ 0
+ROW3
+Text GLabel 5050 2650 2    50   Input ~ 0
+ROW1
+Text GLabel 5050 2800 2    50   Input ~ 0
+ROW0
+Text GLabel 5350 2950 2    50   Input ~ 0
+PERIPH
+$Comp
+L Device:D_Small D31
+U 1 1 5FC9F973
+P 5150 2950
+F 0 "D31" H 5200 2850 50  0000 R CNN
+F 1 "D" V 5105 2871 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5150 2950 50  0001 C CNN
+F 3 "~" H 5150 2950 50  0001 C CNN
+	1    5150 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 6950 0    50   Input ~ 0
+ROT_B_R
+Text GLabel 4300 6750 0    50   Input ~ 0
+ROT_A_R
+$Comp
+L Device:Rotary_Encoder_Switch SW67
+U 1 1 5FC9B861
+P 4600 6850
+F 0 "SW67" H 4500 6500 50  0000 L CNN
+F 1 "Encoder_R" H 4400 6600 50  0000 L CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 4450 7010 50  0001 C CNN
+F 3 "~" H 4600 7110 50  0001 C CNN
+	1    4600 6850
+	1    0    0    -1  
+$EndComp
+Text GLabel 4450 3600 0    50   Input ~ 0
+ROT_B
+Text GLabel 4450 3400 0    50   Input ~ 0
+ROT_A
+$Comp
+L Device:Rotary_Encoder_Switch SW34
+U 1 1 5F7FDE64
+P 4750 3500
+F 0 "SW34" H 4650 3150 50  0000 L CNN
+F 1 "Encoder" H 4600 3250 50  0000 L CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 4600 3660 50  0001 C CNN
+F 3 "~" H 4750 3760 50  0001 C CNN
+	1    4750 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3400 5050 2950
+Connection ~ 5050 2950
+Text GLabel 5050 3600 2    50   Input ~ 0
+ROW1
+Wire Wire Line
+	4900 6750 4900 6300
+Connection ~ 4900 6300
+Text GLabel 4900 6950 2    50   Input ~ 0
 ROW3_R
 $EndSCHEMATC
