@@ -23,3 +23,4 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 * 28/10/2020: Better photo, reorganized footprints, minor fixes to circuit.
 * 7/11/2020: Fixed position of RHS screw hole and wiring of rotary encoder switch, added QMK firmware.
 * 11/11/2020: Updated to V1.2. Switch footprints changed to solder holes, compatible with MX, Alps and SMK switches. 5-way switch removed. Pro Micros flipped, facing downward, to reduce overall thickness of keyboard. Diode footprints changed to allow use of both TH and SMD (SOD-123(F) and glass DO-35) diodes.
+* 14/11/2020: Changed USB C connector to normal from mid-mount.
