@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "CantaloupeV1.2-Gerbers_Plate/"))
+      (outputdirectory "CantaloupeV1.2-Gerbers_Plate_MXALPS/"))
   )
 
   (net 0 "")
