@@ -77,6 +77,23 @@ X 6/PD7 9 -700 -250 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# SW_Push_Small
+#
+DEF SW_Push_Small SW 0 40 N N 1 F N
+F0 "SW" -50 100 50 H V L CNN
+F1 "SW_Push_Small" 0 -60 50 H I C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -100 0 10 0 1 0 N
+C 100 0 10 0 1 0 N
+P 2 0 1 0 -100 30 100 30 N
+P 2 0 1 0 0 30 0 80 N
+X 1 1 100 0 100 L 50 50 0 1 P
+X 2 2 -100 0 100 R 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # Switch_5-Way-Tactile
 #
 DEF Switch_5-Way-Tactile SW 0 40 Y Y 1 F N
