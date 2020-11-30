@@ -7,9 +7,9 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 ## Key Features
 * Slim design, or as slim as I could get while using standard MX-style Switches. Essentially, the Pro Micro or whatever mounts under the PCB, flush and facing up with the help of a cutout.
 * MX and Alps switches supported.
-* OLED support, either using a standard 0.91" SSD1306 OLED, 0.96" SSD1306 OLED or the [Crenshaw](https://github.com/Ariamelon/Crenshaw) 1.3" OLED.
+* OLED support, either using a standard 0.96" SSD1306 OLED.
 * Up to two rotary encoders supported in the thumb cluster, one on each side.
-* 601230 LiPo support and on-board hard switch.
+* 301230 LiPo support under pro micro and on-board hard switch.
 
 ![Cantaloupe Photo1](Images/Photo1.jpg)
 ![Cantaloupe Front Render](Images/Render_Front.png)
@@ -25,3 +25,4 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 * 11/11/2020: Updated to V1.2. Switch footprints changed to solder holes, compatible with MX, Alps and SMK switches. 5-way switch removed. Pro Micros flipped, facing downward, to reduce overall thickness of keyboard. Diode footprints changed to allow use of both TH and SMD (SOD-123(F) and glass DO-35) diodes.
 * 14/11/2020: Changed USB C connector to normal from mid-mount.
 * 29/11/2020: Updated to V1.3. Added 2u switch locations in outer bottom corners and thumb cluster. Slightly increased size to allow for high-profile case options. Changed mounting holes on PCB to pass-through holes to allow for direct top and bottom plate mounting. Removed SMK switch support. Updated plate to add Alps compatibility.
+* 1/12/2020: Changed OLED compatibility to 0.96" OLED. Removed Crenshaw compatibility. Removed large cutout in plate for pro micro and Crenshaw, added smaller cutout just showing screen of 0.96" OLED.

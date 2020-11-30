@@ -1,4 +1,4 @@
-19388553903881687
+19388554118713420
 AI03 Keyswitches
 ALPS-1.5U
 
@@ -4018,20 +4018,6 @@ HYBRID-MX_ALPS-2U-ReversedStabilizers-NoLED
 4
 2
 Cantaloupe
-HYBRID-MX_ALPS_SMK-1U
-
-
-0
-6
-2
-Cantaloupe
-HYBRID-MX_ALPS_SMK-2U-NoLED
-
-
-0
-6
-2
-Cantaloupe
 LiPo_501235
 
 
@@ -4052,6 +4038,13 @@ MX_Cutout_Tight
 0
 2
 0
+Cantaloupe
+OLED_0.96_SSD1306_128x64
+
+
+0
+4
+4
 Cantaloupe
 PinHeader_1x04_P2.54mm_Vertical_No_Silk
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
@@ -50875,6 +50868,13 @@ TRRS_MidMount_SJ2-35355A-SMT-TR
 0
 6
 4
+Custom Parts
+USB-C-C168688
+
+
+0
+16
+11
 Custom Parts
 USB-C_C168688
 
