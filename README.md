@@ -7,7 +7,7 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 ## Key Features
 * Slim design, or as slim as I could get while using standard MX-style Switches. Essentially, the Pro Micro or whatever mounts under the PCB, flush and facing up with the help of a cutout.
 * MX and Alps switches supported.
-* OLED support, either using a standard 0.96" SSD1306 OLED.
+* 0.96" SSD1306 OLED supported.
 * Up to two rotary encoders supported in the thumb cluster, one on each side.
 * 301230 LiPo support under pro micro and on-board hard switch.
 
@@ -26,3 +26,4 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 * 14/11/2020: Changed USB C connector to normal from mid-mount.
 * 29/11/2020: Updated to V1.3. Added 2u switch locations in outer bottom corners and thumb cluster. Slightly increased size to allow for high-profile case options. Changed mounting holes on PCB to pass-through holes to allow for direct top and bottom plate mounting. Removed SMK switch support. Updated plate to add Alps compatibility.
 * 1/12/2020: Changed OLED compatibility to 0.96" OLED. Removed Crenshaw compatibility. Removed large cutout in plate for pro micro and Crenshaw, added smaller cutout just showing screen of 0.96" OLED.
+* 2/12/2020: Changed orientation of 1u switches in thumb cluster. Updated plate to add 2u support.

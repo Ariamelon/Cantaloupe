@@ -1268,7 +1268,7 @@ F 1 "MX" H 2450 2950 60  0001 C CNN
 F 2 "Cantaloupe:HYBRID-MX_ALPS-1U-NoLED" H 2450 3450 60  0001 C CNN
 F 3 "~" H 2450 3450 60  0001 C CNN
 	1    2450 3250
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Connection ~ 2300 3150
 $Comp
@@ -1692,7 +1692,7 @@ F 1 "MX" H 2350 6450 60  0001 C CNN
 F 2 "Cantaloupe:HYBRID-MX_ALPS-1U-NoLED" H 2350 6950 60  0001 C CNN
 F 3 "~" H 2350 6950 60  0001 C CNN
 	1    2350 6750
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND2 #PWR013
