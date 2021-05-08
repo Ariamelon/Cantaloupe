@@ -1,7 +1,7 @@
-Name,Component,Package,Value,Qty,
-D1-D62,Diode,SOD-123(F) OR 1N4148,-,60,
-"J1, J4",Mid-mount USB 2.0,SMD,0.8mm 6p,2,
-"SW33, SW69",Rotary Encoder,EC11,,2,
-"SW35, SW71",Reset Switch,TL3342,-,2,
-"U1, U2",Pro Micro Sockets,Peelaway,12 x 2.54mm,4,
--,USB C to C Cable,-,-,1,
+Name,Component,Package,Value,Qty
+D1-D62,Diode,SOD-123(F) OR DO35,-,62
+"J1, J4",USB C 2.0 Socket,SMD,TYPE-C-31-M-12 or equivalent,2
+"SW33, SW69",Rotary Encoder,EC11,-,2
+"SW35, SW71",Reset Switch,-,TL3342,2
+"U1, U2",Pro Micro Sockets,Peelaway,12 x 2.54mm,4
+-,USB C to C Cable,-,-,1
