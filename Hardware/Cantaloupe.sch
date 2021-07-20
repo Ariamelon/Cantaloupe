@@ -31,19 +31,7 @@ NoConn ~ 8450 2350
 NoConn ~ 8450 1550
 NoConn ~ 8450 1450
 Wire Wire Line
-	9450 950  9250 950 
-Wire Wire Line
-	9250 850  9450 850 
-Wire Wire Line
-	9350 1050 9450 1050
-Wire Wire Line
-	9350 750  9350 1050
-Wire Wire Line
 	6150 850  6150 1200
-Text GLabel 9250 850  0    50   Input ~ 0
-SDA
-Text GLabel 9250 950  0    50   Input ~ 0
-SCL
 Text GLabel 4450 1300 0    50   Input ~ 0
 SDA
 Text GLabel 4450 1400 0    50   Input ~ 0
@@ -54,37 +42,7 @@ Text GLabel 5850 1100 2    50   Input ~ 0
 RESET
 Text GLabel 9250 1850 0    50   Input ~ 0
 RESET
-Text GLabel 9250 2700 0    50   Input ~ 0
-RESET
-Text GLabel 9250 2600 0    50   Input ~ 0
-ROW4
-Text GLabel 9250 2500 0    50   Input ~ 0
-ROW3
 NoConn ~ 4450 1100
-Wire Wire Line
-	6350 900  5850 900 
-Wire Wire Line
-	5300 2800 5400 2800
-Wire Wire Line
-	5400 2800 5400 3200
-Wire Wire Line
-	5300 3200 5400 3200
-Connection ~ 5400 3200
-Wire Wire Line
-	5400 3200 5400 3350
-Text GLabel 9750 2600 2    50   Input ~ 0
-ROW2
-Text GLabel 6350 900  2    50   Input ~ 0
-RAW
-Text GLabel 4800 2900 0    50   Input ~ 0
-RAW
-Wire Wire Line
-	4800 2900 4900 2900
-Wire Wire Line
-	4900 2700 4900 2900
-Wire Wire Line
-	4900 2900 4900 3100
-Connection ~ 4900 2900
 Text GLabel 4450 2000 0    50   Input ~ 0
 ROW1
 Text GLabel 4450 1900 0    50   Input ~ 0
@@ -94,7 +52,7 @@ ROW4
 Text GLabel 4450 1800 0    50   Input ~ 0
 ROW3
 Text GLabel 4450 1600 0    50   Input ~ 0
-PERIPH
+COL6
 Text GLabel 4450 1000 0    50   Input ~ 0
 DATA
 Text GLabel 5850 1500 2    50   Input ~ 0
@@ -118,28 +76,6 @@ Connection ~ 7700 2750
 Wire Wire Line
 	7700 2750 7850 2750
 $Comp
-L power:GND1 #PWR010
-U 1 1 5FB3930B
-P 9750 2700
-F 0 "#PWR010" H 9750 2450 50  0001 C CNN
-F 1 "GND1" H 9755 2527 50  0000 C CNN
-F 2 "" H 9750 2700 50  0001 C CNN
-F 3 "" H 9750 2700 50  0001 C CNN
-	1    9750 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR06
-U 1 1 5FB38EF9
-P 9450 1150
-F 0 "#PWR06" H 9450 900 50  0001 C CNN
-F 1 "GND1" H 9455 977 50  0000 C CNN
-F 2 "" H 9450 1150 50  0001 C CNN
-F 3 "" H 9450 1150 50  0001 C CNN
-	1    9450 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND1 #PWR08
 U 1 1 5FB38560
 P 9650 1850
@@ -159,61 +95,6 @@ F 1 "GND1" H 7705 2577 50  0000 C CNN
 F 2 "" H 7700 2750 50  0001 C CNN
 F 3 "" H 7700 2750 50  0001 C CNN
 	1    7700 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR012
-U 1 1 5FBCD681
-P 5400 3450
-F 0 "#PWR012" H 5400 3200 50  0001 C CNN
-F 1 "GND1" H 5405 3277 50  0000 C CNN
-F 2 "" H 5400 3450 50  0001 C CNN
-F 3 "" H 5400 3450 50  0001 C CNN
-	1    5400 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J4
-U 1 1 5F9B5EC7
-P 5600 3450
-F 0 "J4" H 5850 3350 50  0000 C CNN
-F 1 "BAT_CON" H 5850 3450 50  0000 C CNN
-F 2 "Cantaloupe:Battery_Solder_Points" H 5600 3450 50  0001 C CNN
-F 3 "~" H 5600 3450 50  0001 C CNN
-	1    5600 3450
-	1    0    0    1   
-$EndComp
-$Comp
-L Switch:SW_Push_DPDT SW36
-U 1 1 5F96866A
-P 5100 2900
-F 0 "SW36" H 5100 3385 50  0000 C CNN
-F 1 "BAT_TOG" H 5100 3294 50  0000 C CNN
-F 2 "Cantaloupe:Switch_MSK-22D18" H 5100 3100 50  0001 C CNN
-F 3 "~" H 5100 3100 50  0001 C CNN
-	1    5100 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J3
-U 1 1 5F89CAD6
-P 9450 2600
-F 0 "J3" H 9500 2917 50  0000 C CNN
-F 1 "ICSP" H 9500 2826 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9450 2600 50  0001 C CNN
-F 3 "~" H 9450 2600 50  0001 C CNN
-	1    9450 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR09
-U 1 1 5F8962C3
-P 9750 2500
-F 0 "#PWR09" H 9750 2350 50  0001 C CNN
-F 1 "VCC" H 9765 2673 50  0000 C CNN
-F 2 "" H 9750 2500 50  0001 C CNN
-F 3 "" H 9750 2500 50  0001 C CNN
-	1    9750 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -247,28 +128,6 @@ F 1 "VCC" H 6165 1023 50  0000 C CNN
 F 2 "" H 6150 850 50  0001 C CNN
 F 3 "" H 6150 850 50  0001 C CNN
 	1    6150 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J1
-U 1 1 6085DDB0
-P 9650 1050
-F 0 "J1" H 9568 625 50  0000 C CNN
-F 1 "OLED" H 9568 716 50  0000 C CNN
-F 2 "Cantaloupe:OLED_0.96_SSD1306_128x64" H 9650 1050 50  0001 C CNN
-F 3 "~" H 9650 1050 50  0001 C CNN
-	1    9650 1050
-	1    0    0    1   
-$EndComp
-$Comp
-L power:VCC #PWR02
-U 1 1 608AE49E
-P 9350 750
-F 0 "#PWR02" H 9350 600 50  0001 C CNN
-F 1 "VCC" H 9365 923 50  0000 C CNN
-F 2 "" H 9350 750 50  0001 C CNN
-F 3 "" H 9350 750 50  0001 C CNN
-	1    9350 750 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1322,7 +1181,7 @@ ROT_A
 Text GLabel 1700 3150 0    50   Input ~ 0
 ROT_B
 Text GLabel 2400 2950 2    50   Input ~ 0
-PERIPH
+COL6
 Wire Wire Line
 	1700 3250 1400 3250
 Wire Wire Line
@@ -1348,18 +1207,6 @@ Text GLabel 4500 4700 0    50   Input ~ 0
 SDA_R
 Text GLabel 4500 4800 0    50   Input ~ 0
 SCL_R
-Wire Wire Line
-	9650 4350 9450 4350
-Wire Wire Line
-	9450 4250 9650 4250
-Wire Wire Line
-	9550 4450 9650 4450
-Wire Wire Line
-	9550 4150 9550 4450
-Text GLabel 9450 4250 0    50   Input ~ 0
-SDA_R
-Text GLabel 9450 4350 0    50   Input ~ 0
-SCL_R
 Text GLabel 4500 4400 0    50   Input ~ 0
 DATA_R
 Text GLabel 9450 5200 0    50   Input ~ 0
@@ -1370,36 +1217,8 @@ Wire Wire Line
 	5900 4600 6300 4600
 Wire Wire Line
 	6300 4250 6300 4600
-Text GLabel 9400 6150 0    50   Input ~ 0
-RESET_R
-Text GLabel 9900 6050 2    50   Input ~ 0
-COL5_R
-Text GLabel 9400 6050 0    50   Input ~ 0
-COL3_R
-Text GLabel 9400 5950 0    50   Input ~ 0
-COL4_R
-Wire Wire Line
-	5700 6500 5600 6500
-Wire Wire Line
-	5700 6500 5700 6100
-Wire Wire Line
-	5700 6100 5600 6100
-Connection ~ 5700 6500
-Wire Wire Line
-	5900 4300 6600 4300
-Wire Wire Line
-	5200 6200 5200 6600
-Wire Wire Line
-	5450 6900 5700 6900
-Wire Wire Line
-	5700 6500 5700 6900
-Wire Wire Line
-	5350 6900 5200 6900
-Wire Wire Line
-	5200 6900 5200 6600
-Connection ~ 5200 6600
 Text GLabel 5900 4900 2    50   Input ~ 0
-PERIPH_R
+COL6_R
 Text GLabel 4500 4300 0    50   Input ~ 0
 ROW0_R
 Text GLabel 4500 5400 0    50   Input ~ 0
@@ -1431,9 +1250,6 @@ Wire Wire Line
 	5900 4400 6500 4400
 Wire Wire Line
 	6500 4500 6500 4400
-Connection ~ 6500 4400
-Wire Wire Line
-	6500 4400 6600 4400
 Connection ~ 7750 6200
 Wire Wire Line
 	7750 6200 7900 6200
@@ -1474,61 +1290,6 @@ F 3 "" H 7750 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND2 #PWR022
-U 1 1 5FB6AFE2
-P 9900 6150
-F 0 "#PWR022" H 9900 5900 50  0001 C CNN
-F 1 "GND2" H 9905 5977 50  0000 C CNN
-F 2 "" H 9900 6150 50  0001 C CNN
-F 3 "" H 9900 6150 50  0001 C CNN
-	1    9900 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND2 #PWR017
-U 1 1 5FB5A117
-P 9650 4550
-F 0 "#PWR017" H 9650 4300 50  0001 C CNN
-F 1 "GND2" H 9655 4377 50  0000 C CNN
-F 2 "" H 9650 4550 50  0001 C CNN
-F 3 "" H 9650 4550 50  0001 C CNN
-	1    9650 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J9
-U 1 1 5F97C5AA
-P 5350 7100
-F 0 "J9" V 5222 6912 50  0000 R CNN
-F 1 "BAT_CON_TOG" V 5313 6912 50  0000 R CNN
-F 2 "Cantaloupe:Battery_Solder_Points" H 5350 7100 50  0001 C CNN
-F 3 "~" H 5350 7100 50  0001 C CNN
-	1    5350 7100
-	0    -1   1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 5FAB2ED0
-P 6800 4400
-F 0 "J5" H 6800 4100 50  0000 L CNN
-F 1 "BAT_CON_R" H 6650 4200 50  0000 L CNN
-F 2 "Cantaloupe:Battery_Solder_Points" H 6800 4400 50  0001 C CNN
-F 3 "~" H 6800 4400 50  0001 C CNN
-	1    6800 4400
-	1    0    0    1   
-$EndComp
-$Comp
-L Switch:SW_Push_DPDT SW72
-U 1 1 5FAB2EC9
-P 5400 6400
-F 0 "SW72" H 5400 6885 50  0000 C CNN
-F 1 "BAT_TOG_R" H 5400 6794 50  0000 C CNN
-F 2 "Cantaloupe:Switch_MSK-22D18" H 5400 6600 50  0001 C CNN
-F 3 "~" H 5400 6600 50  0001 C CNN
-	1    5400 6400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Cantaloupe:ProMicro U2
 U 1 1 5F63E285
 P 5200 4850
@@ -1551,28 +1312,6 @@ F 3 "~" H 9650 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR021
-U 1 1 5FA15E8A
-P 9900 5950
-F 0 "#PWR021" H 9900 5800 50  0001 C CNN
-F 1 "VDD" H 9915 6123 50  0000 C CNN
-F 2 "" H 9900 5950 50  0001 C CNN
-F 3 "" H 9900 5950 50  0001 C CNN
-	1    9900 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J8
-U 1 1 5F9E54A2
-P 9600 6050
-F 0 "J8" H 9650 6367 50  0000 C CNN
-F 1 "ICSP_R" H 9650 6276 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9600 6050 50  0001 C CNN
-F 3 "~" H 9600 6050 50  0001 C CNN
-	1    9600 6050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VDD #PWR015
 U 1 1 6052EB66
 P 6300 4250
@@ -1581,28 +1320,6 @@ F 1 "VDD" H 6315 4423 50  0000 C CNN
 F 2 "" H 6300 4250 50  0001 C CNN
 F 3 "" H 6300 4250 50  0001 C CNN
 	1    6300 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J6
-U 1 1 60903339
-P 9850 4450
-F 0 "J6" H 9768 4025 50  0000 C CNN
-F 1 "OLED" H 9768 4116 50  0000 C CNN
-F 2 "Cantaloupe:OLED_0.96_SSD1306_128x64" H 9850 4450 50  0001 C CNN
-F 3 "~" H 9850 4450 50  0001 C CNN
-	1    9850 4450
-	1    0    0    1   
-$EndComp
-$Comp
-L power:VDD #PWR014
-U 1 1 5FCAA161
-P 9550 4150
-F 0 "#PWR014" H 9550 4000 50  0001 C CNN
-F 1 "VDD" H 9565 4323 50  0000 C CNN
-F 2 "" H 9550 4150 50  0001 C CNN
-F 3 "" H 9550 4150 50  0001 C CNN
-	1    9550 4150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1705,14 +1422,12 @@ F 3 "" H 1300 6950 50  0001 C CNN
 	1    1300 6950
 	1    0    0    -1  
 $EndComp
-Text GLabel 2700 6850 2    50   Input ~ 0
-ROW4_R
 Text GLabel 1600 6850 0    50   Input ~ 0
 ROT_A_R
 Text GLabel 1600 6650 0    50   Input ~ 0
 ROT_B_R
 Text GLabel 2300 6450 2    50   Input ~ 0
-PERIPH_R
+COL6_R
 Wire Wire Line
 	1300 6750 1300 6950
 Wire Wire Line
@@ -2657,8 +2372,10 @@ Wire Wire Line
 	1500 5850 1450 5850
 Text GLabel 2900 4400 1    50   Input ~ 0
 COL0_R
-Wire Wire Line
-	6350 1000 5850 1000
+NoConn ~ 4500 4600
+NoConn ~ 5850 900 
+NoConn ~ 5900 4300
+NoConn ~ 4450 1200
 $Comp
 L power:GND1 #PWR04
 U 1 1 6043C4A9
@@ -2670,6 +2387,8 @@ F 3 "" H 6350 1000 50  0001 C CNN
 	1    6350 1000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4450 1200
-NoConn ~ 4500 4600
+Wire Wire Line
+	6350 1000 5850 1000
+Text GLabel 2700 6850 2    50   Input ~ 0
+ROW4_R
 $EndSCHEMATC
