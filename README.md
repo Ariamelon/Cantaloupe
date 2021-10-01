@@ -30,3 +30,4 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 * 2/12/2020: Changed orientation of 1u switches in thumb cluster. Updated plate to add 2u support.
 * 17/5/2021: Fixed BOM and added proper OLED support.
 * 20/7/2021: Updated to V1.4. Removed OLED support, as I don't actually care about OLED and haven't been using it with the previous prototype for a while.
+* 1/10/2021: Added SMK support again (I'm indecisive).
