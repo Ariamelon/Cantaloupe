@@ -1,0 +1,2204 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5500 950  5500 1300
+Text GLabel 3700 1400 0    50   Input ~ 0
+SDA_L
+Text GLabel 3700 1500 0    50   Input ~ 0
+SCL_L
+Text GLabel 5100 1200 2    50   Input ~ 0
+RESET_L
+Text GLabel 9300 1600 0    50   Input ~ 0
+RESET_L
+NoConn ~ 3700 1200
+Text GLabel 3700 2100 0    50   Input ~ 0
+ROW1_L
+Text GLabel 3700 2000 0    50   Input ~ 0
+ROW2_L
+Text GLabel 3700 1800 0    50   Input ~ 0
+ROW4_L
+Text GLabel 3700 1900 0    50   Input ~ 0
+ROW3_L
+Text GLabel 3700 1000 0    50   Input ~ 0
+COL6_L
+Text GLabel 3700 1100 0    50   Input ~ 0
+DATA_L
+Text GLabel 5100 1600 2    50   Input ~ 0
+COL1_L
+Text GLabel 5100 1700 2    50   Input ~ 0
+COL2_L
+Text GLabel 5100 1800 2    50   Input ~ 0
+COL3_L
+Text GLabel 5100 1900 2    50   Input ~ 0
+COL4_L
+Text GLabel 5100 2000 2    50   Input ~ 0
+COL5_L
+Text GLabel 5100 1400 2    50   Input ~ 0
+ROW0_L
+Text GLabel 5100 1500 2    50   Input ~ 0
+COL0_L
+NoConn ~ 5100 2100
+$Comp
+L Ariamelon:ProMicro U1
+U 1 1 5D85EAF7
+P 4400 1550
+F 0 "U1" H 4400 2387 60  0000 C CNN
+F 1 "ProMicro" H 4400 2281 60  0000 C CNN
+F 2 "Ariamelon:ArduinoProMicro_Blank" V 5450 -950 60  0001 C CNN
+F 3 "" V 5450 -950 60  0001 C CNN
+	1    4400 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3700 1600 0    50   Input ~ 0
+ROT_A_L
+Text GLabel 3700 1700 0    50   Input ~ 0
+ROT_B_L
+Wire Wire Line
+	2700 2200 3050 2200
+Connection ~ 2700 2200
+Wire Wire Line
+	2350 2200 2700 2200
+Connection ~ 2350 2200
+Wire Wire Line
+	2000 2200 2350 2200
+Connection ~ 2000 2200
+Wire Wire Line
+	1650 2200 2000 2200
+Connection ~ 1650 2200
+Connection ~ 1300 2200
+Wire Wire Line
+	1300 2200 1650 2200
+Wire Wire Line
+	2700 1850 2350 1850
+Connection ~ 2700 1850
+Wire Wire Line
+	2350 1850 2000 1850
+Connection ~ 2350 1850
+Wire Wire Line
+	2000 1850 1650 1850
+Connection ~ 2000 1850
+Wire Wire Line
+	1650 1850 1300 1850
+Connection ~ 1650 1850
+Connection ~ 1300 1850
+Wire Wire Line
+	3050 1850 2700 1850
+Wire Wire Line
+	2700 1500 3050 1500
+Connection ~ 2700 1500
+Wire Wire Line
+	2350 1500 2700 1500
+Connection ~ 2350 1500
+Wire Wire Line
+	2000 1500 2350 1500
+Connection ~ 2000 1500
+Wire Wire Line
+	1650 1500 2000 1500
+Connection ~ 1650 1500
+Connection ~ 1300 1500
+Wire Wire Line
+	1300 1500 1650 1500
+Wire Wire Line
+	2700 1150 2350 1150
+Connection ~ 2700 1150
+Wire Wire Line
+	2350 1150 2000 1150
+Connection ~ 2350 1150
+Wire Wire Line
+	2000 1150 1650 1150
+Connection ~ 2000 1150
+Wire Wire Line
+	1650 1150 1300 1150
+Connection ~ 1650 1150
+Connection ~ 1300 1150
+Wire Wire Line
+	3050 1150 2700 1150
+Text GLabel 1400 900  1    50   Input ~ 0
+COL1_L
+Text GLabel 1750 900  1    50   Input ~ 0
+COL2_L
+Wire Wire Line
+	1450 950  1400 950 
+Wire Wire Line
+	1450 1300 1400 1300
+Wire Wire Line
+	1800 950  1750 950 
+Wire Wire Line
+	1800 1300 1750 1300
+Text GLabel 2800 900  1    50   Input ~ 0
+COL5_L
+Text GLabel 2450 900  1    50   Input ~ 0
+COL4_L
+Text GLabel 2100 900  1    50   Input ~ 0
+COL3_L
+Wire Wire Line
+	2150 950  2100 950 
+Wire Wire Line
+	2500 950  2450 950 
+Wire Wire Line
+	2850 950  2800 950 
+Wire Wire Line
+	1400 950  1400 900 
+$Comp
+L Ariamelon:SW_Push_Small SW2
+U 1 1 5F6D863A
+P 1550 950
+F 0 "SW2" H 1550 1050 50  0000 C CNN
+F 1 "MX" H 1550 650 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1550 1150 60  0001 C CNN
+F 3 "~" H 1550 1150 60  0001 C CNN
+	1    1550 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW30
+U 1 1 60697F9C
+P 2950 2350
+F 0 "SW30" H 2950 2450 50  0000 C CNN
+F 1 "MX" H 2950 2050 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2950 2550 60  0001 C CNN
+F 3 "~" H 2950 2550 60  0001 C CNN
+	1    2950 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW5
+U 1 1 5F76C33D
+P 2600 950
+F 0 "SW5" H 2600 1050 50  0000 C CNN
+F 1 "MX" H 2600 650 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2600 1150 60  0001 C CNN
+F 3 "~" H 2600 1150 60  0001 C CNN
+	1    2600 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5F76C343
+P 2700 1050
+F 0 "D5" V 2700 950 50  0000 R CNN
+F 1 "D" V 2655 971 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2700 1050 50  0001 C CNN
+F 3 "~" V 2700 1050 50  0001 C CNN
+	1    2700 1050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 5F76C351
+P 2700 1400
+F 0 "D11" V 2700 1300 50  0000 R CNN
+F 1 "D" V 2655 1321 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2700 1400 50  0001 C CNN
+F 3 "~" V 2700 1400 50  0001 C CNN
+	1    2700 1400
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW17
+U 1 1 5F76C358
+P 2600 1650
+F 0 "SW17" H 2600 1750 50  0000 C CNN
+F 1 "MX" H 2600 1350 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2600 1850 60  0001 C CNN
+F 3 "~" H 2600 1850 60  0001 C CNN
+	1    2600 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 5F76C35E
+P 2700 1750
+F 0 "D17" V 2700 1650 50  0000 R CNN
+F 1 "D" V 2655 1671 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2700 1750 50  0001 C CNN
+F 3 "~" V 2700 1750 50  0001 C CNN
+	1    2700 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW23
+U 1 1 5F76C365
+P 2600 2000
+F 0 "SW23" H 2600 2100 50  0000 C CNN
+F 1 "MX" H 2600 1700 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2600 2200 60  0001 C CNN
+F 3 "~" H 2600 2200 60  0001 C CNN
+	1    2600 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D23
+U 1 1 5F76C36B
+P 2700 2100
+F 0 "D23" V 2700 2000 50  0000 R CNN
+F 1 "D" V 2655 2021 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2700 2100 50  0001 C CNN
+F 3 "~" V 2700 2100 50  0001 C CNN
+	1    2700 2100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW29
+U 1 1 5F790CA0
+P 2600 2350
+F 0 "SW29" H 2600 2450 50  0000 C CNN
+F 1 "MX" H 2600 2050 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2600 2550 60  0001 C CNN
+F 3 "~" H 2600 2550 60  0001 C CNN
+	1    2600 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW26
+U 1 1 5F6D8670
+P 1550 2350
+F 0 "SW26" H 1550 2450 50  0000 C CNN
+F 1 "MX" H 1550 2050 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1550 2550 60  0001 C CNN
+F 3 "~" H 1550 2550 60  0001 C CNN
+	1    1550 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW20
+U 1 1 5F6D8663
+P 1550 2000
+F 0 "SW20" H 1550 2100 50  0000 C CNN
+F 1 "MX" H 1550 1700 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1550 2200 60  0001 C CNN
+F 3 "~" H 1550 2200 60  0001 C CNN
+	1    1550 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 5F6D8669
+P 1650 2100
+F 0 "D20" V 1650 2000 50  0000 R CNN
+F 1 "D" V 1605 2021 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1650 2100 50  0001 C CNN
+F 3 "~" V 1650 2100 50  0001 C CNN
+	1    1650 2100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW14
+U 1 1 5F6D8656
+P 1550 1650
+F 0 "SW14" H 1550 1750 50  0000 C CNN
+F 1 "MX" H 1550 1350 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1550 1850 60  0001 C CNN
+F 3 "~" H 1550 1850 60  0001 C CNN
+	1    1550 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 5F6D865C
+P 1650 1750
+F 0 "D14" V 1650 1650 50  0000 R CNN
+F 1 "D" V 1605 1671 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1650 1750 50  0001 C CNN
+F 3 "~" V 1650 1750 50  0001 C CNN
+	1    1650 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW8
+U 1 1 5F6D8649
+P 1550 1300
+F 0 "SW8" H 1550 1400 50  0000 C CNN
+F 1 "MX" H 1550 1000 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1550 1500 60  0001 C CNN
+F 3 "~" H 1550 1500 60  0001 C CNN
+	1    1550 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 5F6D864F
+P 1650 1400
+F 0 "D8" V 1650 1300 50  0000 R CNN
+F 1 "D" V 1605 1321 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1650 1400 50  0001 C CNN
+F 3 "~" V 1650 1400 50  0001 C CNN
+	1    1650 1400
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW27
+U 1 1 5F70873A
+P 1900 2350
+F 0 "SW27" H 1900 2450 50  0000 C CNN
+F 1 "MX" H 1900 2050 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1900 2550 60  0001 C CNN
+F 3 "~" H 1900 2550 60  0001 C CNN
+	1    1900 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW28
+U 1 1 5F76C372
+P 2250 2350
+F 0 "SW28" H 2250 2450 50  0000 C CNN
+F 1 "MX" H 2250 2050 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2250 2550 60  0001 C CNN
+F 3 "~" H 2250 2550 60  0001 C CNN
+	1    2250 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D24
+U 1 1 5F790C99
+P 3050 2100
+F 0 "D24" V 3050 2000 50  0000 R CNN
+F 1 "D" V 3005 2021 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 3050 2100 50  0001 C CNN
+F 3 "~" V 3050 2100 50  0001 C CNN
+	1    3050 2100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW24
+U 1 1 5F790C93
+P 2950 2000
+F 0 "SW24" H 2950 2100 50  0000 C CNN
+F 1 "MX" H 2950 1700 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2950 2200 60  0001 C CNN
+F 3 "~" H 2950 2200 60  0001 C CNN
+	1    2950 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 5F790C8C
+P 3050 1750
+F 0 "D18" V 3050 1650 50  0000 R CNN
+F 1 "D" V 3005 1671 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 3050 1750 50  0001 C CNN
+F 3 "~" V 3050 1750 50  0001 C CNN
+	1    3050 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW18
+U 1 1 5F790C86
+P 2950 1650
+F 0 "SW18" H 2950 1750 50  0000 C CNN
+F 1 "MX" H 2950 1350 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2950 1850 60  0001 C CNN
+F 3 "~" H 2950 1850 60  0001 C CNN
+	1    2950 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 5F790C7F
+P 3050 1400
+F 0 "D12" V 3050 1300 50  0000 R CNN
+F 1 "D" V 3005 1321 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 3050 1400 50  0001 C CNN
+F 3 "~" V 3050 1400 50  0001 C CNN
+	1    3050 1400
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 5F790C71
+P 3050 1050
+F 0 "D6" V 3050 950 50  0000 R CNN
+F 1 "D" V 3005 971 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 3050 1050 50  0001 C CNN
+F 3 "~" V 3050 1050 50  0001 C CNN
+	1    3050 1050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW6
+U 1 1 5F790C6B
+P 2950 950
+F 0 "SW6" H 2950 1050 50  0000 C CNN
+F 1 "MX" H 2950 650 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2950 1150 60  0001 C CNN
+F 3 "~" H 2950 1150 60  0001 C CNN
+	1    2950 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D22
+U 1 1 5F740BE7
+P 2350 2100
+F 0 "D22" V 2350 2000 50  0000 R CNN
+F 1 "D" V 2305 2021 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2350 2100 50  0001 C CNN
+F 3 "~" V 2350 2100 50  0001 C CNN
+	1    2350 2100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW22
+U 1 1 5F740BE1
+P 2250 2000
+F 0 "SW22" H 2250 2100 50  0000 C CNN
+F 1 "MX" H 2250 1700 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2250 2200 60  0001 C CNN
+F 3 "~" H 2250 2200 60  0001 C CNN
+	1    2250 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 5F740BDA
+P 2350 1750
+F 0 "D16" V 2350 1650 50  0000 R CNN
+F 1 "D" V 2305 1671 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2350 1750 50  0001 C CNN
+F 3 "~" V 2350 1750 50  0001 C CNN
+	1    2350 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW16
+U 1 1 5F740BD4
+P 2250 1650
+F 0 "SW16" H 2250 1750 50  0000 C CNN
+F 1 "MX" H 2250 1350 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2250 1850 60  0001 C CNN
+F 3 "~" H 2250 1850 60  0001 C CNN
+	1    2250 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 5F740BCD
+P 2350 1400
+F 0 "D10" V 2350 1300 50  0000 R CNN
+F 1 "D" V 2305 1321 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2350 1400 50  0001 C CNN
+F 3 "~" V 2350 1400 50  0001 C CNN
+	1    2350 1400
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5F740BBF
+P 2350 1050
+F 0 "D4" V 2350 950 50  0000 R CNN
+F 1 "D" V 2305 971 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2350 1050 50  0001 C CNN
+F 3 "~" V 2350 1050 50  0001 C CNN
+	1    2350 1050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW4
+U 1 1 5F740BB9
+P 2250 950
+F 0 "SW4" H 2250 1050 50  0000 C CNN
+F 1 "MX" H 2250 650 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2250 1150 60  0001 C CNN
+F 3 "~" H 2250 1150 60  0001 C CNN
+	1    2250 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 5F708733
+P 2000 2100
+F 0 "D21" V 2000 2000 50  0000 R CNN
+F 1 "D" V 1955 2021 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2000 2100 50  0001 C CNN
+F 3 "~" V 2000 2100 50  0001 C CNN
+	1    2000 2100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW21
+U 1 1 5F70872D
+P 1900 2000
+F 0 "SW21" H 1900 2100 50  0000 C CNN
+F 1 "MX" H 1900 1700 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1900 2200 60  0001 C CNN
+F 3 "~" H 1900 2200 60  0001 C CNN
+	1    1900 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 5F708726
+P 2000 1750
+F 0 "D15" V 2000 1650 50  0000 R CNN
+F 1 "D" V 1955 1671 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2000 1750 50  0001 C CNN
+F 3 "~" V 2000 1750 50  0001 C CNN
+	1    2000 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW15
+U 1 1 5F708720
+P 1900 1650
+F 0 "SW15" H 1900 1750 50  0000 C CNN
+F 1 "MX" H 1900 1350 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1900 1850 60  0001 C CNN
+F 3 "~" H 1900 1850 60  0001 C CNN
+	1    1900 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 5F708719
+P 2000 1400
+F 0 "D9" V 2000 1300 50  0000 R CNN
+F 1 "D" V 1955 1321 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2000 1400 50  0001 C CNN
+F 3 "~" V 2000 1400 50  0001 C CNN
+	1    2000 1400
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5F70870B
+P 2000 1050
+F 0 "D3" V 2000 950 50  0000 R CNN
+F 1 "D" V 1955 971 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2000 1050 50  0001 C CNN
+F 3 "~" V 2000 1050 50  0001 C CNN
+	1    2000 1050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW3
+U 1 1 5F708705
+P 1900 950
+F 0 "SW3" H 1900 1050 50  0000 C CNN
+F 1 "MX" H 1900 650 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1900 1150 60  0001 C CNN
+F 3 "~" H 1900 1150 60  0001 C CNN
+	1    1900 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5F6D8641
+P 1650 1050
+F 0 "D2" V 1650 950 50  0000 R CNN
+F 1 "D" V 1605 971 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1650 1050 50  0001 C CNN
+F 3 "~" V 1650 1050 50  0001 C CNN
+	1    1650 1050
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2150 1300 2100 1300
+Wire Wire Line
+	2500 1300 2450 1300
+Wire Wire Line
+	2850 1300 2800 1300
+$Comp
+L Ariamelon:SW_Push_Small SW11
+U 1 1 5F76C34B
+P 2600 1300
+F 0 "SW11" H 2600 1400 50  0000 C CNN
+F 1 "MX" H 2600 1000 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2600 1500 60  0001 C CNN
+F 3 "~" H 2600 1500 60  0001 C CNN
+	1    2600 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW12
+U 1 1 5F790C79
+P 2950 1300
+F 0 "SW12" H 2950 1400 50  0000 C CNN
+F 1 "MX" H 2950 1000 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2950 1500 60  0001 C CNN
+F 3 "~" H 2950 1500 60  0001 C CNN
+	1    2950 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW10
+U 1 1 5F740BC7
+P 2250 1300
+F 0 "SW10" H 2250 1400 50  0000 C CNN
+F 1 "MX" H 2250 1000 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2250 1500 60  0001 C CNN
+F 3 "~" H 2250 1500 60  0001 C CNN
+	1    2250 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW9
+U 1 1 5F708713
+P 1900 1300
+F 0 "SW9" H 1900 1400 50  0000 C CNN
+F 1 "MX" H 1900 1000 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1900 1500 60  0001 C CNN
+F 3 "~" H 1900 1500 60  0001 C CNN
+	1    1900 1300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 950  1750 900 
+Wire Wire Line
+	2800 950  2800 900 
+Wire Wire Line
+	2450 950  2450 900 
+Wire Wire Line
+	2100 950  2100 900 
+Wire Wire Line
+	1400 950  1400 1300
+Wire Wire Line
+	1400 2350 1450 2350
+Connection ~ 1400 950 
+Connection ~ 1400 1300
+Wire Wire Line
+	1400 1300 1400 1650
+Wire Wire Line
+	1450 2000 1400 2000
+Connection ~ 1400 2000
+Wire Wire Line
+	1400 2000 1400 2350
+Wire Wire Line
+	1450 1650 1400 1650
+Connection ~ 1400 1650
+Wire Wire Line
+	1400 1650 1400 2000
+Wire Wire Line
+	1750 950  1750 1300
+Wire Wire Line
+	1750 2350 1800 2350
+Connection ~ 1750 950 
+Connection ~ 1750 1300
+Wire Wire Line
+	1750 1300 1750 1650
+Wire Wire Line
+	1800 2000 1750 2000
+Connection ~ 1750 2000
+Wire Wire Line
+	1750 2000 1750 2350
+Wire Wire Line
+	1800 1650 1750 1650
+Connection ~ 1750 1650
+Wire Wire Line
+	1750 1650 1750 2000
+Wire Wire Line
+	2100 950  2100 1300
+Wire Wire Line
+	2100 2350 2150 2350
+Connection ~ 2100 950 
+Connection ~ 2100 1300
+Wire Wire Line
+	2100 1300 2100 1650
+Wire Wire Line
+	2150 2000 2100 2000
+Connection ~ 2100 2000
+Wire Wire Line
+	2100 2000 2100 2350
+Wire Wire Line
+	2150 1650 2100 1650
+Connection ~ 2100 1650
+Wire Wire Line
+	2100 1650 2100 2000
+Wire Wire Line
+	2450 950  2450 1300
+Wire Wire Line
+	2450 2350 2500 2350
+Connection ~ 2450 950 
+Connection ~ 2450 1300
+Wire Wire Line
+	2450 1300 2450 1650
+Wire Wire Line
+	2500 2000 2450 2000
+Connection ~ 2450 2000
+Wire Wire Line
+	2450 2000 2450 2350
+Wire Wire Line
+	2500 1650 2450 1650
+Connection ~ 2450 1650
+Wire Wire Line
+	2450 1650 2450 2000
+Wire Wire Line
+	2800 950  2800 1300
+Wire Wire Line
+	2800 2350 2850 2350
+Connection ~ 2800 950 
+Connection ~ 2800 1300
+Wire Wire Line
+	2800 1300 2800 1650
+Wire Wire Line
+	2850 2000 2800 2000
+Connection ~ 2800 2000
+Wire Wire Line
+	2800 2000 2800 2350
+Wire Wire Line
+	2850 1650 2800 1650
+Connection ~ 2800 1650
+Wire Wire Line
+	2800 1650 2800 2000
+Wire Wire Line
+	1000 1150 1300 1150
+Wire Wire Line
+	1000 1500 1300 1500
+Wire Wire Line
+	1000 1850 1300 1850
+Wire Wire Line
+	1000 2200 1300 2200
+Wire Wire Line
+	1050 2000 1050 2350
+Connection ~ 1050 2000
+Wire Wire Line
+	1100 2000 1050 2000
+Wire Wire Line
+	1050 1650 1050 2000
+Connection ~ 1050 1650
+Wire Wire Line
+	1050 1300 1050 1650
+Connection ~ 1050 1300
+Connection ~ 1050 950 
+Wire Wire Line
+	1050 2350 1100 2350
+Wire Wire Line
+	1050 950  1050 1300
+Text GLabel 1000 1500 0    50   Input ~ 0
+ROW1_L
+$Comp
+L Device:D_Small D7
+U 1 1 5F608758
+P 1300 1400
+F 0 "D7" V 1300 1300 50  0000 R CNN
+F 1 "D" V 1255 1321 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1300 1400 50  0001 C CNN
+F 3 "~" V 1300 1400 50  0001 C CNN
+	1    1300 1400
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 5F61EF32
+P 1300 2100
+F 0 "D19" V 1300 2000 50  0000 R CNN
+F 1 "D" V 1255 2021 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1300 2100 50  0001 C CNN
+F 3 "~" V 1300 2100 50  0001 C CNN
+	1    1300 2100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW25
+U 1 1 5F62A165
+P 1200 2350
+F 0 "SW25" H 1200 2450 50  0000 C CNN
+F 1 "MX" H 1200 2050 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1200 2550 60  0001 C CNN
+F 3 "~" H 1200 2550 60  0001 C CNN
+	1    1200 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW19
+U 1 1 5F61EF2C
+P 1200 2000
+F 0 "SW19" H 1200 2100 50  0000 C CNN
+F 1 "MX" H 1200 1700 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1200 2200 60  0001 C CNN
+F 3 "~" H 1200 2200 60  0001 C CNN
+	1    1200 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW13
+U 1 1 5F613E79
+P 1200 1650
+F 0 "SW13" H 1200 1750 50  0000 C CNN
+F 1 "MX" H 1200 1350 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1200 1850 60  0001 C CNN
+F 3 "~" H 1200 1850 60  0001 C CNN
+	1    1200 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW7
+U 1 1 5F608752
+P 1200 1300
+F 0 "SW7" H 1200 1400 50  0000 C CNN
+F 1 "MX" H 1200 1000 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1200 1500 60  0001 C CNN
+F 3 "~" H 1200 1500 60  0001 C CNN
+	1    1200 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 5F613E7F
+P 1300 1750
+F 0 "D13" V 1300 1650 50  0000 R CNN
+F 1 "D" V 1255 1671 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1300 1750 50  0001 C CNN
+F 3 "~" V 1300 1750 50  0001 C CNN
+	1    1300 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5DAD8119
+P 1300 1050
+F 0 "D1" V 1300 950 50  0000 R CNN
+F 1 "D" V 1255 971 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1300 1050 50  0001 C CNN
+F 3 "~" V 1300 1050 50  0001 C CNN
+	1    1300 1050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW1
+U 1 1 5E7F9F5F
+P 1200 950
+F 0 "SW1" H 1200 1050 50  0000 C CNN
+F 1 "MX" H 1200 650 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1200 1150 60  0001 C CNN
+F 3 "~" H 1200 1150 60  0001 C CNN
+	1    1200 950 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 950  1050 900 
+Wire Wire Line
+	1100 1650 1050 1650
+Wire Wire Line
+	1100 1300 1050 1300
+Wire Wire Line
+	1100 950  1050 950 
+Text GLabel 1000 1850 0    50   Input ~ 0
+ROW2_L
+Text GLabel 1000 1150 0    50   Input ~ 0
+ROW0_L
+Text GLabel 1000 2550 0    50   Input ~ 0
+ROW4_L
+Text GLabel 1000 2200 0    50   Input ~ 0
+ROW3_L
+Text GLabel 1050 900  1    50   Input ~ 0
+COL0_L
+Wire Wire Line
+	6850 1400 6750 1400
+$Comp
+L Device:D_Small D31
+U 1 1 5FC9F973
+P 6850 1600
+F 0 "D31" H 6900 1500 50  0000 R CNN
+F 1 "D" V 6805 1521 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 6850 1600 50  0001 C CNN
+F 3 "~" V 6850 1600 50  0001 C CNN
+	1    6850 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW31
+U 1 1 5F7FDE64
+P 6450 1500
+F 0 "SW31" H 6350 1150 50  0000 L CNN
+F 1 "Encoder" H 6300 1250 50  0000 L CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 6300 1660 50  0001 C CNN
+F 3 "~" H 6450 1760 50  0001 C CNN
+	1    6450 1500
+	1    0    0    1   
+$EndComp
+Text GLabel 6150 1600 0    50   Input ~ 0
+ROT_A_L
+Text GLabel 6150 1400 0    50   Input ~ 0
+ROT_B_L
+Text GLabel 6850 1400 2    50   Input ~ 0
+COL6_L
+Wire Wire Line
+	5750 1500 5750 1650
+NoConn ~ 5100 1000
+Text GLabel 6950 1600 2    50   Input ~ 0
+ROW3_L
+Wire Wire Line
+	1000 2550 1300 2550
+Connection ~ 1300 2550
+$Comp
+L Device:D_Small D25
+U 1 1 5F62A16B
+P 1300 2450
+F 0 "D25" V 1300 2350 50  0000 R CNN
+F 1 "D" V 1255 2371 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1300 2450 50  0001 C CNN
+F 3 "~" V 1300 2450 50  0001 C CNN
+	1    1300 2450
+	0    1    -1   0   
+$EndComp
+Connection ~ 2350 2550
+$Comp
+L Device:D_Small D28
+U 1 1 5F76C378
+P 2350 2450
+F 0 "D28" V 2350 2350 50  0000 R CNN
+F 1 "D" V 2305 2371 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2350 2450 50  0001 C CNN
+F 3 "~" V 2350 2450 50  0001 C CNN
+	1    2350 2450
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2350 2550 2000 2550
+Connection ~ 2000 2550
+$Comp
+L Device:D_Small D27
+U 1 1 5F708740
+P 2000 2450
+F 0 "D27" V 2000 2350 50  0000 R CNN
+F 1 "D" V 1955 2371 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2000 2450 50  0001 C CNN
+F 3 "~" V 2000 2450 50  0001 C CNN
+	1    2000 2450
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1650 2550 1300 2550
+Wire Wire Line
+	2000 2550 1650 2550
+Connection ~ 1650 2550
+$Comp
+L Device:D_Small D26
+U 1 1 5F6D8676
+P 1650 2450
+F 0 "D26" V 1650 2350 50  0000 R CNN
+F 1 "D" V 1605 2371 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1650 2450 50  0001 C CNN
+F 3 "~" V 1650 2450 50  0001 C CNN
+	1    1650 2450
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3050 2550 2700 2550
+Wire Wire Line
+	2700 2550 2350 2550
+Connection ~ 2700 2550
+$Comp
+L Device:D_Small D29
+U 1 1 5F790CA6
+P 2700 2450
+F 0 "D29" V 2700 2350 50  0000 R CNN
+F 1 "D" V 2655 2371 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2700 2450 50  0001 C CNN
+F 3 "~" V 2700 2450 50  0001 C CNN
+	1    2700 2450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_Small D30
+U 1 1 5F7B2777
+P 3050 2450
+F 0 "D30" V 3050 2350 50  0000 R CNN
+F 1 "D" V 3005 2371 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 3050 2450 50  0001 C CNN
+F 3 "~" V 3050 2450 50  0001 C CNN
+	1    3050 2450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Ariamelon:MJ-4PP-9 J1
+U 1 1 61BA2164
+P 7950 1550
+F 0 "J1" H 7769 1507 50  0000 R CNN
+F 1 "MJ-4PP-9" H 7769 1598 50  0000 R CNN
+F 2 "Ariamelon:MJ-4PP-9_1side" H 8225 1725 50  0001 C CNN
+F 3 "~" H 8225 1725 50  0001 C CNN
+	1    7950 1550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8350 1700 8350 1800
+Wire Wire Line
+	8250 1400 8350 1400
+Wire Wire Line
+	8250 1700 8350 1700
+Wire Wire Line
+	8350 1700 8350 1400
+Wire Wire Line
+	8250 1500 8450 1500
+Text GLabel 8550 1600 2    50   Input ~ 0
+DATA_L
+Wire Wire Line
+	8550 1600 8250 1600
+Connection ~ 8350 1700
+Wire Wire Line
+	8450 1400 8450 1500
+Wire Wire Line
+	3250 1400 3250 1300
+NoConn ~ 5100 1100
+Wire Wire Line
+	9800 1700 9800 1600
+Wire Wire Line
+	9800 1600 9700 1600
+Text GLabel 3250 1400 3    50   Input ~ 0
+GND_L
+Text GLabel 5500 950  1    50   Input ~ 0
+VDD_L
+Text GLabel 5750 1650 3    50   Input ~ 0
+GND_L
+Text GLabel 8350 1800 3    50   Input ~ 0
+GND_L
+Text GLabel 8450 1400 1    50   Input ~ 0
+VDD_L
+Text GLabel 9800 1700 3    50   Input ~ 0
+GND_L
+$Comp
+L Device:D_Small D50
+U 1 1 61EE08FE
+P 700 4850
+F 0 "D50" V 700 4750 50  0000 R CNN
+F 1 "D" V 655 4771 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 700 4850 50  0001 C CNN
+F 3 "~" V 700 4850 50  0001 C CNN
+	1    700  4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D44
+U 1 1 61EE090A
+P 700 4500
+F 0 "D44" V 700 4400 50  0000 R CNN
+F 1 "D" V 655 4421 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 700 4500 50  0001 C CNN
+F 3 "~" V 700 4500 50  0001 C CNN
+	1    700  4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D38
+U 1 1 61EE0916
+P 700 4150
+F 0 "D38" V 700 4050 50  0000 R CNN
+F 1 "D" V 655 4071 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 700 4150 50  0001 C CNN
+F 3 "~" V 700 4150 50  0001 C CNN
+	1    700  4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 61EE091C
+P 700 3800
+F 0 "D32" V 700 3700 50  0000 R CNN
+F 1 "D" V 655 3721 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 700 3800 50  0001 C CNN
+F 3 "~" V 700 3800 50  0001 C CNN
+	1    700  3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D56
+U 1 1 61EE0A4F
+P 700 5200
+F 0 "D56" V 700 5100 50  0000 R CNN
+F 1 "D" V 655 5121 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 700 5200 50  0001 C CNN
+F 3 "~" V 700 5200 50  0001 C CNN
+	1    700  5200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9800 4450 3    50   Input ~ 0
+GND_R
+Text GLabel 8450 4150 1    50   Input ~ 0
+VDD_R
+Text GLabel 8350 4550 3    50   Input ~ 0
+GND_R
+Wire Wire Line
+	9800 4350 9700 4350
+Wire Wire Line
+	9800 4450 9800 4350
+Wire Wire Line
+	8450 4150 8450 4250
+Connection ~ 8350 4450
+Wire Wire Line
+	8550 4350 8250 4350
+Text GLabel 8550 4350 2    50   Input ~ 0
+DATA_R
+Wire Wire Line
+	8250 4250 8450 4250
+Wire Wire Line
+	8350 4450 8350 4150
+Wire Wire Line
+	8250 4450 8350 4450
+Wire Wire Line
+	8250 4150 8350 4150
+Wire Wire Line
+	8350 4450 8350 4550
+$Comp
+L Ariamelon:MJ-4PP-9 J3
+U 1 1 61E6DA15
+P 7950 4300
+F 0 "J3" H 7769 4257 50  0000 R CNN
+F 1 "MJ-4PP-9" H 7769 4348 50  0000 R CNN
+F 2 "Ariamelon:MJ-4PP-9_1side" H 8225 4475 50  0001 C CNN
+F 3 "~" H 8225 4475 50  0001 C CNN
+	1    7950 4300
+	1    0    0    1   
+$EndComp
+Text GLabel 9300 4350 0    50   Input ~ 0
+RESET_R
+Text GLabel 5750 4400 3    50   Input ~ 0
+GND_R
+Text GLabel 6950 4350 2    50   Input ~ 0
+ROW3_R
+Wire Wire Line
+	5750 4250 5750 4400
+Text GLabel 6850 4150 2    50   Input ~ 0
+COL6_R
+Text GLabel 6150 4150 0    50   Input ~ 0
+ROT_A_R
+$Comp
+L Device:Rotary_Encoder_Switch SW63
+U 1 1 61E6DA08
+P 6450 4250
+F 0 "SW63" H 6350 3900 50  0000 L CNN
+F 1 "Encoder" H 6300 4000 50  0000 L CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 6300 4410 50  0001 C CNN
+F 3 "~" H 6450 4510 50  0001 C CNN
+	1    6450 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D62
+U 1 1 61E6DA02
+P 6850 4350
+F 0 "D62" H 6900 4250 50  0000 R CNN
+F 1 "D" V 6805 4271 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 6850 4350 50  0001 C CNN
+F 3 "~" V 6850 4350 50  0001 C CNN
+	1    6850 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4150 6750 4150
+$Comp
+L Device:D_Small D57
+U 1 1 61EE0A49
+P 1050 5200
+F 0 "D57" V 1050 5100 50  0000 R CNN
+F 1 "D" V 1005 5121 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1050 5200 50  0001 C CNN
+F 3 "~" V 1050 5200 50  0001 C CNN
+	1    1050 5200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1050 5300
+Wire Wire Line
+	1050 5300 1400 5300
+Wire Wire Line
+	700  5300 1050 5300
+$Comp
+L Device:D_Small D60
+U 1 1 61EE0A40
+P 2100 5200
+F 0 "D60" V 2100 5100 50  0000 R CNN
+F 1 "D" V 2055 5121 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2100 5200 50  0001 C CNN
+F 3 "~" V 2100 5200 50  0001 C CNN
+	1    2100 5200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2100 5300
+Wire Wire Line
+	1750 5300 2100 5300
+Wire Wire Line
+	2100 5300 2450 5300
+$Comp
+L Device:D_Small D59
+U 1 1 61EE0A37
+P 1750 5200
+F 0 "D59" V 1750 5100 50  0000 R CNN
+F 1 "D" V 1705 5121 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1750 5200 50  0001 C CNN
+F 3 "~" V 1750 5200 50  0001 C CNN
+	1    1750 5200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1750 5300
+Wire Wire Line
+	1400 5300 1750 5300
+$Comp
+L Device:D_Small D58
+U 1 1 61EE0A2F
+P 1400 5200
+F 0 "D58" V 1400 5100 50  0000 R CNN
+F 1 "D" V 1355 5121 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1400 5200 50  0001 C CNN
+F 3 "~" V 1400 5200 50  0001 C CNN
+	1    1400 5200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1400 5300
+$Comp
+L Device:D_Small D61
+U 1 1 61EE0A28
+P 2450 5200
+F 0 "D61" V 2450 5100 50  0000 R CNN
+F 1 "D" V 2405 5121 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2450 5200 50  0001 C CNN
+F 3 "~" V 2450 5200 50  0001 C CNN
+	1    2450 5200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2450 5300
+Wire Wire Line
+	2750 5300 2450 5300
+Text GLabel 2700 3650 1    50   Input ~ 0
+COL0_R
+Text GLabel 2750 4950 2    50   Input ~ 0
+ROW3_R
+Text GLabel 2750 5300 2    50   Input ~ 0
+ROW4_R
+Text GLabel 2750 3900 2    50   Input ~ 0
+ROW0_R
+Text GLabel 2750 4600 2    50   Input ~ 0
+ROW2_R
+Wire Wire Line
+	2650 3700 2700 3700
+Wire Wire Line
+	2650 4050 2700 4050
+Wire Wire Line
+	2650 4400 2700 4400
+Wire Wire Line
+	2700 3700 2700 3650
+$Comp
+L Ariamelon:SW_Push_Small SW38
+U 1 1 61EE0A17
+P 2550 3700
+F 0 "SW38" H 2550 3800 50  0000 C CNN
+F 1 "MX" H 2550 3400 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2550 3900 60  0001 C CNN
+F 3 "~" H 2550 3900 60  0001 C CNN
+	1    2550 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D37
+U 1 1 61EE0A11
+P 2450 3800
+F 0 "D37" V 2450 3700 50  0000 R CNN
+F 1 "D" V 2405 3721 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2450 3800 50  0001 C CNN
+F 3 "~" V 2450 3800 50  0001 C CNN
+	1    2450 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D49
+U 1 1 61EE0A0B
+P 2450 4500
+F 0 "D49" V 2450 4400 50  0000 R CNN
+F 1 "D" V 2405 4421 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2450 4500 50  0001 C CNN
+F 3 "~" V 2450 4500 50  0001 C CNN
+	1    2450 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW44
+U 1 1 61EE0A05
+P 2550 4050
+F 0 "SW44" H 2550 4150 50  0000 C CNN
+F 1 "MX" H 2550 3750 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2550 4250 60  0001 C CNN
+F 3 "~" H 2550 4250 60  0001 C CNN
+	1    2550 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW50
+U 1 1 61EE09FF
+P 2550 4400
+F 0 "SW50" H 2550 4500 50  0000 C CNN
+F 1 "MX" H 2550 4100 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2550 4600 60  0001 C CNN
+F 3 "~" H 2550 4600 60  0001 C CNN
+	1    2550 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW56
+U 1 1 61EE09F9
+P 2550 4750
+F 0 "SW56" H 2550 4850 50  0000 C CNN
+F 1 "MX" H 2550 4450 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2550 4950 60  0001 C CNN
+F 3 "~" H 2550 4950 60  0001 C CNN
+	1    2550 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW62
+U 1 1 61EE09F3
+P 2550 5100
+F 0 "SW62" H 2550 5200 50  0000 C CNN
+F 1 "MX" H 2550 4800 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2550 5300 60  0001 C CNN
+F 3 "~" H 2550 5300 60  0001 C CNN
+	1    2550 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D55
+U 1 1 61EE09ED
+P 2450 4850
+F 0 "D55" V 2450 4750 50  0000 R CNN
+F 1 "D" V 2405 4771 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2450 4850 50  0001 C CNN
+F 3 "~" V 2450 4850 50  0001 C CNN
+	1    2450 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D43
+U 1 1 61EE09E7
+P 2450 4150
+F 0 "D43" V 2450 4050 50  0000 R CNN
+F 1 "D" V 2405 4071 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2450 4150 50  0001 C CNN
+F 3 "~" V 2450 4150 50  0001 C CNN
+	1    2450 4150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2750 4250 2    50   Input ~ 0
+ROW1_R
+Wire Wire Line
+	2700 3700 2700 4050
+Wire Wire Line
+	2700 5100 2650 5100
+Connection ~ 2700 3700
+Connection ~ 2700 4050
+Wire Wire Line
+	2700 4050 2700 4400
+Connection ~ 2700 4400
+Wire Wire Line
+	2700 4400 2700 4750
+Wire Wire Line
+	2650 4750 2700 4750
+Connection ~ 2700 4750
+Wire Wire Line
+	2700 4750 2700 5100
+Wire Wire Line
+	2750 4950 2450 4950
+Wire Wire Line
+	2750 4600 2450 4600
+Wire Wire Line
+	2750 4250 2450 4250
+Wire Wire Line
+	2750 3900 2450 3900
+Wire Wire Line
+	950  4400 950  4750
+Connection ~ 950  4400
+Wire Wire Line
+	900  4400 950  4400
+Wire Wire Line
+	950  4750 950  5100
+Connection ~ 950  4750
+Wire Wire Line
+	900  4750 950  4750
+Wire Wire Line
+	950  4050 950  4400
+Wire Wire Line
+	950  5100 900  5100
+Wire Wire Line
+	1300 4400 1300 4750
+Connection ~ 1300 4400
+Wire Wire Line
+	1250 4400 1300 4400
+Wire Wire Line
+	1300 4750 1300 5100
+Connection ~ 1300 4750
+Wire Wire Line
+	1250 4750 1300 4750
+Wire Wire Line
+	1300 4050 1300 4400
+Connection ~ 1300 4050
+Connection ~ 1300 3700
+Wire Wire Line
+	1300 5100 1250 5100
+Wire Wire Line
+	1300 3700 1300 4050
+Wire Wire Line
+	1650 4400 1650 4750
+Connection ~ 1650 4400
+Wire Wire Line
+	1600 4400 1650 4400
+Wire Wire Line
+	1650 4750 1650 5100
+Connection ~ 1650 4750
+Wire Wire Line
+	1600 4750 1650 4750
+Wire Wire Line
+	1650 4050 1650 4400
+Connection ~ 1650 4050
+Connection ~ 1650 3700
+Wire Wire Line
+	1650 5100 1600 5100
+Wire Wire Line
+	1650 3700 1650 4050
+Wire Wire Line
+	2000 4400 2000 4750
+Connection ~ 2000 4400
+Wire Wire Line
+	1950 4400 2000 4400
+Wire Wire Line
+	2000 4750 2000 5100
+Connection ~ 2000 4750
+Wire Wire Line
+	1950 4750 2000 4750
+Wire Wire Line
+	2000 4050 2000 4400
+Connection ~ 2000 4050
+Connection ~ 2000 3700
+Wire Wire Line
+	2000 5100 1950 5100
+Wire Wire Line
+	2000 3700 2000 4050
+Wire Wire Line
+	2350 4400 2350 4750
+Connection ~ 2350 4400
+Wire Wire Line
+	2300 4400 2350 4400
+Wire Wire Line
+	2350 4750 2350 5100
+Connection ~ 2350 4750
+Wire Wire Line
+	2300 4750 2350 4750
+Wire Wire Line
+	2350 4050 2350 4400
+Connection ~ 2350 4050
+Connection ~ 2350 3700
+Wire Wire Line
+	2350 5100 2300 5100
+Wire Wire Line
+	2350 3700 2350 4050
+Wire Wire Line
+	1650 3700 1650 3650
+Wire Wire Line
+	1300 3700 1300 3650
+Wire Wire Line
+	950  3700 950  3650
+Wire Wire Line
+	2000 3700 2000 3650
+$Comp
+L Ariamelon:SW_Push_Small SW42
+U 1 1 61EE0997
+P 1850 4050
+F 0 "SW42" H 1850 4150 50  0000 C CNN
+F 1 "MX" H 1850 3750 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1850 4250 60  0001 C CNN
+F 3 "~" H 1850 4250 60  0001 C CNN
+	1    1850 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW41
+U 1 1 61EE0991
+P 1500 4050
+F 0 "SW41" H 1500 4150 50  0000 C CNN
+F 1 "MX" H 1500 3750 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1500 4250 60  0001 C CNN
+F 3 "~" H 1500 4250 60  0001 C CNN
+	1    1500 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW39
+U 1 1 61EE098B
+P 800 4050
+F 0 "SW39" H 800 4150 50  0000 C CNN
+F 1 "MX" H 800 3750 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 800 4250 60  0001 C CNN
+F 3 "~" H 800 4250 60  0001 C CNN
+	1    800  4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW40
+U 1 1 61EE0985
+P 1150 4050
+F 0 "SW40" H 1150 4150 50  0000 C CNN
+F 1 "MX" H 1150 3750 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1150 4250 60  0001 C CNN
+F 3 "~" H 1150 4250 60  0001 C CNN
+	1    1150 4050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	900  4050 950  4050
+Wire Wire Line
+	1250 4050 1300 4050
+Wire Wire Line
+	1600 4050 1650 4050
+$Comp
+L Device:D_Small D36
+U 1 1 61EE097C
+P 2100 3800
+F 0 "D36" V 2100 3700 50  0000 R CNN
+F 1 "D" V 2055 3721 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2100 3800 50  0001 C CNN
+F 3 "~" V 2100 3800 50  0001 C CNN
+	1    2100 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW36
+U 1 1 61EE0976
+P 1850 3700
+F 0 "SW36" H 1850 3800 50  0000 C CNN
+F 1 "MX" H 1850 3400 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1850 3900 60  0001 C CNN
+F 3 "~" H 1850 3900 60  0001 C CNN
+	1    1850 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D35
+U 1 1 61EE0970
+P 1750 3800
+F 0 "D35" V 1750 3700 50  0000 R CNN
+F 1 "D" V 1705 3721 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1750 3800 50  0001 C CNN
+F 3 "~" V 1750 3800 50  0001 C CNN
+	1    1750 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D41
+U 1 1 61EE096A
+P 1750 4150
+F 0 "D41" V 1750 4050 50  0000 R CNN
+F 1 "D" V 1705 4071 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1750 4150 50  0001 C CNN
+F 3 "~" V 1750 4150 50  0001 C CNN
+	1    1750 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW48
+U 1 1 61EE0964
+P 1850 4400
+F 0 "SW48" H 1850 4500 50  0000 C CNN
+F 1 "MX" H 1850 4100 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1850 4600 60  0001 C CNN
+F 3 "~" H 1850 4600 60  0001 C CNN
+	1    1850 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D47
+U 1 1 61EE095E
+P 1750 4500
+F 0 "D47" V 1750 4400 50  0000 R CNN
+F 1 "D" V 1705 4421 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1750 4500 50  0001 C CNN
+F 3 "~" V 1750 4500 50  0001 C CNN
+	1    1750 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW54
+U 1 1 61EE0958
+P 1850 4750
+F 0 "SW54" H 1850 4850 50  0000 C CNN
+F 1 "MX" H 1850 4450 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1850 4950 60  0001 C CNN
+F 3 "~" H 1850 4950 60  0001 C CNN
+	1    1850 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D53
+U 1 1 61EE0952
+P 1750 4850
+F 0 "D53" V 1750 4750 50  0000 R CNN
+F 1 "D" V 1705 4771 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1750 4850 50  0001 C CNN
+F 3 "~" V 1750 4850 50  0001 C CNN
+	1    1750 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW35
+U 1 1 61EE094C
+P 1500 3700
+F 0 "SW35" H 1500 3800 50  0000 C CNN
+F 1 "MX" H 1500 3400 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1500 3900 60  0001 C CNN
+F 3 "~" H 1500 3900 60  0001 C CNN
+	1    1500 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D34
+U 1 1 61EE0946
+P 1400 3800
+F 0 "D34" V 1400 3700 50  0000 R CNN
+F 1 "D" V 1355 3721 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1400 3800 50  0001 C CNN
+F 3 "~" V 1400 3800 50  0001 C CNN
+	1    1400 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D40
+U 1 1 61EE0940
+P 1400 4150
+F 0 "D40" V 1400 4050 50  0000 R CNN
+F 1 "D" V 1355 4071 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1400 4150 50  0001 C CNN
+F 3 "~" V 1400 4150 50  0001 C CNN
+	1    1400 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW47
+U 1 1 61EE093A
+P 1500 4400
+F 0 "SW47" H 1500 4500 50  0000 C CNN
+F 1 "MX" H 1500 4100 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1500 4600 60  0001 C CNN
+F 3 "~" H 1500 4600 60  0001 C CNN
+	1    1500 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D46
+U 1 1 61EE0934
+P 1400 4500
+F 0 "D46" V 1400 4400 50  0000 R CNN
+F 1 "D" V 1355 4421 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1400 4500 50  0001 C CNN
+F 3 "~" V 1400 4500 50  0001 C CNN
+	1    1400 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW53
+U 1 1 61EE092E
+P 1500 4750
+F 0 "SW53" H 1500 4850 50  0000 C CNN
+F 1 "MX" H 1500 4450 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1500 4950 60  0001 C CNN
+F 3 "~" H 1500 4950 60  0001 C CNN
+	1    1500 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D52
+U 1 1 61EE0928
+P 1400 4850
+F 0 "D52" V 1400 4750 50  0000 R CNN
+F 1 "D" V 1355 4771 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1400 4850 50  0001 C CNN
+F 3 "~" V 1400 4850 50  0001 C CNN
+	1    1400 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW33
+U 1 1 61EE0922
+P 800 3700
+F 0 "SW33" H 800 3800 50  0000 C CNN
+F 1 "MX" H 800 3400 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 800 3900 60  0001 C CNN
+F 3 "~" H 800 3900 60  0001 C CNN
+	1    800  3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW45
+U 1 1 61EE0910
+P 800 4400
+F 0 "SW45" H 800 4500 50  0000 C CNN
+F 1 "MX" H 800 4100 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 800 4600 60  0001 C CNN
+F 3 "~" H 800 4600 60  0001 C CNN
+	1    800  4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW51
+U 1 1 61EE0904
+P 800 4750
+F 0 "SW51" H 800 4850 50  0000 C CNN
+F 1 "MX" H 800 4450 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 800 4950 60  0001 C CNN
+F 3 "~" H 800 4950 60  0001 C CNN
+	1    800  4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW59
+U 1 1 61EE08F8
+P 1500 5100
+F 0 "SW59" H 1500 5200 50  0000 C CNN
+F 1 "MX" H 1500 4800 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1500 5300 60  0001 C CNN
+F 3 "~" H 1500 5300 60  0001 C CNN
+	1    1500 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW60
+U 1 1 61EE08F2
+P 1850 5100
+F 0 "SW60" H 1850 5200 50  0000 C CNN
+F 1 "MX" H 1850 4800 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1850 5300 60  0001 C CNN
+F 3 "~" H 1850 5300 60  0001 C CNN
+	1    1850 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D42
+U 1 1 61EE08EC
+P 2100 4150
+F 0 "D42" V 2100 4050 50  0000 R CNN
+F 1 "D" V 2055 4071 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2100 4150 50  0001 C CNN
+F 3 "~" V 2100 4150 50  0001 C CNN
+	1    2100 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW43
+U 1 1 61EE08E6
+P 2200 4050
+F 0 "SW43" H 2200 4150 50  0000 C CNN
+F 1 "MX" H 2200 3750 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2200 4250 60  0001 C CNN
+F 3 "~" H 2200 4250 60  0001 C CNN
+	1    2200 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D48
+U 1 1 61EE08E0
+P 2100 4500
+F 0 "D48" V 2100 4400 50  0000 R CNN
+F 1 "D" V 2055 4421 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2100 4500 50  0001 C CNN
+F 3 "~" V 2100 4500 50  0001 C CNN
+	1    2100 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW49
+U 1 1 61EE08DA
+P 2200 4400
+F 0 "SW49" H 2200 4500 50  0000 C CNN
+F 1 "MX" H 2200 4100 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2200 4600 60  0001 C CNN
+F 3 "~" H 2200 4600 60  0001 C CNN
+	1    2200 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D54
+U 1 1 61EE08D4
+P 2100 4850
+F 0 "D54" V 2100 4750 50  0000 R CNN
+F 1 "D" V 2055 4771 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 2100 4850 50  0001 C CNN
+F 3 "~" V 2100 4850 50  0001 C CNN
+	1    2100 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW55
+U 1 1 61EE08CE
+P 2200 4750
+F 0 "SW55" H 2200 4850 50  0000 C CNN
+F 1 "MX" H 2200 4450 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2200 4950 60  0001 C CNN
+F 3 "~" H 2200 4950 60  0001 C CNN
+	1    2200 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW61
+U 1 1 61EE08C8
+P 2200 5100
+F 0 "SW61" H 2200 5200 50  0000 C CNN
+F 1 "MX" H 2200 4800 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2200 5300 60  0001 C CNN
+F 3 "~" H 2200 5300 60  0001 C CNN
+	1    2200 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW58
+U 1 1 61EE08C2
+P 1150 5100
+F 0 "SW58" H 1150 5200 50  0000 C CNN
+F 1 "MX" H 1150 4800 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1150 5300 60  0001 C CNN
+F 3 "~" H 1150 5300 60  0001 C CNN
+	1    1150 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D51
+U 1 1 61EE08BC
+P 1050 4850
+F 0 "D51" V 1050 4750 50  0000 R CNN
+F 1 "D" V 1005 4771 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1050 4850 50  0001 C CNN
+F 3 "~" V 1050 4850 50  0001 C CNN
+	1    1050 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW52
+U 1 1 61EE08B6
+P 1150 4750
+F 0 "SW52" H 1150 4850 50  0000 C CNN
+F 1 "MX" H 1150 4450 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1150 4950 60  0001 C CNN
+F 3 "~" H 1150 4950 60  0001 C CNN
+	1    1150 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D45
+U 1 1 61EE08B0
+P 1050 4500
+F 0 "D45" V 1050 4400 50  0000 R CNN
+F 1 "D" V 1005 4421 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1050 4500 50  0001 C CNN
+F 3 "~" V 1050 4500 50  0001 C CNN
+	1    1050 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW46
+U 1 1 61EE08AA
+P 1150 4400
+F 0 "SW46" H 1150 4500 50  0000 C CNN
+F 1 "MX" H 1150 4100 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1150 4600 60  0001 C CNN
+F 3 "~" H 1150 4600 60  0001 C CNN
+	1    1150 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D39
+U 1 1 61EE08A4
+P 1050 4150
+F 0 "D39" V 1050 4050 50  0000 R CNN
+F 1 "D" V 1005 4071 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1050 4150 50  0001 C CNN
+F 3 "~" V 1050 4150 50  0001 C CNN
+	1    1050 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D33
+U 1 1 61EE089E
+P 1050 3800
+F 0 "D33" V 1050 3700 50  0000 R CNN
+F 1 "D" V 1005 3721 50  0001 R CNN
+F 2 "Ariamelon:D_Hybrid_SOD123_DO35" V 1050 3800 50  0001 C CNN
+F 3 "~" V 1050 3800 50  0001 C CNN
+	1    1050 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW34
+U 1 1 61EE0898
+P 1150 3700
+F 0 "SW34" H 1150 3800 50  0000 C CNN
+F 1 "MX" H 1150 3400 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 1150 3900 60  0001 C CNN
+F 3 "~" H 1150 3900 60  0001 C CNN
+	1    1150 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW57
+U 1 1 61EE0892
+P 800 5100
+F 0 "SW57" H 800 5200 50  0000 C CNN
+F 1 "MX" H 800 4800 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 800 5300 60  0001 C CNN
+F 3 "~" H 800 5300 60  0001 C CNN
+	1    800  5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Ariamelon:SW_Push_Small SW37
+U 1 1 61EE088C
+P 2200 3700
+F 0 "SW37" H 2200 3800 50  0000 C CNN
+F 1 "MX" H 2200 3400 60  0001 C CNN
+F 2 "Ariamelon:HYBRID-MX_SMK-1U-NoLED" H 2200 3900 60  0001 C CNN
+F 3 "~" H 2200 3900 60  0001 C CNN
+	1    2200 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3700 2350 3650
+Wire Wire Line
+	900  3700 950  3700
+Wire Wire Line
+	1250 3700 1300 3700
+Wire Wire Line
+	1600 3700 1650 3700
+Text GLabel 1650 3650 1    50   Input ~ 0
+COL3_R
+Text GLabel 1300 3650 1    50   Input ~ 0
+COL4_R
+Text GLabel 950  3650 1    50   Input ~ 0
+COL5_R
+Wire Wire Line
+	1950 4050 2000 4050
+Wire Wire Line
+	1950 3700 2000 3700
+Wire Wire Line
+	2300 4050 2350 4050
+Wire Wire Line
+	2300 3700 2350 3700
+Text GLabel 2000 3650 1    50   Input ~ 0
+COL2_R
+Text GLabel 2350 3650 1    50   Input ~ 0
+COL1_R
+Connection ~ 2450 3900
+Connection ~ 2100 3900
+Wire Wire Line
+	2100 3900 2450 3900
+Connection ~ 1750 3900
+Wire Wire Line
+	1750 3900 2100 3900
+Wire Wire Line
+	1400 3900 1750 3900
+Wire Wire Line
+	2450 4250 2100 4250
+Connection ~ 2450 4250
+Connection ~ 2100 4250
+Wire Wire Line
+	2100 4250 1750 4250
+Connection ~ 1750 4250
+Wire Wire Line
+	1750 4250 1400 4250
+Connection ~ 2450 4600
+Connection ~ 2100 4600
+Wire Wire Line
+	2100 4600 2450 4600
+Connection ~ 1750 4600
+Wire Wire Line
+	1750 4600 2100 4600
+Wire Wire Line
+	1400 4600 1750 4600
+Wire Wire Line
+	2450 4950 2100 4950
+Connection ~ 2450 4950
+Connection ~ 2100 4950
+Wire Wire Line
+	2100 4950 1750 4950
+Connection ~ 1750 4950
+Wire Wire Line
+	1750 4950 1400 4950
+Text GLabel 5450 3700 1    50   Input ~ 0
+VDD_R
+Text GLabel 5600 3950 3    50   Input ~ 0
+GND_R
+Wire Wire Line
+	5600 3950 5600 3850
+NoConn ~ 5050 3750
+$Comp
+L Ariamelon:ProMicro U2
+U 1 1 61E6D9F9
+P 4350 4300
+F 0 "U2" H 4350 5137 60  0000 C CNN
+F 1 "ProMicro" H 4350 5031 60  0000 C CNN
+F 2 "Ariamelon:ArduinoProMicro_Blank" V 5400 1800 60  0001 C CNN
+F 3 "" V 5400 1800 60  0001 C CNN
+	1    4350 4300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3650 3950
+Text GLabel 5050 3950 2    50   Input ~ 0
+RESET_R
+Wire Wire Line
+	5450 3700 5450 4050
+Wire Wire Line
+	3250 1300 3700 1300
+Wire Wire Line
+	5100 1300 5500 1300
+Wire Wire Line
+	5750 1500 6150 1500
+Text GLabel 3650 4150 0    50   Input ~ 0
+SDA_R
+Text GLabel 3650 4250 0    50   Input ~ 0
+SCL_R
+Wire Wire Line
+	5750 4250 6150 4250
+Text GLabel 6150 4350 0    50   Input ~ 0
+ROT_B_R
+Connection ~ 1050 3900
+Connection ~ 1050 4250
+Connection ~ 1050 4600
+Connection ~ 1050 4950
+Wire Wire Line
+	1050 3900 1400 3900
+Connection ~ 1400 3900
+Connection ~ 950  4050
+Connection ~ 950  3700
+Wire Wire Line
+	950  3700 950  4050
+Wire Wire Line
+	700  3900 1050 3900
+Wire Wire Line
+	1050 4250 1400 4250
+Wire Wire Line
+	700  4950 1050 4950
+Wire Wire Line
+	700  4600 1050 4600
+Wire Wire Line
+	700  4250 1050 4250
+Connection ~ 1400 4250
+Wire Wire Line
+	1050 4950 1400 4950
+Connection ~ 1400 4950
+Wire Wire Line
+	1050 4600 1400 4600
+Connection ~ 1400 4600
+Text GLabel 3650 3850 0    50   Input ~ 0
+COL0_R
+Text GLabel 3650 4550 0    50   Input ~ 0
+COL3_R
+Text GLabel 3650 4650 0    50   Input ~ 0
+COL4_R
+Text GLabel 3650 4750 0    50   Input ~ 0
+COL5_R
+Text GLabel 3650 4450 0    50   Input ~ 0
+COL2_R
+Text GLabel 3650 4350 0    50   Input ~ 0
+COL1_R
+Wire Wire Line
+	5050 4050 5450 4050
+Text GLabel 5050 4150 2    50   Input ~ 0
+DATA_R
+Text GLabel 5050 4850 2    50   Input ~ 0
+ROW1_R
+Text GLabel 5050 4750 2    50   Input ~ 0
+ROW2_R
+Text GLabel 3650 3750 0    50   Input ~ 0
+ROW0_R
+Text GLabel 5050 4550 2    50   Input ~ 0
+ROW4_R
+Text GLabel 5050 4650 2    50   Input ~ 0
+ROW3_R
+Text GLabel 5050 4250 2    50   Input ~ 0
+COL6_R
+Wire Wire Line
+	5050 3850 5600 3850
+$Comp
+L Switch:SW_Push SW32
+U 1 1 5E7DD54D
+P 9500 1600
+F 0 "SW32" H 9500 1885 50  0000 C CNN
+F 1 "Reset" H 9500 1794 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 9500 1800 50  0001 C CNN
+F 3 "~" H 9500 1800 50  0001 C CNN
+	1    9500 1600
+	1    0    0    -1  
+$EndComp
+Text GLabel 5050 4450 2    50   Input ~ 0
+ROT_A_R
+Text GLabel 5050 4350 2    50   Input ~ 0
+ROT_B_R
+$Comp
+L Switch:SW_Push SW64
+U 1 1 61E6D9F3
+P 9500 4350
+F 0 "SW64" H 9500 4635 50  0000 C CNN
+F 1 "Reset" H 9500 4544 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 9500 4550 50  0001 C CNN
+F 3 "~" H 9500 4550 50  0001 C CNN
+	1    9500 4350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3650 4850
+NoConn ~ 3650 4050
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 620F276A
+P 10250 4250
+F 0 "J4" H 10168 4567 50  0000 C CNN
+F 1 "OLED_R" H 10168 4476 50  0000 C CNN
+F 2 "Ariamelon:OLED_0.96_SSD1306_128x64" H 10250 4250 50  0001 C CNN
+F 3 "~" H 10250 4250 50  0001 C CNN
+	1    10250 4250
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10550 4550 3    50   Input ~ 0
+GND_R
+Wire Wire Line
+	10550 4550 10550 4150
+Wire Wire Line
+	10550 4150 10450 4150
+Text GLabel 10650 4150 1    50   Input ~ 0
+VDD_R
+Wire Wire Line
+	10650 4150 10650 4250
+Wire Wire Line
+	10450 4250 10650 4250
+Wire Wire Line
+	10450 1450 10550 1450
+Wire Wire Line
+	10450 1550 10650 1550
+Wire Wire Line
+	10650 1450 10650 1550
+Text GLabel 10650 1450 1    50   Input ~ 0
+VDD_L
+Text GLabel 10550 1850 3    50   Input ~ 0
+GND_L
+Wire Wire Line
+	10550 1450 10550 1850
+Text GLabel 10650 1750 2    50   Input ~ 0
+SDA_L
+Text GLabel 10650 1650 2    50   Input ~ 0
+SCL_L
+Wire Wire Line
+	10650 1650 10450 1650
+Wire Wire Line
+	10450 1750 10650 1750
+Text GLabel 10650 4450 2    50   Input ~ 0
+SDA_R
+Text GLabel 10650 4350 2    50   Input ~ 0
+SCL_R
+Wire Wire Line
+	10650 4350 10450 4350
+Wire Wire Line
+	10450 4450 10650 4450
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 621A80DF
+P 10250 1550
+F 0 "J2" H 10168 1867 50  0000 C CNN
+F 1 "OLED_L" H 10168 1776 50  0000 C CNN
+F 2 "Ariamelon:OLED_0.96_SSD1306_128x64" H 10250 1550 50  0001 C CNN
+F 3 "~" H 10250 1550 50  0001 C CNN
+	1    10250 1550
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
