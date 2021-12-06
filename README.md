@@ -31,3 +31,4 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 * 17/5/2021: Fixed BOM and added proper OLED support.
 * 20/7/2021: Updated to V1.4. Removed OLED support, as I don't actually care about OLED and haven't been using it with the previous prototype for a while.
 * 1/10/2021: Added SMK support again (I'm indecisive).
+* 6/12/2021: Updated to V1.5. Added the option for OLED again. Removed Alps support. Improved switch footprints. Removed 2u support and moved rotary encoder positions. Deleted 61st and 62nd keyswitches - now has exactly 30 switches per side. Changed USB C interconnect back to TRRS and moved position.

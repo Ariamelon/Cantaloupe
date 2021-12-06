@@ -1,127 +1,568 @@
-29029146216862
-Cantaloupe
+132739387639538
+Ariamelon
+02540121Z
+
+
+0
+2
+2
+Ariamelon
 ArduinoProMicro_Blank
 
 
 0
 24
 24
-Cantaloupe
-Battery_Solder_Points
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-Cantaloupe
+Ariamelon
 Breakaway_Tabs
 
 
 0
 0
 0
+Ariamelon
+Breakout_ArduinoProMicro
+
+
+0
+24
+24
+Ariamelon
+Breakout_ArduinoProMicro_Blank
+
+
+0
+24
+24
+Ariamelon
+Breakout_ArduinoProMicro_Small
+
+
+0
+24
+24
+Ariamelon
+Breakout_Arduino_Pro_Mini
+Arduino Pro Mini
+Arduino Pro Mini
+0
+35
+35
+Ariamelon
+Breakout_Arduino_Pro_Mini-6
+Arduino Pro Mini
+Arduino Pro Mini
+0
+29
+29
+Ariamelon
+Breakout_E73-2G4M08S1C-52840
+
+
+0
+43
+43
+Ariamelon
+Breakout_Elite-C_Blank
+
+
+0
+29
+29
+Ariamelon
+Breakout_Holyiot_18010
+
+
+0
+55
+55
+Ariamelon
+Breakout_MDBT50
+
+
+0
+61
+61
+Ariamelon
 Cantaloupe
+
+
+0
+0
+0
+Ariamelon
+Cantaloupe_Bottom
+
+
+0
+0
+0
+Ariamelon
 Catmelon
 
 
 0
 0
 0
-Cantaloupe
+Ariamelon
+Catmelon_Small
+
+
+0
+0
+0
+Ariamelon
+Catmelon_Smol
+
+
+0
+0
+0
+Ariamelon
+Connector_bat
+
+
+0
+2
+2
+Ariamelon
+Connector_swd
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+Ariamelon
+Connector_usb
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+Ariamelon
+Cutout_EC11
+
+
+0
+0
+0
+Ariamelon
+Cutout_MX_2U_Tight
+
+
+0
+0
+0
+Ariamelon
+Cutout_MX_Tight
+
+
+0
+0
+0
+Ariamelon
+Cutout_OLED_0.96_SH1107_128x64
+
+
+0
+0
+0
+Ariamelon
+Cutout_OLED_0.96_SSD1306_128x64
+
+
+0
+0
+0
+Ariamelon
 D_Hybrid_SOD123_DO35
 
 
 0
-4
-2
-Cantaloupe
-HYBRID-MX_ALPS-1U-NoLED
-
-
-0
-4
-2
-Cantaloupe
-HYBRID-MX_ALPS-2U-ReversedStabilizers-NoLED
-
-
-0
-4
-2
-Cantaloupe
-HYBRID-MX_ALPS_SMK-1U-NoLED
-
-
-0
 6
 2
-Cantaloupe
-HYBRID-MX_ALPS_SMK-2U-ReversedStabilizers-NoLED
+Ariamelon
+D_SOD-123F_TH
+D_SOD-123F
+D_SOD-123F
+0
+2
+2
+Ariamelon
+D_SOD-123_Bidirectional
+SOD-123
+SOD-123
+0
+2
+2
+Ariamelon
+EC11_Cutout
 
 
 0
-6
+0
+0
+Ariamelon
+HYBRID-MX_SMK-1U-NoLED
+
+
+0
+3
 2
-Cantaloupe
+Ariamelon
+IC_PMW3360DM-T2QU
+
+DIP 18 Pixart PMW3360 PMW3360DM-T2QU optical mouse sensor
+0
+16
+16
+Ariamelon
+IC_TP4056_SOP-8-PP
+8-Lead Plastic SOP-8-PP
+SSOP 0.50 exposed pad
+0
+9
+9
+Ariamelon
+Inductor_CD32
+
+
+0
+2
+2
+Ariamelon
+Inductor_WE_LHMI_4020
+L_Coilcraft_XxL4040 https://www.coilcraft.com/pdfs/xal4000.pdf
+L Coilcraft XxL4040
+0
+2
+2
+Ariamelon
+JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal_LP
+JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH top entry
+0
+2
+2
+Ariamelon
+LiPo_501030
+
+
+0
+0
+0
+Ariamelon
+LiPo_501230
+
+
+0
+0
+0
+Ariamelon
 LiPo_501235
 
 
 0
 0
 0
-Cantaloupe
-MX-1U-Hotswap
-
-
-0
-2
-2
-Cantaloupe
-MX-Alps_Switch_Cutout
+Ariamelon
+LiPo_602030
 
 
 0
 0
 0
-Cantaloupe
-MX-Alps_Switch_Cutout-1u_2u
+Ariamelon
+LorgeServoHole
+Mounting Hole 4.3mm, no annular, M4
+mounting hole 4.3mm no annular m4
+0
+0
+0
+Ariamelon
+M2012S2A2G40
 
 
 0
+5
+3
+Ariamelon
+MJ-4PP-9_1side
+
+
 0
+4
+4
+Ariamelon
+MX_Cutout_2U_Tight
+
+
 0
-Cantaloupe
+14
+0
+Ariamelon
 MX_Cutout_Tight
 
 
 0
 2
 0
-Cantaloupe
+Ariamelon
+MX_Switch_Cutout
+
+
+0
+0
+0
+Ariamelon
+Nice!Nano
+
+
+0
+26
+26
+Ariamelon
+OLED_0.96_SH1107_128x64
+
+
+0
+4
+4
+Ariamelon
 OLED_0.96_SSD1306_128x64
 
 
 0
 4
 4
-Cantaloupe
+Ariamelon
+OLED_1.3_SSD1306_128x64
+
+
+0
+0
+0
+Ariamelon
+OLED_1.3_SSD1306_128x64_Breakout
+
+
+0
+0
+0
+Ariamelon
+Pad_Square
+
+
+0
+1
+1
+Ariamelon
+Pad_Square_+
+
+
+0
+42
+1
+Ariamelon
+Pad_Square_-
+
+
+0
+42
+1
+Ariamelon
+PinHeader_1x02_P2.54mm_Horizontal_No_Silk
+Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x02 2.54mm single row
+0
+2
+2
+Ariamelon
+PinHeader_1x04_P2.54mm_Vertical_No_Silk
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+Ariamelon
+PinHeader_Battery_Solder_Points
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+Ariamelon
+QDC_6.35MM
+
+
+0
+4
+1
+Ariamelon
+RCA_DUAL_JACK
+
+
+0
+4
+4
+Ariamelon
+RK27-DUAL-UNIT
+RK27 Dual Audio Unit, Slotted Shaft
+
+0
+6
+6
+Ariamelon
+R_0805_2012Metric_TH
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Ariamelon
+RibbonConnector-SH1107
+
+
+0
+13
+13
+Ariamelon
+RibbonConnector-SSD1306
+
+
+0
+30
+30
+Ariamelon
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_Dual
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+Ariamelon
+SolderJumper-3_P1.3mm_Open_THPad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, open
+solder jumper open
+0
+3
+3
+Ariamelon
+Switch_4.5x4.5
+
+
+0
+4
+2
+Ariamelon
 Switch_5-way-tactile
 
 
 0
 6
 6
-Cantaloupe
+Ariamelon
+Switch_BSI-10H
+
+
+0
+3
+3
+Ariamelon
 Switch_MSK-22D18
 
 
 0
 6
 6
-Cantaloupe
+Ariamelon
+Switch_TSTPHWM_6.2x6.2
+
+
+0
+4
+2
+Ariamelon
+Switch_Tactile_SPST_Angled_MJTP1117
+tactile switch SPST right angle, PTS645VL39-2 LFS
+tactile switch SPST angled PTS645VL39-2 LFS C&K Button
+0
+4
+2
+Ariamelon
+TP4056-18650
+
+
+0
+6
+6
+Ariamelon
+TRRS_MidMount_2SJ3108-035111F
+
+
+0
+7
+6
+Ariamelon
+TRRS_MidMount_PJ-381
+
+
+0
+5
+4
+Ariamelon
+TRRS_MidMount_SJ2-35355A-SMT-TR
+
+
+0
+6
+4
+Ariamelon
+Talema_70073K
+
+
+0
+9
+8
+Ariamelon
+USB-C-C168688
+
+
+0
+16
+11
+Ariamelon
 USB-C_C168688
 
 
 0
 30
 11
+Ariamelon
+USB-C_MidMount_Receptacle_Power_Only
+
+
+0
+10
+7
+Ariamelon
+USB-C_Receptacle_Power_Only
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+10
+7
+Ariamelon
+USB-C_USB_312
+http://www.palpilot.com/wp-content/uploads/2017/05/UTC027-GKN-OR-Rev-A.pdf
+USB C Type-C Receptacle USB2.0
+0
+10
+7
+Ariamelon
+V80212MS02Q
+
+
+0
+6
+6
