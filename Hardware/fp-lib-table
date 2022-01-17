@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name AI03Keyswitches)(type KiCad)(uri ${KIPRJMOD}/Kicad-Library/Footprints/AI03Keyswitches.pretty)(options "")(descr ""))
   (lib (name Ariamelon)(type KiCad)(uri ${KIPRJMOD}/Kicad-Library/Footprints/Ariamelon.pretty)(options "")(descr ""))
 )

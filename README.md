@@ -13,8 +13,7 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 
 ![Cantaloupe Photo1](Images/Photo1.jpg)
 ![Cantaloupe PCB](Images/PCB.png)
-![Cantaloupe Front Render](Images/Render_Front.png)
-![Cantaloupe Back Render](Images/Render_Back.png)
+![Cantaloupe Front Render](Images/Render.png)
 
 ## Changelog
 * 27/09/2020: Initial commit.
@@ -32,3 +31,4 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 * 20/7/2021: Updated to V1.4. Removed OLED support, as I don't actually care about OLED and haven't been using it with the previous prototype for a while.
 * 1/10/2021: Added SMK support again (I'm indecisive).
 * 6/12/2021: Updated to V1.5. Added the option for OLED again. Removed Alps support. Improved switch footprints. Removed 2u support and moved rotary encoder positions. Deleted 61st and 62nd keyswitches - now has exactly 30 switches per side. Changed USB C interconnect back to TRRS and moved position.
+* 19/1/2022: Updated to V2.0. On-board ARM STM32F303 processor, kailh hot-swap, ESD protection, 0.96" OLED, trackball and rotary encoder. 100% reversible design which means only a single board is needed for both sides. Plenty of design cues taken from the YAEMK.
