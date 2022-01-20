@@ -1,109 +1,18 @@
-(module OLED_0.96_SSD1306_128x64_Flippable (layer F.Cu) (tedit 61E85628)
+(module OLED_1.12_SH1107_128x128_Flippable (layer F.Cu) (tedit 61E9E31C)
   (fp_text reference REF** (at 0 7.6) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value OLED-0.96-SSD1306 (at 0 6.6) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_line (start -13.75 26.3) (end 13.75 26.3) (layer Dwgs.User) (width 0.12))
-  (fp_line (start 13.75 26.3) (end 13.75 -1.5) (layer Dwgs.User) (width 0.12))
-  (fp_line (start -13.75 26.3) (end -13.75 -1.5) (layer Dwgs.User) (width 0.12))
-  (fp_line (start -13.75 -1.5) (end 13.75 -1.5) (layer Dwgs.User) (width 0.12))
-  (pad 1 smd custom (at 3.8085 -1.3565 270) (size 0.8 1.5) (layers F.Cu F.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly (pts
-         (xy 0.56 0.67) (xy 0.34 0.67) (xy 0.34 0.3)) (width 0.1))
-      (gr_line (start 0.67 -0.697) (end -0.35 -0.697) (width 0.12))
-      (gr_poly (pts
-         (xy 0.54 -0.67) (xy 0.32 -0.67) (xy 0.32 -0.3)) (width 0.1))
-      (gr_line (start -0.35 -0.697) (end -0.35 0.69) (width 0.12))
-      (gr_arc (start 1.26 0) (end 0.67 -0.697) (angle -98.7) (width 0.12))
-      (gr_line (start -0.35 0.69) (end 0.66 0.69) (width 0.12))
-    ))
-  (pad 4 smd custom (at 3.817 -1.358 270) (size 0.8 1.5) (layers B.Cu B.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly (pts
-         (xy 0.56 -0.67) (xy 0.34 -0.67) (xy 0.34 -0.3)) (width 0.1))
-      (gr_line (start 0.67 0.697) (end -0.35 0.697) (width 0.12))
-      (gr_poly (pts
-         (xy 0.54 0.67) (xy 0.32 0.67) (xy 0.32 0.3)) (width 0.1))
-      (gr_line (start -0.35 0.697) (end -0.35 -0.69) (width 0.12))
-      (gr_arc (start 1.26 0) (end 0.67 0.697) (angle 98.7) (width 0.12))
-      (gr_line (start -0.35 -0.69) (end 0.66 -0.69) (width 0.12))
-    ))
-  (pad "" thru_hole circle (at 3.81 0 90) (size 1.5 1.5) (drill 0.762) (layers *.Cu *.Mask))
-  (pad 2 smd custom (at 1.2685 -1.3565 270) (size 0.8 1.5) (layers F.Cu F.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly (pts
-         (xy 0.56 0.67) (xy 0.34 0.67) (xy 0.34 0.3)) (width 0.1))
-      (gr_line (start 0.67 -0.697) (end -0.35 -0.697) (width 0.12))
-      (gr_poly (pts
-         (xy 0.54 -0.67) (xy 0.32 -0.67) (xy 0.32 -0.3)) (width 0.1))
-      (gr_line (start -0.35 -0.697) (end -0.35 0.69) (width 0.12))
-      (gr_arc (start 1.26 0) (end 0.67 -0.697) (angle -98.7) (width 0.12))
-      (gr_line (start -0.35 0.69) (end 0.66 0.69) (width 0.12))
-    ))
-  (pad 3 smd custom (at 1.277 -1.358 270) (size 0.8 1.5) (layers B.Cu B.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly (pts
-         (xy 0.56 -0.67) (xy 0.34 -0.67) (xy 0.34 -0.3)) (width 0.1))
-      (gr_line (start 0.67 0.697) (end -0.35 0.697) (width 0.12))
-      (gr_poly (pts
-         (xy 0.54 0.67) (xy 0.32 0.67) (xy 0.32 0.3)) (width 0.1))
-      (gr_line (start -0.35 0.697) (end -0.35 -0.69) (width 0.12))
-      (gr_arc (start 1.26 0) (end 0.67 0.697) (angle 98.7) (width 0.12))
-      (gr_line (start -0.35 -0.69) (end 0.66 -0.69) (width 0.12))
-    ))
-  (pad "" thru_hole circle (at 1.27 0 90) (size 1.5 1.5) (drill 0.762) (layers *.Cu *.Mask))
-  (pad 3 smd custom (at -1.2715 -1.3565 270) (size 0.8 1.5) (layers F.Cu F.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly (pts
-         (xy 0.56 0.67) (xy 0.34 0.67) (xy 0.34 0.3)) (width 0.1))
-      (gr_line (start 0.67 -0.697) (end -0.35 -0.697) (width 0.12))
-      (gr_poly (pts
-         (xy 0.54 -0.67) (xy 0.32 -0.67) (xy 0.32 -0.3)) (width 0.1))
-      (gr_line (start -0.35 -0.697) (end -0.35 0.69) (width 0.12))
-      (gr_arc (start 1.26 0) (end 0.67 -0.697) (angle -98.7) (width 0.12))
-      (gr_line (start -0.35 0.69) (end 0.66 0.69) (width 0.12))
-    ))
-  (pad 2 smd custom (at -1.263 -1.358 270) (size 0.8 1.5) (layers B.Cu B.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly (pts
-         (xy 0.56 -0.67) (xy 0.34 -0.67) (xy 0.34 -0.3)) (width 0.1))
-      (gr_line (start 0.67 0.697) (end -0.35 0.697) (width 0.12))
-      (gr_poly (pts
-         (xy 0.54 0.67) (xy 0.32 0.67) (xy 0.32 0.3)) (width 0.1))
-      (gr_line (start -0.35 0.697) (end -0.35 -0.69) (width 0.12))
-      (gr_arc (start 1.26 0) (end 0.67 0.697) (angle 98.7) (width 0.12))
-      (gr_line (start -0.35 -0.69) (end 0.66 -0.69) (width 0.12))
-    ))
-  (pad "" thru_hole circle (at -1.27 0 90) (size 1.5 1.5) (drill 0.762) (layers *.Cu *.Mask))
-  (pad 1 smd custom (at -3.803 -1.358 270) (size 0.8 1.5) (layers B.Cu B.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly (pts
-         (xy 0.56 -0.67) (xy 0.34 -0.67) (xy 0.34 -0.3)) (width 0.1))
-      (gr_line (start 0.67 0.697) (end -0.35 0.697) (width 0.12))
-      (gr_poly (pts
-         (xy 0.54 0.67) (xy 0.32 0.67) (xy 0.32 0.3)) (width 0.1))
-      (gr_line (start -0.35 0.697) (end -0.35 -0.69) (width 0.12))
-      (gr_arc (start 1.26 0) (end 0.67 0.697) (angle 98.7) (width 0.12))
-      (gr_line (start -0.35 -0.69) (end 0.66 -0.69) (width 0.12))
-    ))
-  (pad "" thru_hole circle (at -3.81 0 90) (size 1.5 1.5) (drill 0.762) (layers *.Cu *.Mask))
+  (fp_line (start 13.1 38.6) (end 13.1 -1.5) (layer Dwgs.User) (width 0.12))
+  (fp_line (start -13.1 -1.5) (end 13.1 -1.5) (layer Dwgs.User) (width 0.12))
+  (fp_line (start -13.1 38.6) (end -13.1 -1.5) (layer Dwgs.User) (width 0.12))
+  (fp_line (start -13.1 38.6) (end 13.1 38.6) (layer Dwgs.User) (width 0.12))
+  (pad "" thru_hole circle (at 10.6 36.1) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
+  (pad "" thru_hole circle (at -10.6 36.1) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
+  (pad "" thru_hole circle (at 10.6 1) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
+  (pad "" thru_hole circle (at -10.6 1) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   (pad 4 smd custom (at -3.8115 -1.3565 270) (size 0.8 1.5) (layers F.Cu F.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor rect))
@@ -117,8 +26,99 @@
       (gr_arc (start 1.26 0) (end 0.67 -0.697) (angle -98.7) (width 0.12))
       (gr_line (start -0.35 0.69) (end 0.66 0.69) (width 0.12))
     ))
-  (pad "" thru_hole circle (at -11.87 0.5) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
-  (pad "" thru_hole circle (at 11.87 0.5) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
-  (pad "" thru_hole circle (at -11.87 24.3) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
-  (pad "" thru_hole circle (at 11.87 24.3) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
+  (pad "" thru_hole circle (at -3.81 0 90) (size 1.5 1.5) (drill 0.762) (layers *.Cu *.Mask))
+  (pad 1 smd custom (at -3.803 -1.358 270) (size 0.8 1.5) (layers B.Cu B.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0.56 -0.67) (xy 0.34 -0.67) (xy 0.34 -0.3)) (width 0.1))
+      (gr_line (start 0.67 0.697) (end -0.35 0.697) (width 0.12))
+      (gr_poly (pts
+         (xy 0.54 0.67) (xy 0.32 0.67) (xy 0.32 0.3)) (width 0.1))
+      (gr_line (start -0.35 0.697) (end -0.35 -0.69) (width 0.12))
+      (gr_arc (start 1.26 0) (end 0.67 0.697) (angle 98.7) (width 0.12))
+      (gr_line (start -0.35 -0.69) (end 0.66 -0.69) (width 0.12))
+    ))
+  (pad "" thru_hole circle (at -1.27 0 90) (size 1.5 1.5) (drill 0.762) (layers *.Cu *.Mask))
+  (pad 2 smd custom (at -1.263 -1.358 270) (size 0.8 1.5) (layers B.Cu B.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0.56 -0.67) (xy 0.34 -0.67) (xy 0.34 -0.3)) (width 0.1))
+      (gr_line (start 0.67 0.697) (end -0.35 0.697) (width 0.12))
+      (gr_poly (pts
+         (xy 0.54 0.67) (xy 0.32 0.67) (xy 0.32 0.3)) (width 0.1))
+      (gr_line (start -0.35 0.697) (end -0.35 -0.69) (width 0.12))
+      (gr_arc (start 1.26 0) (end 0.67 0.697) (angle 98.7) (width 0.12))
+      (gr_line (start -0.35 -0.69) (end 0.66 -0.69) (width 0.12))
+    ))
+  (pad 3 smd custom (at -1.2715 -1.3565 270) (size 0.8 1.5) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0.56 0.67) (xy 0.34 0.67) (xy 0.34 0.3)) (width 0.1))
+      (gr_line (start 0.67 -0.697) (end -0.35 -0.697) (width 0.12))
+      (gr_poly (pts
+         (xy 0.54 -0.67) (xy 0.32 -0.67) (xy 0.32 -0.3)) (width 0.1))
+      (gr_line (start -0.35 -0.697) (end -0.35 0.69) (width 0.12))
+      (gr_arc (start 1.26 0) (end 0.67 -0.697) (angle -98.7) (width 0.12))
+      (gr_line (start -0.35 0.69) (end 0.66 0.69) (width 0.12))
+    ))
+  (pad "" thru_hole circle (at 1.27 0 90) (size 1.5 1.5) (drill 0.762) (layers *.Cu *.Mask))
+  (pad 3 smd custom (at 1.277 -1.358 270) (size 0.8 1.5) (layers B.Cu B.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0.56 -0.67) (xy 0.34 -0.67) (xy 0.34 -0.3)) (width 0.1))
+      (gr_line (start 0.67 0.697) (end -0.35 0.697) (width 0.12))
+      (gr_poly (pts
+         (xy 0.54 0.67) (xy 0.32 0.67) (xy 0.32 0.3)) (width 0.1))
+      (gr_line (start -0.35 0.697) (end -0.35 -0.69) (width 0.12))
+      (gr_arc (start 1.26 0) (end 0.67 0.697) (angle 98.7) (width 0.12))
+      (gr_line (start -0.35 -0.69) (end 0.66 -0.69) (width 0.12))
+    ))
+  (pad 2 smd custom (at 1.2685 -1.3565 270) (size 0.8 1.5) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0.56 0.67) (xy 0.34 0.67) (xy 0.34 0.3)) (width 0.1))
+      (gr_line (start 0.67 -0.697) (end -0.35 -0.697) (width 0.12))
+      (gr_poly (pts
+         (xy 0.54 -0.67) (xy 0.32 -0.67) (xy 0.32 -0.3)) (width 0.1))
+      (gr_line (start -0.35 -0.697) (end -0.35 0.69) (width 0.12))
+      (gr_arc (start 1.26 0) (end 0.67 -0.697) (angle -98.7) (width 0.12))
+      (gr_line (start -0.35 0.69) (end 0.66 0.69) (width 0.12))
+    ))
+  (pad "" thru_hole circle (at 3.81 0 90) (size 1.5 1.5) (drill 0.762) (layers *.Cu *.Mask))
+  (pad 4 smd custom (at 3.817 -1.358 270) (size 0.8 1.5) (layers B.Cu B.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0.56 -0.67) (xy 0.34 -0.67) (xy 0.34 -0.3)) (width 0.1))
+      (gr_line (start 0.67 0.697) (end -0.35 0.697) (width 0.12))
+      (gr_poly (pts
+         (xy 0.54 0.67) (xy 0.32 0.67) (xy 0.32 0.3)) (width 0.1))
+      (gr_line (start -0.35 0.697) (end -0.35 -0.69) (width 0.12))
+      (gr_arc (start 1.26 0) (end 0.67 0.697) (angle 98.7) (width 0.12))
+      (gr_line (start -0.35 -0.69) (end 0.66 -0.69) (width 0.12))
+    ))
+  (pad 1 smd custom (at 3.8085 -1.3565 270) (size 0.8 1.5) (layers F.Cu F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0.56 0.67) (xy 0.34 0.67) (xy 0.34 0.3)) (width 0.1))
+      (gr_line (start 0.67 -0.697) (end -0.35 -0.697) (width 0.12))
+      (gr_poly (pts
+         (xy 0.54 -0.67) (xy 0.32 -0.67) (xy 0.32 -0.3)) (width 0.1))
+      (gr_line (start -0.35 -0.697) (end -0.35 0.69) (width 0.12))
+      (gr_arc (start 1.26 0) (end 0.67 -0.697) (angle -98.7) (width 0.12))
+      (gr_line (start -0.35 0.69) (end 0.66 0.69) (width 0.12))
+    ))
 )
