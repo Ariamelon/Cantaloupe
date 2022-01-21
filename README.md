@@ -8,7 +8,7 @@ V2.0 takes heavy inspiration from the [YAEMK](https://karlk90.github.io/yaemk-sp
 
 ## Key Features
 * Ergonomic 30-key layout including pinky stagger and arrow keys.
-* On-board ARM STM32F303CCT6 processor.
+* On-board ARM STM32F4x1CxUx processor.
 * MX switches with kailh hot-swap sockets.
 * USB-C input and split connect ports with full ESD protection.
 * 100% reversible design which means only a single board is needed for both sides.
@@ -22,6 +22,7 @@ V2.0 takes heavy inspiration from the [YAEMK](https://karlk90.github.io/yaemk-sp
 ![Cantaloupe Photo1](Images/Photo1.jpg)
 
 ## Changelog
+* 21/1/2022: Changed CPU to STM32F4x1CxUx (lets me steal them from Black Pill boards). Added plate and base gerber files. Changed BOM to reflect changes.
 * 20/1/2022: Cleaned up read-me. Rearranged location of mounting holes and changed size of holes. Rerouted some traces. Cleaned up silkscreen. Added DXF files for plate and base. Changed images. Added BOM.
 * 19/1/2022: Updated to V2.0. On-board ARM STM32F303 processor, kailh hot-swap, ESD protection, 0.96" OLED, trackball and rotary encoder. 100% reversible design which means only a single board is needed for both sides. Plenty of design cues taken from the YAEMK. Pinky stagger added.
 * 6/12/2021: Updated to V1.5. Added the option for OLED again. Removed Alps support. Improved switch footprints. Removed 2u support and moved rotary encoder positions. Deleted 61st and 62nd keyswitches - now has exactly 30 switches per side. Changed USB C interconnect back to TRRS and moved position.
