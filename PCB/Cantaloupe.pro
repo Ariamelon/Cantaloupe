@@ -1,4 +1,4 @@
-update=01/19/22 06:05:41
+update=01/24/22 09:57:14
 version=1
 last_client=kicad
 [general]
@@ -43,7 +43,7 @@ TrackWidth2=0.2
 TrackWidth3=0.5
 TrackWidth4=1
 TrackWidth5=1.7526
-ViaDiameter1=0.45
+ViaDiameter1=0.6
 ViaDrill1=0.3
 ViaDiameter2=0.6
 ViaDrill2=0.3
@@ -243,9 +243,9 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.127
+Clearance=0.2
 TrackWidth=0.2
-ViaDiameter=0.45
+ViaDiameter=0.6
 ViaDrill=0.3
 uViaDiameter=0.3
 uViaDrill=0.1
@@ -253,19 +253,8 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=Battery
-Clearance=0.127
-TrackWidth=1
-ViaDiameter=0.7
-ViaDrill=0.35
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/2]
 Name=Power
-Clearance=0.127
+Clearance=0.2
 TrackWidth=0.5
 ViaDiameter=0.6
 ViaDrill=0.3

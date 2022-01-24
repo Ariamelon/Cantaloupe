@@ -1664,8 +1664,6 @@ Wire Notes Line
 	10600 2800 8000 2800
 Wire Notes Line
 	8000 600  10600 600 
-Wire Notes Line
-	10600 600  10600 2800
 Wire Wire Line
 	10000 1200 10100 1200
 Wire Wire Line
@@ -1702,9 +1700,7 @@ F 3 "~" H 10250 1900 50  0001 C CNN
 	1    10250 1900
 	-1   0    0    -1  
 $EndComp
-Text GLabel 10400 1900 2    50   Input ~ 0
-RX
-Text GLabel 9600 1200 0    50   Input ~ 0
+Text GLabel 10400 1200 2    50   Input ~ 0
 RX
 $Comp
 L Jumper:SolderJumper_2_Open JP5
@@ -1728,9 +1724,7 @@ F 3 "~" H 9750 1200 50  0001 C CNN
 	1    9750 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9600 1900 0    50   Input ~ 0
-TX
-Text GLabel 10400 1200 2    50   Input ~ 0
+Text GLabel 10400 1900 2    50   Input ~ 0
 TX
 Text GLabel 10000 2000 3    50   Input ~ 0
 Link+
@@ -2661,4 +2655,10 @@ NoConn ~ 4300 2200
 NoConn ~ 5600 2400
 NoConn ~ 5600 2500
 NoConn ~ 5600 2600
+Text GLabel 9600 1200 0    50   Input ~ 0
+TX
+Text GLabel 9600 1900 0    50   Input ~ 0
+RX
+Wire Notes Line
+	10600 600  10600 2800
 $EndSCHEMATC
