@@ -1,0 +1,11 @@
+(module HOLE_M2_TH (layer F.Cu) (tedit 61E936A2)
+  (fp_text reference TH4 (at 0 -2.54) (layer F.SilkS) hide
+    (effects (font (size 0.29972 0.29972) (thickness 0.0762)))
+  )
+  (fp_text value HOLE (at 0 2.54) (layer F.SilkS) hide
+    (effects (font (size 0.29972 0.29972) (thickness 0.0762)))
+  )
+  (fp_circle (center 0 0) (end 2.4 0) (layer Dwgs.User) (width 0.12))
+  (pad "" thru_hole circle (at 0 0 90) (size 4.7 4.7) (drill 4.1) (layers *.Cu *.Mask Dwgs.User)
+    (clearance 0.3))
+)

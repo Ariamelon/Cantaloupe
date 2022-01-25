@@ -1,24 +1,18 @@
 # Cantaloupe
-~60% QMK-compatible Split Ergonomic Keyboard
+~60% QMK-compatible split ergonomic keyboard with two versions.
 
 ## Disclaimer
-The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout with the inner-most keys removed and an improved thumb cluster. The layout was only used as a reference, nothing was copied and the board is a completely new design.
-
-V2.0 takes heavy inspiration from the [YAEMK](https://karlk90.github.io/yaemk-split-kb/) in regards to the microprocessor section and the way that keyboard implement a fully reversible design.
+The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout with the inner-most keys removed and an improved thumb cluster. The layout was only used as a reference, nothing was copied and the board is a completely new design. In addition, many design cues from the [YAEMK](https://karlk90.github.io/yaemk-split-kb/) were used in this design.
 
 ## Key Features
 * Ergonomic 30-key layout including pinky stagger and arrow keys.
-* On-board ARM STM32F4x1CxUx processor.
 * MX switches with kailh hot-swap sockets.
-* USB-C input and split connect ports with full ESD protection.
 * 100% reversible design which means only a single board is needed for both sides.
 * 0.96" 128x64 SSD1306 OLED support.
 * Two rotary encoders supported above the thumb cluster, one on each side.
 * Support for the Pimoroni trackball module is also available, replacing one rotary encoder slot.
-* JTAG/SWD breakout header for an alternate means of programming the board.
+* Both versions support the same plates.
 
-![Cantaloupe Front Render](Images/Render.png)
-![Cantaloupe PCB](Images/PCB.png)
 ![Cantaloupe Photo1](Images/Photo1.jpg)
 
 ## Changelog
