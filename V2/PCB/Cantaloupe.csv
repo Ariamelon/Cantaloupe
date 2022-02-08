@@ -1,32 +1,52 @@
-Qty,Reference(s),Value,LCSC Part number
-7,"C1, C3, C8, C9, C11, C13, C14",100n,C14663
-4,"C2, C5, C6, C7",10u,C19702
-1,C4,1u,C26413
-2,"C10, C12",20p,C1648
-1,C15,4.7u,C1705
-31,D1-D31,1N4148,C81598
-1,D32,Power,C264479
-1,F1,0.5A,C69688
-1,F2,1A,C66453
-1,"J1,J3",,C168688
-1,J2,OLED,C2889986
-1,J4,Debug,C56816
-1,J5,Trackball,C2889987
-1,L1,10u,C92982
-1,Q1,2N7002,C8545
-1,Q2,AO3401A,C15127
-7,"R1, R7, R8, R10, R11, R12, R16",10k,C25804
-2,"R2, R3",33,C23140
-2,"R5, R6",5k1,C23186
-2,"R9, R13",100k,C25803
-1,R14,200k,C25811
-1,R15,2k2,C4190
-1,R17,220,C22962
-30,SW1-SW30,,
-1,SW31,,C470737
-1,SW32,,C393942
-1,U1,STM32F4x1CxUx,C79861
-2,"U2, U3",SRV05-4,C384888
-1,U4,XC6206P332MR,C5446
-1,U5,LMV321,C90297
-1,Y1,8MHz,C403948
+PCB,,,,
+Qty,Reference(s),Value,Description,LCSC Part number
+7,"C1, C3, C8, C9, C11, C13, C14",100n,0603 capacitor,C14663
+4,"C2, C5, C6, C7",10u,0603 capacitor,C19702
+1,C4,1u,0603 capacitor,C26413
+2,"C10, C12",20p,0603 capacitor,C1648
+1,C15,4.7u,0603 capacitor,C1705
+31,D1-D31,1N4148,SOD123 diode,C81598
+1,D32,Any colour LED,0603 LED,C264479
+1,F1,0.5A,1206 fuse,C69688
+1,F2,1A,1206 fuse,C66453
+1,"J1,J3",-,USB C mid-mount port,C168688
+1,J2,OLED socket,4-pin female vertical header,C2889986
+1,J4,Debug socket,6-pin male right angled header,C56816
+1,J5,Trackball socket,5-pin female vertical header,C2889987
+1,L1,10u,0603 inductor,C92982
+1,Q1,2N7002,SOT-23 transistor,C8545
+1,Q2,AO3401A,SOT-23 transistor,C15127
+7,"R1, R7, R8, R10, R11, R12, R16",10k,0603 resistor,C25804
+2,"R2, R3",33,0603 resistor,C23140
+2,"R5, R6",5k1,0603 resistor,C23186
+2,"R9, R13",100k,0603 resistor,C25803
+1,R14,200k,0603 resistor,C25811
+1,R15,2k2,0603 resistor,C4190
+1,R17,220,0603 resistor,C22962
+30,SW1-SW30,-,Kailh hotswap socket,
+1,SW31,EC11,Max 30mm knob,C470737
+1,SW32,-,Momentary pushbutton,C393942
+1,U1,STM32F4x1CxUx,QFN-44 MCU,C79861
+2,"U2, U3",SRV05-4,SOT-26 ESD protector,C384888
+1,U4,XC6206P332MR,SOT-25 3.3v LDO,C5446
+1,U5,LMV321,SOT-25 opamp,C90297
+1,Y1,8MHz,3225 crystal,C403948
+,,,,
+Case,,,,
+Qty,Value,Description,,
+1,,Top plate,,
+1,,Bottom plate,,
+12,M2x8mm,Threaded standoff,,
+24,M2x4mm,Panhead screw,,
+,,,,
+OLED,,,,
+Qty,Value,Description,,
+1,"SSD1306 0.96""",OLED display,,
+4,M2x5mm,Threaded standoff,,
+4,M2x4mm,Panhead screw,,
+,,,,
+Trackball,,,,
+Qty,Value,Description,,
+1,-,Pimoroni trackball,,
+4,M2x5mm,Threaded standoff,,
+4,M2x4mm,Panhead screw,,
