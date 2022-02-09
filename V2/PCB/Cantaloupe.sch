@@ -2196,21 +2196,21 @@ Text GLabel 4300 3500 0    50   Input ~ 0
 COL2
 Text GLabel 4300 3800 0    50   Input ~ 0
 ROW1
-Text GLabel 4300 2700 0    50   Input ~ 0
-COL3
 Text GLabel 4300 2600 0    50   Input ~ 0
-COL4
+COL3
 Text GLabel 4300 2500 0    50   Input ~ 0
-COL5
+COL4
 Text GLabel 5600 3100 2    50   Input ~ 0
-ROW2
+COL5
 Text GLabel 5600 3000 2    50   Input ~ 0
-ROW3
+ROW2
 Text GLabel 5600 2900 2    50   Input ~ 0
-ROW4
-Text GLabel 5600 2700 2    50   Input ~ 0
-COLROT
+ROW3
 Text GLabel 5600 2800 2    50   Input ~ 0
+ROW4
+Text GLabel 5600 2600 2    50   Input ~ 0
+COLROT
+Text GLabel 5600 2700 2    50   Input ~ 0
 ROT_B
 Wire Wire Line
 	5800 3500 5600 3500
@@ -2588,11 +2588,68 @@ NoConn ~ 4300 2300
 NoConn ~ 4300 2200
 NoConn ~ 5600 2400
 NoConn ~ 5600 2500
-NoConn ~ 5600 2600
 Text GLabel 9600 1200 0    50   Input ~ 0
 TX
 Text GLabel 9600 1900 0    50   Input ~ 0
 RX
 Wire Notes Line
 	10600 600  10600 2800
+$Comp
+L Device:R_Small R4
+U 1 1 620B74EB
+P 3900 2700
+F 0 "R4" V 3704 2700 50  0000 C CNN
+F 1 "100k" V 3795 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3900 2700 50  0001 C CNN
+F 3 "~" H 3900 2700 50  0001 C CNN
+	1    3900 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 2700 4300 2700
+$Comp
+L power:GND #PWR0133
+U 1 1 620CAA5D
+P 3700 2800
+F 0 "#PWR0133" H 3700 2550 50  0001 C CNN
+F 1 "GND" H 3705 2627 50  0000 C CNN
+F 2 "" H 3700 2800 50  0001 C CNN
+F 3 "" H 3700 2800 50  0001 C CNN
+	1    3700 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2800 3700 2700
+Wire Wire Line
+	3700 2700 3800 2700
+Text GLabel 5300 4400 0    50   Input ~ 0
+RX
+$Comp
+L Device:R_Small R18
+U 1 1 620DECC4
+P 5500 4400
+F 0 "R18" V 5304 4400 50  0000 C CNN
+F 1 "100k" V 5395 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5500 4400 50  0001 C CNN
+F 3 "~" H 5500 4400 50  0001 C CNN
+	1    5500 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VDD #PWR0134
+U 1 1 620F089D
+P 5700 4300
+F 0 "#PWR0134" H 5700 4150 50  0001 C CNN
+F 1 "VDD" H 5715 4473 50  0000 C CNN
+F 2 "" H 5700 4300 50  0001 C CNN
+F 3 "" H 5700 4300 50  0001 C CNN
+	1    5700 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4300 5700 4400
+Wire Wire Line
+	5700 4400 5600 4400
+Wire Wire Line
+	5300 4400 5400 4400
 $EndSCHEMATC
