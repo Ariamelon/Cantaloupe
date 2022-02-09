@@ -16,6 +16,7 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 ![Cantaloupe Photo1](Images/Photo1.jpg)
 
 ## Changelog
+* 9/2/2022: Changed pin assignments so B2 isn't used. Added pull-up for RX pin and pull-down for B2 pin so it can properly load into the bootloader.
 * 8/2/2022: Removed holes in middle of PCB. Added top and bottom plate DXF files, as well as a tentative STEP file for a CNC case. 
 * 25/1/2022: Did some rerouting, increased clearances and via size.
 * 21/1/2022: Changed CPU to STM32F4x1CxUx (lets me steal them from Black Pill boards). Added plate and base gerber files. Changed BOM to reflect changes.
