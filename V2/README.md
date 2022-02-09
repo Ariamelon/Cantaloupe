@@ -10,6 +10,8 @@ On-board MCU version.
 ![Cantaloupe PCB](Images/PCB.png)
 
 ## Changelog
+* 9/2/2022: Changed pin assignments so B2 isn't used. Added pull-up for RX pin and pull-down for B2 pin so it can properly load into the bootloader. Thanks to sigprof and MasterSpoon from the QMK discord server for the help!
+* 8/2/2022: Removed holes in middle of PCB. Added top and bottom plate DXF files, as well as a tentative STEP file for a CNC case. 
 * 25/1/2022: Did some rerouting, increased clearances and via size.
 * 21/1/2022: Changed CPU to STM32F4x1CxUx (lets me steal them from Black Pill boards). Added plate and base gerber files. Changed BOM to reflect changes.
 * 20/1/2022: Cleaned up read-me. Rearranged location of mounting holes and changed size of holes. Rerouted some traces. Cleaned up silkscreen. Added DXF files for plate and base. Changed images. Added BOM.
