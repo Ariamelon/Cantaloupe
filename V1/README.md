@@ -9,6 +9,7 @@ Pro Micro version.
 ![Cantaloupe PCB](Images/PCB.png)
 
 ## Changelog
+* 10/2/2022: Removed PCB mounting holes. Slightly changed position of reset switch.
 * 25/1/2022: Updated to V1.6. Fully reversible design, kailh hot-swap, ESD protection, 0.96" OLED, trackball and rotary encoder. 100% reversible design which means only a single board is needed for both sides. Plenty of design cues taken from the YAEMK. Pinky stagger added.
 * 6/12/2021: Updated to V1.5. Added the option for OLED again. Removed Alps support. Improved switch footprints. Removed 2u support and moved rotary encoder positions. Deleted 61st and 62nd keyswitches - now has exactly 30 switches per side. Changed USB C interconnect back to TRRS and moved position.
 * 1/10/2021: Added SMK support again (I'm indecisive).

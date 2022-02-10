@@ -1268,80 +1268,14 @@ F 3 "~" V 1700 4400 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 62077E70
-P 3600 4200
-F 0 "H1" H 3700 4246 50  0000 L CNN
-F 1 "Hole" H 3700 4155 50  0000 L CNN
-F 2 "Ariamelon:HOLE_M2_TH" H 3600 4200 50  0001 C CNN
-F 3 "~" H 3600 4200 50  0001 C CNN
-	1    3600 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 62096D2A
-P 3600 4400
-F 0 "H2" H 3700 4446 50  0000 L CNN
-F 1 "Hole" H 3700 4355 50  0000 L CNN
-F 2 "Ariamelon:HOLE_M2_TH" H 3600 4400 50  0001 C CNN
-F 3 "~" H 3600 4400 50  0001 C CNN
-	1    3600 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 6209708C
-P 3600 4600
-F 0 "H3" H 3700 4646 50  0000 L CNN
-F 1 "Hole" H 3700 4555 50  0000 L CNN
-F 2 "Ariamelon:HOLE_M2_TH" H 3600 4600 50  0001 C CNN
-F 3 "~" H 3600 4600 50  0001 C CNN
-	1    3600 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 62097F05
-P 4000 4200
-F 0 "H4" H 4100 4246 50  0000 L CNN
-F 1 "Hole" H 4100 4155 50  0000 L CNN
-F 2 "Ariamelon:HOLE_M2_TH" H 4000 4200 50  0001 C CNN
-F 3 "~" H 4000 4200 50  0001 C CNN
-	1    4000 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 62097F0B
-P 4000 4400
-F 0 "H5" H 4100 4446 50  0000 L CNN
-F 1 "Hole" H 4100 4355 50  0000 L CNN
-F 2 "Ariamelon:HOLE_M2_TH" H 4000 4400 50  0001 C CNN
-F 3 "~" H 4000 4400 50  0001 C CNN
-	1    4000 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 62097F11
-P 4000 4600
-F 0 "H6" H 4100 4646 50  0000 L CNN
-F 1 "Hole" H 4100 4555 50  0000 L CNN
-F 2 "Ariamelon:HOLE_M2_TH" H 4000 4600 50  0001 C CNN
-F 3 "~" H 4000 4600 50  0001 C CNN
-	1    4000 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole A1
 U 1 1 620A77CC
-P 4400 4200
-F 0 "A1" H 4500 4246 50  0000 L CNN
-F 1 "Art" H 4500 4155 50  0000 L CNN
-F 2 "Ariamelon:Catmelon" H 4400 4200 50  0001 C CNN
-F 3 "~" H 4400 4200 50  0001 C CNN
-	1    4400 4200
+P 3700 4000
+F 0 "A1" H 3800 4046 50  0000 L CNN
+F 1 "Art" H 3800 3955 50  0000 L CNN
+F 2 "Ariamelon:Catmelon" H 3700 4000 50  0001 C CNN
+F 3 "~" H 3700 4000 50  0001 C CNN
+	1    3700 4000
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1443,7 +1377,7 @@ L Power_Protection:SRV05-4 U3
 U 1 1 623D31C8
 P 5300 3200
 F 0 "U3" H 5600 2600 50  0000 C CNN
-F 1 "SRV05-4" H 5600 2700 50  0000 C CNN
+F 1 "SRV0504" H 5600 2700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6000 2750 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 5300 3200 50  0001 C CNN
 	1    5300 3200
@@ -1493,7 +1427,7 @@ ESD protection
 Wire Wire Line
 	7300 1000 7200 1000
 $Comp
-L Ariamelon:ProMicro U1
+L Cantaloupe-rescue:ProMicro-Ariamelon U1
 U 1 1 62083549
 P 4700 1500
 F 0 "U1" H 4700 2287 60  0000 C CNN
@@ -1612,14 +1546,6 @@ Link
 Text GLabel 4000 2100 0    50   Input ~ 0
 COLROT
 Wire Notes Line
-	4700 4100 4700 4700
-Wire Notes Line
-	4700 4700 3500 4700
-Wire Notes Line
-	3500 4700 3500 4100
-Wire Notes Line
-	3500 4100 4700 4100
-Wire Notes Line
 	6000 600  6000 2300
 Wire Notes Line
 	3600 2300 3600 600 
@@ -1723,10 +1649,10 @@ Wire Notes Line
 Wire Notes Line
 	3600 600  6000 600 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 6249362C
 P 3700 1300
-F 0 "#PWR?" H 3700 1050 50  0001 C CNN
+F 0 "#PWR0107" H 3700 1050 50  0001 C CNN
 F 1 "GND" H 3705 1127 50  0000 C CNN
 F 2 "" H 3700 1300 50  0001 C CNN
 F 3 "" H 3700 1300 50  0001 C CNN
