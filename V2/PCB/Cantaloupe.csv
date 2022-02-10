@@ -26,7 +26,7 @@ Qty,Reference(s),Value,Description,LCSC Part number
 1,R15,2k2,0603 resistor,C4190
 1,R17,220,0603 resistor,C22962
 30,SW1-SW30,-,Kailh hotswap socket,
-1,SW31,EC11,Max 30mm knob,C470737
+1,SW31,EC11,Max 30mm knob,C470748
 1,SW32,-,Momentary pushbutton,C393942
 1,U1,STM32F4x1CxUx,QFN-44 MCU,C79861
 2,"U2, U3",SRV0504,SOT-26 ESD protector,C384888
