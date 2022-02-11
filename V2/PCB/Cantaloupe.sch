@@ -1227,28 +1227,27 @@ Wire Wire Line
 $Comp
 L Jumper:SolderJumper_2_Open JP2
 U 1 1 6217ADB0
-P 9600 3650
-F 0 "JP2" V 9646 3718 50  0000 L CNN
-F 1 "Side_R" V 9555 3718 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9600 3650 50  0001 C CNN
-F 3 "~" H 9600 3650 50  0001 C CNN
-	1    9600 3650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP1
-U 1 1 6217ADB6
 P 9600 3350
-F 0 "JP1" V 9554 3418 50  0000 L CNN
-F 1 "Side_L" V 9645 3418 50  0000 L CNN
+F 0 "JP2" V 9554 3418 50  0000 L CNN
+F 1 "Side_R" V 9645 3418 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9600 3350 50  0001 C CNN
 F 3 "~" H 9600 3350 50  0001 C CNN
 	1    9600 3350
 	0    -1   1    0   
 $EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 6217ADB6
+P 9600 3650
+F 0 "JP1" V 9646 3562 50  0000 R CNN
+F 1 "Side_L" V 9555 3562 50  0000 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9600 3650 50  0001 C CNN
+F 3 "~" H 9600 3650 50  0001 C CNN
+	1    9600 3650
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	9700 3500 9600 3500
-Connection ~ 9600 3500
 $Comp
 L power:VDD #PWR0127
 U 1 1 625A622C
@@ -2702,4 +2701,5 @@ Text GLabel 5800 5100 0    50   Input ~ 0
 SWDIO
 Text GLabel 5800 5200 0    50   Input ~ 0
 SWCLK
+Connection ~ 9600 3500
 $EndSCHEMATC
