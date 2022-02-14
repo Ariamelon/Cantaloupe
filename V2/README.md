@@ -12,6 +12,7 @@ On-board MCU version.
 ![Cantaloupe Schematic](Images/Schematic.svg)
 
 ## Changelog
+* 15/2/2022: Revised 3DP and CNC case designs.
 * 13/2/2022: Added tentative designs for CNC and 3D printed cases. 
 * 11/2/2022: Clean up of design. New images. Added gerbers and files for FR4 plates.
 * 9/2/2022: Changed pin assignments so B2 isn't used. Added pull-up for RX pin and pull-down for B2 pin so the keyboard can properly load into the bootloader. Changed reset circuit so it actually works. Removed USB series resistors. Removed non-functional JTAG pins. Changed SRV05-04 to SRV0504. Thanks to sigprof and MasterSpoon from the QMK discord server for the help!
