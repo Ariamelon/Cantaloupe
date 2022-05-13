@@ -16,3 +16,5 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+V2/PCB/Cantaloupe-backups
+*.kicad_prl

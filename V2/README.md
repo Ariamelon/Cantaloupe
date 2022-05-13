@@ -2,7 +2,7 @@
 On-board MCU version.
 
 ## Key Features
-* On-board ARM STM32F4x1CxUx processor.
+* On-board ARM STM32F401CCU6 processor.
 * USB-C input and split connect ports with full ESD protection.
 * SWD breakout header for an alternate means of programming the board.
 
@@ -12,6 +12,7 @@ On-board MCU version.
 ![Cantaloupe Schematic](Images/Schematic.svg)
 
 ## Changelog
+* 13/5/2022: Finalized firmware. Added custom graphic to OLED display. Updated 3DP case and BOM. Fixed error with silkscreen.
 * 15/2/2022: Revised 3DP and CNC case designs.
 * 13/2/2022: Added tentative designs for CNC and 3D printed cases. 
 * 11/2/2022: Clean up of design. New images. Added gerbers and files for FR4 plates.

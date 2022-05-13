@@ -1,4 +1,4 @@
-PCB,,,,
+PCB,For one half,,,
 Qty,Reference(s),Value,Description,LCSC Part number
 8,"C1, C3, C4, C8, C9, C11, C13, C14",100n,0603 capacitor,C14663
 4,"C2, C5, C6, C7",10u,0603 capacitor,C19702
@@ -15,10 +15,10 @@ Qty,Reference(s),Value,Description,LCSC Part number
 1,L1,10u,0603 inductor,C92982
 1,Q1,2N7002,SOT-23 transistor,C8545
 1,Q2,AO3401A,SOT-23 transistor,C15127
-6,"R1, R7, R8, R10, R12, R16",10k,0603 resistor,C25804
+7,"R1, R7, R8, R10, R12, R16, R18",10k,0603 resistor,C25804
 1,R2,330k,0603 resistor,C23137
 1,R3,1k,0603 resistor,C21190
-3,"R4, R13, R18",100k,0603 resistor,C25803
+2,"R4, R13",100k,0603 resistor,C25803
 2,"R5, R6",5k1,0603 resistor,C23186
 1,R9,100,0603 resistor,C22775
 1,R11,1M,0603 resistor,C22935
@@ -50,5 +50,5 @@ Qty,Value,Description,,
 Trackball,,,,
 Qty,Value,Description,,
 1,-,Pimoroni trackball,,
-4,M2x5mm,Threaded standoff,,
+4,M2x11mm,Threaded standoff,,
 4,M2x4mm,Panhead screw,,
