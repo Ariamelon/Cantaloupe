@@ -12,6 +12,7 @@ On-board MCU version.
 ![Cantaloupe Schematic](Images/Schematic.svg)
 
 ## Changelog
+* 15/2/2022: V2.1 version. Removed silkscreen jumper guides, pimoroni trackball header and plate for trackpad. Updated BOM.
 * 14/5/2022: Added silkscreen jumper guides. Connected indicator LED to spare GPIO. Updated images. Added optional I2C resistors. New logo. New plate CAD files for potentiometer, trackball and trackpad options. Added header for Cirque trackpad. Cleaned up footprint library.
 * 13/5/2022: Finalized firmware. Added custom graphic to OLED display. Updated 3DP case and BOM. Removed CNC case. Fixed error with silkscreen. Added silkscreen jumper guides.
 * 15/2/2022: Revised 3DP and CNC case designs.
