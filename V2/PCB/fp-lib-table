@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Ariamelon)(type KiCad)(uri ${KIPRJMOD}/Kicad-Library/Footprints/Ariamelon.pretty)(options "")(descr ""))
-)
