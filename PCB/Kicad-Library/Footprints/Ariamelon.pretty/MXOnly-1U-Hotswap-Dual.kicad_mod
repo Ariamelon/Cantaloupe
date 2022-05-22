@@ -1,6 +1,6 @@
 (footprint "MXOnly-1U-Hotswap-Dual" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6287C608)
+  (tedit 6289BE19)
   (attr smd)
   (fp_text reference "REF**" (at 0 3.175) (layer "B.Fab")
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -111,15 +111,5 @@
     (offset (xyz -0.6 3.8 -3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))
-  )
-  (model "${KIPRJMOD}/Kicad-Library/Footprints/Ariamelon.pretty/3d/SW_Cherry_MX_1.00u_PCB.step"
-    (offset (xyz 2.54 5.08 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KIPRJMOD}/Kicad-Library/Footprints/Ariamelon.pretty/3d/xdacap.step"
-    (offset (xyz 68 0 11.75))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
   )
 )
