@@ -23,6 +23,7 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 ![Cantaloupe Case Pot](Images/Pot.gif)
 
 ## Changelog
+* 23/5/2022: Updated trackpad plate models. Fixed OLED silk. 
 * 22/5/2022: Added footprints for SPI FRAM/EEPROM and flash memory. Added breakout header to expose some unused pins. Fixed 3D models for plate pot. Updated 3D model for the EC11. Changed the two AO3400s to a AO6802 dual NMOS. Replaced switch with a more durable version that's the same size while keeping the footprint compatible with the previous switch. Updated BOM.
 * 21/5/2022: Further update to V2.1. Revised schematic. Switched trackpad to SPI interface and moved header. Moved location of OLED screen and changed footprint. Changed indicator LED to a small RGB one, and added an RGB header. Moved USB ports and reset button. Much better revised cases. Slightly increased horizontal size to fully accommodate the Cirque TM35035. Added lots of 3D models for all the footprints. Removed V1 as that was no longer being updated.
 * 15/5/2022: V2.1 version updates. Removed silkscreen jumper guides, pimoroni trackball header and plate for trackpad. Updated BOM.
