@@ -1,6 +1,6 @@
 (footprint "MXOnly-1U-Hotswap-Dual" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6289BE19)
+  (tedit 62942707)
   (attr smd)
   (fp_text reference "REF**" (at 0 3.175) (layer "B.Fab")
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -107,7 +107,7 @@
   (pad "2" smd rect (at 5.842 -5.08) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp b4730d93-632b-4071-9013-6bb88bbdbacd))
   (pad "2" thru_hole circle (at 7.385 -4.08 180) (size 0.5 0.5) (drill 0.3) (layers *.Cu *.Mask) (tstamp b52a998f-9ef4-48b4-87bb-f26b8100684d))
   (pad "2" smd rect (at 7.085 -2.54 180) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d7d45497-3bec-4f16-a7ea-3b1cad728c52))
-  (model "${KIPRJMOD}/Kicad-Library/Footprints/Ariamelon.pretty/3d/kailh_socket_mx.stp"
+  (model "${KIPRJMOD}/Cantaloupe.pretty/3d/kailh_socket_mx.stp"
     (offset (xyz -0.6 3.8 -3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))

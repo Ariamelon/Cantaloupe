@@ -1,6 +1,6 @@
 (footprint "EC11_Flippable" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 628A3C58)
+  (tedit 629426AE)
   (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
   (tags "rotary encoder")
   (attr through_hole)
@@ -65,7 +65,7 @@
   (pad "MP" thru_hole rect (at -5.6 0 90) (size 3.2 2) (drill oval 2.8 1.5) (layers *.Cu *.Mask) (tstamp a5da963a-270f-4c3d-a079-114d8eef79b7))
   (pad "S1" thru_hole circle (at 2.5 -7 90) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 3074fade-b34d-479b-8200-fadd967b837d))
   (pad "S2" thru_hole circle (at -2.5 -7 90) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 2d9eeeec-9b58-4b2a-bc33-b5b8498b0fa3))
-  (model "${KIPRJMOD}/Kicad-Library/Footprints/Ariamelon.pretty/3d/EC11.step"
+  (model "${KIPRJMOD}/Cantaloupe.pretty/3d/EC11.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

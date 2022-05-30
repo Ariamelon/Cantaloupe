@@ -8658,7 +8658,7 @@
     (property "Value" "SK6812MINI-E" (id 1) (at 1.27 -5.715 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (id 2) (at 1.27 -7.62 0)
+    (property "Footprint" "Cantaloupe:SK6812_mini_e_Flippable" (id 2) (at 1.27 -7.62 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "" (id 3) (at 2.54 -9.525 0)

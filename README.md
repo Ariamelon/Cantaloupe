@@ -25,6 +25,7 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 ![Cantaloupe Case Pot](Images/Pot.gif)
 
 ## Changelog
+* 30/5/2022: Changed XC6206P332MR-G to XC6220B331MR-G for more power output. Changed fuse to 1A. Fixed library links. Changed AO6802 back to two AO3400s. Moved reset circuit downwards and extra pin header upwards for better routing. Updated BOM.
 * 28/5/2022: Added another 10u filtering cap. Rerouted power track. Changed pin assignments. Changed values of VBUS detect to use already existing values on the board.
 * 26/5/2022: Fixed mistakes with bottom cases. Added piece which is meant to mate with the button, allowing the reset to be pressed without needing a screwdriver. Update to USB port name and footprint (no functional change). Updated pin assignments. Rerouted board.
 * 24/5/2022: Changed the matrix diodes to dual MMBD4148ACC diodes. Swapped ROW1 and COL0 pins. Fixed minor issue with case models. Updated BOM. Added LCSC part names to all parts on schematic.

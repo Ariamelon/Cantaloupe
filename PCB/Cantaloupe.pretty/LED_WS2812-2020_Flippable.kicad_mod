@@ -1,6 +1,6 @@
 (footprint "LED_WS2812-2020_Flippable" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 628977CD)
+  (tedit 62942698)
   (attr through_hole)
   (fp_text reference "REF**" (at 1.17686 -2.09129) (layer "F.SilkS")
     (effects (font (size 1.00011 1.00011) (thickness 0.15)))
@@ -38,7 +38,7 @@
   (pad "3" smd rect (at -0.915 0.55 180) (size 0.7 0.7) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 4a7a8704-b751-4f8c-aedf-2558a0174a72))
   (pad "4" smd rect (at 0.915 -0.55 180) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bd95337d-9eef-45a7-b43d-6568794bd766))
   (pad "4" smd rect (at -0.915 -0.55 180) (size 0.7 0.7) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp dc4ad6d5-b7e2-4098-b974-50466b3890e2))
-  (model "${KIPRJMOD}/Kicad-Library/Footprints/Ariamelon.pretty/3d/WS2812-2020.STEP"
+  (model "${KIPRJMOD}/Cantaloupe.pretty/3d/WS2812-2020.STEP"
     (offset (xyz 0 0 0.26))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))

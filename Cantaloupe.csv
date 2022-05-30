@@ -1,18 +1,17 @@
-Required parts,,,,
-Qty,Reference(s),Value,Description,LCSC part number
+Qty/side,Designator,Value,Description,LCSC part number
 2,"C1, C3",20p,0603 capacitor,C1648
-10,"C2, C4, C5, C7, C8, C10, C11, C14",100n,0603 capacitor,C14663
+8,"C2, C4, C5, C7, C8, C10, C11, C14",100n,0603 capacitor,C14663
 1,C6,4.7u,0603 capacitor,C19666
-3,"C9, C15, C16, C17",10u,0603 capacitor,C19702
+4,"C9, C15, C16, C17",10u,0603 capacitor,C19702
 15,D1 - 15,MMBD4148CC,Dual SOT-23 diode common cathode,C8595
-1,D16,WS2812C-2020,WS2812C-2020 RGB LED,C965556
+1,D16,WS2812C-2020,WS2812C-2020 RGB LED,C2976072
 2,"D17, D18",1N4148W,SOD-123 diode,C81598
-3,"D19, D21, D22",B5819W-TP,SOD-123 schottky,C8598
+3,"D19, D21, D22",B5819W SL,SOD-123 schottky,C8598
 1,D20,SMF5.0A,SOD-123 TVS,C193402
-1,F1,nSMD050,1206 fuse 500mA,C69688
-2,"FB1, FB2",BLM18KG260,0603 ferrite choke,C88981
+1,F1,nSMD100,1206 fuse 1A,C66453
+2,"FB1, FB2",GZ1608D110TF,0603 ferrite choke,C74329
 2,"J6, J7",TYPE-C-31-M-13,USB C 2.0 jack,C2848620
-1,Q1,AO6802,SOT-26 dual NMOS,C49388
+2,"Q1, Q2",AO3400A,SOT-23 NMOS,C20917
 4,"R1, R16, R17, R19",5k1,0603 resistor,C23186
 9,"R2, R3, R4, R5, R10, R12, R18, R20, R21",10k,0603 resistor,C25804
 2,"R6, R7",4.7k,0603 resistor,C23162
@@ -20,10 +19,11 @@ Qty,Reference(s),Value,Description,LCSC part number
 1,R9,1k,0603 resistor,C21190
 1,R11,1M,0603 resistor,C22935
 1,R13,100,0603 resistor,C22775
-1,SW32,-,Momentary pushbutton,C398056
-1,U1,STM32F401CCU6,QFN-44 MCU,C79861
+30,SW1 - 30,-,Kailh hotswap socket,-
+1,SW32,TS24ZJ,Momentary pushbutton,C398056
+1,U1,STM32F411CCU6,QFN-44 MCU,C190642
 2,"U3, U4",SRV05-4,SOT-26 ESD protector,C85364
-1,U6,XC6206P332MR,SOT-23 3.3v LDO,C5446
+1,U6,XC6220B331MR-G,SOT-23 3.3v LDO,C86534
 1,Y1,8MHz,5032 8Mhz Crystal,C115962
 ,,,,
 Storage,,,,
@@ -32,9 +32,9 @@ Storage,,,,
 2,"C11, C12",100n,0603 capacitor,C14663
 ,,,,
 Case,,,,
-1,-,-,Bottom case,
-11,-,M2 x 14mm,Countersunk screw,
-11,-,M2 x 1.2mm,Thin nut,
+1,-,-,Bottom case,-
+11,-,M2 x 14mm,Countersunk screw,-
+11,-,M2 x 1.2mm,Thin nut,-
 ,,,,
 OLED,,,,
 1,J1,OLED socket,4-pin female vertical header,C509262

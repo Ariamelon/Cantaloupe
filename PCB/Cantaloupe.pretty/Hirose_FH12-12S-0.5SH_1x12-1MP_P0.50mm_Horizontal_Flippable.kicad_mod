@@ -1,6 +1,6 @@
 (footprint "Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal_Flippable" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 628709BA)
+  (tedit 629428D7)
   (descr "Hirose FH12, FFC/FPC connector, FH12-12S-0.5SH, 12 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator")
   (tags "connector Hirose FH12 horizontal")
   (attr smd)
@@ -100,7 +100,7 @@
   (pad "MP" smd rect (at -4.65 1.4) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 59378c49-ec3a-48f6-ad44-e01451addb07))
   (pad "MP" smd rect (at 4.65 1.4) (size 1.8 2.2) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp d9a6ae30-f9ee-4692-9ce6-37ab2b3096e0))
   (pad "MP" smd rect (at -4.65 1.4) (size 1.8 2.2) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp ddf2561d-78cb-49d4-b745-e82cffdb38d3))
-  (model "${KIPRJMOD}/Kicad-Library/Footprints/Ariamelon.pretty/3d/FH12-12S-0.5SH.stp"
+  (model "${KIPRJMOD}/Cantaloupe.pretty/3d/FH12-12S-0.5SH.stp"
     (offset (xyz -18.93 -10.5 216.26))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 -180))

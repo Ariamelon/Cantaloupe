@@ -1,6 +1,6 @@
 (footprint "HRO-TYPE-C-31-M-13x" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 628EF136)
+  (tedit 6294267D)
   (attr smd)
   (fp_text reference "REF**" (at -6.858 -4.132 90 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -54,7 +54,7 @@
   (pad "S1" thru_hole oval (at 5.62 -2.1) (size 1 2.2) (drill oval 0.6 1.8) (layers *.Cu *.Mask) (tstamp 1e37f7d0-c65d-4d9e-84a1-527abcb6a2e8))
   (pad "S1" thru_hole oval (at -5.62 -6.1) (size 1 1.8) (drill oval 0.6 1.4) (layers *.Cu *.Mask) (tstamp bd85d45a-4db3-427f-88e0-561dbf5c9834))
   (pad "S1" thru_hole oval (at 5.62 -6.1) (size 1 1.8) (drill oval 0.6 1.4) (layers *.Cu *.Mask) (tstamp ce4d6bd4-90e0-44e0-95cf-fe8b162b6a18))
-  (model "${KIPRJMOD}/Kicad-Library/Footprints/Ariamelon.pretty/3d/HRO-TYPE-C-31-M-13C.step"
+  (model "${KIPRJMOD}/Cantaloupe.pretty/3d/HRO-TYPE-C-31-M-13C.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
