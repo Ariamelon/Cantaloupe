@@ -17,12 +17,12 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 * On board RGB LED for signaling, as well as an external RGB header in case underglow is desired.
 * Additional header for external use of pins A2 and A3.
 
-![Cantaloupe Front Render](Images/Render.png)
-![Cantaloupe PCB](Images/PCB.png)
-![Cantaloupe PCB Zoomed](Images/PCB_Zoom.png)
-![Cantaloupe Schematic](Images/Schematic.svg)
-![Cantaloupe Case Trackpad](Images/Trackpad.gif)
-![Cantaloupe Case Pot](Images/Pot.gif)
+![Render](Images/Render.png)
+![PCB](Images/PCB.png)
+![PCB Zoomed](Images/PCB_Zoom.png)
+![Schematic](Images/Schematic.svg)
+![Case Trackpad](Images/Trackpad.gif)
+![Case Pot](Images/Pot.gif)
 
 ## Changelog
 * 30/5/2022: Changed XC6206P332MR-G to XC6220B331MR-G for more power output. Changed fuse to 1A. Fixed library links. Changed AO6802 back to two AO3400s. Moved reset circuit downwards and extra pin header upwards for better routing. Updated BOM.
