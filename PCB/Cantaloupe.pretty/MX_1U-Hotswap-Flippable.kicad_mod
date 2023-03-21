@@ -1,4 +1,4 @@
-(footprint "MX_1U-Hotswap-Dual" (version 20221018) (generator pcbnew)
+(footprint "MX_1U-Hotswap-Flippable" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "REF**" (at 0 3.175) (layer "F.Fab") hide

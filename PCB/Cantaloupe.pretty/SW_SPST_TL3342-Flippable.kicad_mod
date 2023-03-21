@@ -1,4 +1,4 @@
-(footprint "SW_SPST_TL3342-Dual" (version 20221018) (generator pcbnew)
+(footprint "SW_SPST_TL3342-Flippable" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf")
   (tags "SPST Tactile Switch")
@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0fc88032-8838-49cb-b728-e0b2251840d2)
   )
-  (fp_text value "SW_SPST_TL3342-Dual" (at 0 3.75) (layer "F.Fab") hide
+  (fp_text value "SW_SPST_TL3342-Flippable" (at 0 3.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 098ec8e4-6659-4ce6-b4c3-ae561d210993)
   )
