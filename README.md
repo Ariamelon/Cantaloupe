@@ -13,12 +13,11 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 * USB-C input and split comms, both with full ESD protection.
 * MX switch support with kailh hot-swap sockets.
 * Per-key RGB backlight.
-* 35mm cirque trackpad support in the middle.
-* Alternately supports a 23mm trackball instead of the trackpad.
-* Rotary encoder in place of a pinky key.
+* [Ogen](https://github.com/Ariamelon/Ogen/) support above the thumb cluster allowing for a trackball, trackpad or other expansion modules to be used (if I get around to making them lol).
 * 1.5" 128x128 SSD1351 RGB QP OLED support.
 
 ## Changelog
+* 25/03/2023: Routing complete. Footprint added for the [Ogen](https://github.com/Ariamelon/Ogen/), allowing for a trackball or trackpad to be used.
 * 19/03/2023: Initial V3.0 version committed (still in progress). Board has been completely reworked (again) and will be another completely new design, based on the [Honeydew](https://github.com/Ariamelon/Honeydew/). Added CC BY 4.0 license.
 * 30/05/2022: Changed XC6206P332MR-G to XC6220B331MR-G for more power output. Changed fuse to 1A. Fixed library links. Changed AO6802 back to two AO3400s. Moved reset circuit downwards and extra pin header upwards for better routing. Updated BOM.
 * 28/05/2022: Added another 10u filtering cap. Rerouted power track. Changed pin assignments. Changed values of VBUS detect to use already existing values on the board.
