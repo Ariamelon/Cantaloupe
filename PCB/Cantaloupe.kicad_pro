@@ -35,14 +35,14 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.95,
-          "width": 0.875
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_size_h": 0.7999999999999999,
+        "silk_text_size_v": 0.7999999999999999,
+        "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
@@ -86,14 +86,14 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "error",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -119,17 +119,17 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.13999999999999999,
-        "min_hole_clearance": 0.175,
+        "min_copper_edge_clearance": 0.19999999999999998,
+        "min_hole_clearance": 0.19999999999999998,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.175,
-        "min_track_width": 0.19999999999999998,
+        "min_through_hole_diameter": 0.25,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_to_copper_clearance": 0.0,
@@ -177,12 +177,16 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.2,
+        0.25,
         0.3,
         0.4,
+        0.5,
         0.6,
         0.8,
-        1.5
+        1.6,
+        2.2
       ],
       "via_dimensions": [
         {
@@ -190,15 +194,11 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
-          "drill": 0.25
-        },
-        {
           "diameter": 0.6,
           "drill": 0.3
         }
       ],
-      "zones_allow_external_fillets": false,
+      "zones_allow_external_fillets": true,
       "zones_use_no_outline": true
     },
     "layer_presets": [],
@@ -409,7 +409,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -441,7 +441,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -451,14 +451,14 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -475,7 +475,7 @@
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -488,12 +488,36 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
+        "netclass": "Default",
+        "pattern": "COL*"
+      },
+      {
         "netclass": "Power",
         "pattern": "GND"
       },
       {
+        "netclass": "USB",
+        "pattern": "CC*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/MCU/D*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+*"
+      },
+      {
         "netclass": "Power",
         "pattern": "VBUS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/MCU/I_SEN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/MCU/*"
       }
     ]
   },
@@ -503,7 +527,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Cantaloupe.step",
+      "step": "../Showcase/Honeydew.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -542,7 +566,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "Schematic",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -558,6 +582,14 @@
       ""
     ],
     [
+      "d133c1c6-f35d-4b98-81a0-3607ab1d2de1",
+      "MCU"
+    ],
+    [
+      "03fe79d8-f43d-4879-be7c-5a505456d728",
+      "IO"
+    ],
+    [
       "c1819a82-630d-421e-8b73-d65ee471609e",
       "Matrix"
     ],
@@ -566,16 +598,12 @@
       "PSU"
     ],
     [
-      "d133c1c6-f35d-4b98-81a0-3607ab1d2de1",
-      "MCU"
-    ],
-    [
-      "3b9d6b66-6ecb-42d2-a8a6-a52a8ef176c3",
-      "Comms"
-    ],
-    [
-      "c5488bef-03d4-460b-9fcc-a25020e27737",
+      "6e258a66-57df-44a5-ad7a-a7c1b9255fcb",
       "RGB"
+    ],
+    [
+      "860385fb-e31a-4c2a-a749-17139eeff144",
+      "USB"
     ]
   ],
   "text_variables": {}

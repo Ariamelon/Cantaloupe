@@ -6,17 +6,20 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 
 ## Key Features
 * Ergonomic split 30-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys.
-* Gasket-mounted case.
+* [VIK](https://github.com/sadekbaroudi/vik) module support planned.
 * On-board Raspberry Pi RP2040 processor.
+* Uses 74HC595 shift registers for the columns.
 * SWD header for debugging purposes.
-* DIP switch and reset button for entering flash mode.
-* USB-C input and split comms, both with full ESD protection.
-* MX switch support with kailh hot-swap sockets.
-* Per-key RGB backlight.
-* [Ogen](https://github.com/Ariamelon/Ogen/) support above the thumb cluster allowing for a trackball, trackpad or other expansion modules to be used (if I get around to making them lol).
-* 1.5" 128x128 SSD1351 RGB QP OLED support.
+* USB-C input with full ESD protection and up to 5V 3A of power depending on source capability.
+* Another USB port acting as a split comms port, also with full ESD protection.
+* Unused USB port capable of acting as a host port via an on-board USB hub, supporting the addition of external devices such as a mouse dongle.
+* MX hotswap switch support with kailh hotswap sockets.
+* Per-key RGB backlight and ARGB header for adding more.
+* 1.5" 128x128 SSD1351 RGB QP OLED support using the Waveshare breakout board [Waveshare breakout board](https://www.waveshare.com/wiki/1.5inch_RGB_OLED_Module) or the [Crenshaw](https://github.com/Ariamelon/Crenshaw).
+* Gasket-mount case.
 
 ## Changelog
+* 08/08/2023: Removed Ogen footprint, and future VIK support is planned. Rerouted board following latest Honeydew revision. WIP support for the USB2541 is added, but it's very tentative and not yet complete. Added CX70M-24P1 footprint.
 * 25/03/2023: Routing complete. Footprint added for the [Ogen](https://github.com/Ariamelon/Ogen/), allowing for a trackball or trackpad to be used.
 * 19/03/2023: Initial V3.0 version committed (still in progress). Board has been completely reworked (again) and will be another completely new design, based on the [Honeydew](https://github.com/Ariamelon/Honeydew/). Added CC BY 4.0 license.
 * 30/05/2022: Changed XC6206P332MR-G to XC6220B331MR-G for more power output. Changed fuse to 1A. Fixed library links. Changed AO6802 back to two AO3400s. Moved reset circuit downwards and extra pin header upwards for better routing. Updated BOM.

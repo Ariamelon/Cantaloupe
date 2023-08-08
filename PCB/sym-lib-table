@@ -1,3 +1,4 @@
 (sym_lib_table
+  (version 7)
   (lib (name "Cantaloupe")(type "KiCad")(uri "${KIPRJMOD}/Cantaloupe.kicad_sym")(options "")(descr ""))
 )
