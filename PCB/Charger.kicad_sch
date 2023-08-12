@@ -1,0 +1,19 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a39e6f6c-1df7-44e9-b481-b52a809368e9)
+
+  (paper "A4")
+
+  (title_block
+    (title "Cantaloupe split ergonomic keyboard")
+    (date "2023-08-22")
+    (rev "V3.0")
+    (company "Created by Ariamelon (https://github.com/Ariamelon/Cantaloupe/)")
+    (comment 1 "Follows the VIK standard by Sadek Baroudi (https://github.com/sadekbaroudi/VIK)")
+    (comment 2 "All capacitors 50V unless otherwise specified.")
+  )
+
+  (lib_symbols
+  )
+
+)

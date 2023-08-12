@@ -1,4 +1,4 @@
-(footprint "vik-keyboard-connector-horizontal" (version 20221018) (generator pcbnew)
+(footprint "VIK-Keyboard-Connector-Horizontal" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Hirose FH12, FFC/FPC connector, FH12-12S-0.5SH, 12 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator")
   (tags "connector Hirose FH12 horizontal")
@@ -100,8 +100,16 @@
   (pad "11" smd rect (at 2.25 -2) (size 0.3 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a818054f-112d-4bcc-a02a-affa08cc890b))
   (pad "12" smd rect (at 2.75 -2) (size 0.3 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7ed77cd2-6419-4842-8ca9-02f64e14bab7))
   (pad "MP" smd rect (at -4.65 1.4) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 59378c49-ec3a-48f6-ad44-e01451addb07))
+  (pad "MP" smd roundrect (at -4.325 1.4) (size 2.45 2.2) (layers "F.Cu") (roundrect_rratio 0.1363636364) (tstamp c1f6565d-f2cd-4ecd-9ec3-ff30efd412c6))
+  (pad "MP" thru_hole circle (at -3.4 0.6) (size 0.6 0.6) (drill 0.3) (layers "*.Cu") (tstamp 3ecde439-f7f6-4887-b038-7c78b7efd54a))
+  (pad "MP" thru_hole circle (at -3.4 1.4) (size 0.6 0.6) (drill 0.3) (layers "*.Cu") (tstamp 74ceae22-7e6b-413d-9eb7-ca1e9a8f855c))
+  (pad "MP" thru_hole circle (at -3.4 2.2) (size 0.6 0.6) (drill 0.3) (layers "*.Cu") (tstamp 2d171c97-8fc4-40af-b9d9-cd17b38ba0ac))
+  (pad "MP" thru_hole circle (at 3.4 0.6 180) (size 0.6 0.6) (drill 0.3) (layers "*.Cu") (tstamp 2cc2db1a-3513-4f51-b2d5-1488b787b87b))
+  (pad "MP" thru_hole circle (at 3.4 1.400001 180) (size 0.6 0.6) (drill 0.3) (layers "*.Cu") (tstamp 0fb6bb58-f641-416e-835a-a79125e1cb77))
+  (pad "MP" thru_hole circle (at 3.4 2.2 180) (size 0.6 0.6) (drill 0.3) (layers "*.Cu") (tstamp 88469352-33fb-472b-ad0c-9efb757e1b49))
+  (pad "MP" smd roundrect (at 4.325 1.4 180) (size 2.45 2.2) (layers "F.Cu") (roundrect_rratio 0.1363636364) (tstamp e32da1fb-0604-425f-9a91-4f1617d92048))
   (pad "MP" smd rect (at 4.65 1.4) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2eb3c8d1-5672-42b5-a222-8f3d8b50c4db))
-  (model "${KIPRJMOD}/Honeydew.pretty/3d/FH12-12S-0.5SH.step"
+  (model "${KIPRJMOD}/Cantaloupe.pretty/3d/FH12-12S-0.5SH.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

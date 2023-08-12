@@ -8,8 +8,8 @@
   (property "ki_description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23")
   (property "ki_keywords" "Torex LDO Voltage Regulator Fixed Positive")
   (attr smd)
-  (fp_text reference "U7" (at 2.6 0 -90 unlocked) (layer "F.SilkS")
-      (effects (font (size 0.8 0.8) (thickness 0.1)))
+  (fp_text reference "U" (at 0 3.1 270 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a1289b4e-6576-488a-9c40-68a423f22629)
   )
   (fp_text value "REF**" (at 0 2.4 180) (layer "F.Fab") hide

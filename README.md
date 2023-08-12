@@ -6,19 +6,18 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 
 ## Key Features
 * Ergonomic split 30-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys.
-* [VIK](https://github.com/sadekbaroudi/vik) module support planned.
-* On-board Raspberry Pi RP2040 processor.
-* Uses 74HC595 shift registers for the columns.
-* SWD header for debugging purposes.
-* USB-C input with full ESD protection and up to 5V 3A of power depending on source capability.
-* Another USB port acting as a split comms port, also with full ESD protection.
-* Unused USB port capable of acting as a host port via an on-board USB hub, supporting the addition of external devices such as a mouse dongle.
-* MX hotswap switch support with kailh hotswap sockets.
-* Per-key RGB backlight and ARGB header for adding more.
-* 1.5" 128x128 SSD1351 RGB QP OLED support using the Waveshare breakout board [Waveshare breakout board](https://www.waveshare.com/wiki/1.5inch_RGB_OLED_Module) or the [Crenshaw](https://github.com/Ariamelon/Crenshaw).
+* [VIK](https://github.com/sadekbaroudi/vik) module support.
+* On-board nRF52840 BLE 5.3 MCU.
+* nPM1300 PMIC for power management.
+* 702050 700mAh battery with built-in NTC for temperature management.
+* SWD Tag-Connect header for debugging purposes.
+* USB-C input with full ESD protection.
+* MX, Kailh Choc V1/V2 and Gateron KS-27/KS-33 hotswap support.
+* Nice!View display.
 * Gasket-mount case.
 
 ## Changelog
+* 23/08/2023: Changed MCU to nRF52840. Added nPM1300 PMIC for power management. Replaced SSD1351 display with Nice!View. Added Kailh Choc V1/V2 and Gateron KS-27/KS-33 support. 
 * 08/08/2023: Removed Ogen footprint, and future VIK support is planned. Rerouted board following latest Honeydew revision. WIP support for the USB2541 is added, but it's very tentative and not yet complete. Added CX70M-24P1 footprint.
 * 25/03/2023: Routing complete. Footprint added for the [Ogen](https://github.com/Ariamelon/Ogen/), allowing for a trackball or trackpad to be used.
 * 19/03/2023: Initial V3.0 version committed (still in progress). Board has been completely reworked (again) and will be another completely new design, based on the [Honeydew](https://github.com/Ariamelon/Honeydew/). Added CC BY 4.0 license.

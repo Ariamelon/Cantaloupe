@@ -1,6 +1,6 @@
 (footprint "Mitsumi_SIQ-02FVS3-Flippable" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "SW7" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fe87b04c-7e7d-4a3f-b1f7-35bc40f0f775)
@@ -125,9 +125,7 @@
     (stroke (width 0.1) (type solid)) (fill none) (layer "B.Fab") (tstamp 25062422-651d-42d9-a253-8a4a70737e04))
   (fp_circle (center 0 0) (end 7.25 0)
     (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 5e8014b4-2bd5-4e3c-8ea4-8c4527fa4596))
-  (pad "" np_thru_hole circle (at -3 4.5) (size 1.55 1.55) (drill 1.55) (layers "*.Cu" "*.Mask") (tstamp 03970d44-3561-41c0-bd9c-2b519d69aee0))
   (pad "" np_thru_hole circle (at -3 4.5) (size 1.55 1.55) (drill 1.55) (layers "*.Cu" "*.Mask") (tstamp 4643a79c-fc44-4ddf-b7d3-c805daf3a924))
-  (pad "" np_thru_hole circle (at 3 4.5) (size 1.55 1.55) (drill 1.55) (layers "*.Cu" "*.Mask") (tstamp 2b798a00-abfa-41f5-8cde-cc37c3586392))
   (pad "" np_thru_hole circle (at 3 4.5) (size 1.55 1.55) (drill 1.55) (layers "*.Cu" "*.Mask") (tstamp 530a0bd6-b100-4cb6-bbaf-f9f60cd8ad4a))
   (pad "A" smd rect (at -4 7.6) (size 1.3 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f60472b5-a3fd-4ce8-a6ae-879e3aacbf22))
   (pad "A" smd rect (at 4 7.6) (size 1.3 1.4) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp dd9f0800-4177-42ee-9919-dd235eacd5e0))
@@ -145,11 +143,6 @@
   (pad "MP" smd rect (at 5.1 1.3) (size 1.2 1.3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp e8b8d6f7-2b59-4f61-9201-632f3f9d16d1))
   (pad "S" smd rect (at -1.475 7.6) (size 1.3 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 26844c4d-55b7-4bd0-9056-cac2e13c2250))
   (pad "S" smd rect (at 1.475 7.6) (size 1.3 1.4) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 4ff8d351-90c3-4d5b-82fe-e3e693dec201))
-  (model "C:/sensact/pcb/kicad-libs/sensact.3d/SIQ-02FVS3.stp"
-    (offset (xyz 0 0 1.7))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
   (model "${KIPRJMOD}/Cantaloupe.pretty/3d/SIQ-02FVS3.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
