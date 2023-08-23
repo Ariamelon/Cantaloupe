@@ -9,7 +9,8 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 * [VIK](https://github.com/sadekbaroudi/vik) module support.
 * On-board nRF52840 BLE 5.3 MCU.
 * nPM1300 PMIC for power management.
-* 702050 700mAh battery with built-in NTC for temperature management.
+* 702050 700mAh battery with built-in NTC for temperature protection.
+* Rotary encoder on bottom of case.
 * SWD Tag-Connect header for debugging purposes.
 * USB-C input with full ESD protection.
 * MX, Kailh Choc V1/V2 and Gateron KS-27/KS-33 hotswap support.
@@ -17,6 +18,7 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 * Gasket-mount case.
 
 ## Changelog
+* 24/08/2023: Finished routing. Consolidated all libraries into [Ariamelon's Kicad Master Library](https://github.com/Ariamelon/Ariamelon-Kicad-Master-Library). Added PCM12 switch connected to nPM1300 GPIO. Rearranged components and rerouted. 
 * 23/08/2023: Changed MCU to nRF52840. Added nPM1300 PMIC for power management. Replaced SSD1351 display with Nice!View. Added Kailh Choc V1/V2 and Gateron KS-27/KS-33 support. 
 * 08/08/2023: Removed Ogen footprint, and future VIK support is planned. Rerouted board following latest Honeydew revision. WIP support for the USB2541 is added, but it's very tentative and not yet complete. Added CX70M-24P1 footprint.
 * 25/03/2023: Routing complete. Footprint added for the [Ogen](https://github.com/Ariamelon/Ogen/), allowing for a trackball or trackpad to be used.

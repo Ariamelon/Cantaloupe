@@ -3394,7 +3394,7 @@
     (property "Value" "RotaryEncoder" (at 144.78 61.7799 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Cantaloupe:EVQVVD00203B-Flippable" (at 148.59 64.516 0)
+    (property "Footprint" "Ariamelon-RotaryEncoder:RotaryEncoder_Panasonic_EVQVVD00203B-Flippable" (at 148.59 64.516 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 144.78 61.976 0)
