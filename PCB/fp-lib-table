@@ -8,6 +8,6 @@
   (lib (name "Ariamelon-Logo")(type "KiCad")(uri "${KIPRJMOD}/Ariamelon-Kicad-Master-Library/Ariamelon-Logo.pretty")(options "")(descr ""))
   (lib (name "Ariamelon-Misc")(type "KiCad")(uri "${KIPRJMOD}/Ariamelon-Kicad-Master-Library/Ariamelon-Misc.pretty")(options "")(descr ""))
   (lib (name "Ariamelon-Package")(type "KiCad")(uri "${KIPRJMOD}/Ariamelon-Kicad-Master-Library/Ariamelon-Package.pretty")(options "")(descr ""))
-  (lib (name "Ariamelon-RotaryEncoder")(type "KiCad")(uri "${KIPRJMOD}/Ariamelon-Kicad-Master-Library/Ariamelon-RotaryEncoder")(options "")(descr ""))
+  (lib (name "Ariamelon-RotaryEncoder")(type "KiCad")(uri "${KIPRJMOD}/Ariamelon-Kicad-Master-Library/Ariamelon-RotaryEncoder.pretty")(options "")(descr ""))
   (lib (name "Ariamelon-Switch")(type "KiCad")(uri "${KIPRJMOD}/Ariamelon-Kicad-Master-Library/Ariamelon-Switch.pretty")(options "")(descr ""))
 )

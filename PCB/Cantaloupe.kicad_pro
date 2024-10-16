@@ -564,8 +564,12 @@
       "Matrix"
     ],
     [
+      "a34108a7-996b-4880-8857-7dad3a967a05",
+      "Battery Management"
+    ],
+    [
       "96527115-7df5-41e3-afc4-05bdd5062fce",
-      "IO"
+      "USB"
     ]
   ],
   "text_variables": {}
