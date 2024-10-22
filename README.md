@@ -2,7 +2,7 @@
 ~60% 60-key ZMK-compatible wireless split ergonomic keyboard.
 
 ## Disclaimer
-The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout with the inner-most keys removed and an improved thumb cluster. The layout was only used as a reference, nothing was copied and the board is a completely new design. This keyboard is licensed under CC BY 4.0.
+This keyboard is licensed under CERN-OHL-S-2.0. The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout with the inner-most keys removed and an improved thumb cluster. The layout was only used as a reference, nothing was copied and the board is a completely new design.
 
 ## Key Features
 * Ergonomic split 30-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys.
@@ -17,6 +17,7 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 * Gasket-mount case with adjustable tent (?).
 
 ## Changelog
+* 22/10/2024: License updated to CERN-OHL-S-2.0.
 * 16/10/2024: Cantaloupe V3.0 name changed to CantaloupeBT V1.0 ('BT-V1' branch). Key features updated. Design will be reworked in the coming days!
 * 24/08/2023: Finished routing. Consolidated all libraries into [Ariamelon's Kicad Master Library](https://github.com/Ariamelon/Ariamelon-Kicad-Master-Library). Added PCM12 switch connected to nPM1300 GPIO. Rearranged components and rerouted. 
 * 23/08/2023: Changed MCU to nRF52840. Added nPM1300 PMIC for power management. Replaced SSD1351 display with Nice!View. Added Kailh Choc V1/V2 and Gateron KS-27/KS-33 support. 
